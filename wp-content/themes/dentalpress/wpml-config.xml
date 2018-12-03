@@ -1,0 +1,57 @@
+<wpml-config>
+	<language-switcher-settings>
+		<key name="icl_language_switcher_sidebar">1</key>
+		<key name="icl_widget_title_show">1</key>
+		<key name="icl_lang_sel_type">dropdown</key>
+		<key name="icl_lso_link_empty">0</key>
+		<key name="icl_lso_flags">1</key>
+		<key name="icl_lso_native_lang">1</key>
+		<key name="icl_lso_display_lang">0</key>
+		<key name="icl_lang_sel_footer">0</key>
+		<key name="icl_post_availability">1</key>
+		<key name="icl_post_availability_position">below</key>
+		<key name="icl_post_availability_text">This post is also available in: %s</key>
+		</language-switcher-settings>
+	</language-switcher-settings>
+	<admin-texts>
+        <key name="dentalpress_theme_options">
+            <key name="top-bar-left-content" />
+            <key name="top-bar-right-contnet" />
+            <key name="header-widgets" />
+
+            <key name="map-info1" />
+            <key name="map-info2" />
+            <key name="map-info3" />
+            <key name="map-info4" />
+            <key name="map-info5" />
+            <key name="map-info6" />
+            <key name="map-info7" />
+            <key name="map-info8" />
+            <key name="map-info9" />
+            <key name="map-info10" />
+            <key name="map-info11" />
+            <key name="map-info12" />
+            <key name="map-info13" />
+            <key name="map-info14" />
+            <key name="map-info15" />
+            <key name="map-info16" />
+            <key name="map-info17" />
+            <key name="map-info18" />
+            <key name="map-info19" />
+            <key name="map-info20" />
+            <key name="map-info21" />
+            <key name="map-info22" />
+            <key name="map-info23" />
+            <key name="map-info24" />
+            <key name="map-info25" />
+            <key name="map-info26" />
+            <key name="map-info27" />
+            <key name="map-info28" />
+            <key name="map-info29" />
+            <key name="map-info30" />
+
+            <key name="subfooter-left-content" />
+            <key name="subfooter-right-content" />
+        </key> 
+    </admin-texts>
+</wpml-config>

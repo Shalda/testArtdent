@@ -1,0 +1,2482 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<link rel="pingback" href="https://shalda.github.io/testArtdent/xmlrpc.php">
+
+	<title>artdent | Стоматологическая клиника ArtDent</title>
+<style type="text/css" media="screen">#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active:hover,body #booked-profile-page input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar thead,body table.booked-calendar thead th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .booked-tabs li.active a,body #booked-profile-page .booked-tabs li.active a:hover,body #booked-profile-page .appt-block .google-cal-button > a:hover,#ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header{ background:#50b0e3 !important; }body #booked-profile-page input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .appt-block .google-cal-button > a:hover{ border-color:#50b0e3 !important; }body table.booked-calendar tr.days,body table.booked-calendar tr.days th,body .booked-calendarSwitcher.calendar,body #booked-profile-page .booked-tabs,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead th{ background:#414141 !important; }body table.booked-calendar tr.days th,body #booked-profile-page .booked-tabs{ border-color:#414141 !important; }#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a:hover,body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,body #booked-profile-page .appt-block .google-cal-button > a,body .booked-modal p.booked-title-bar,body table.booked-calendar td:hover .date span,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover,.booked-ms-modal .booked-book-appt /* Multi-Slot Booking */{ background:#50b0e3; }body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body #booked-profile-page .appt-block .google-cal-button > a,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover{ border-color:#50b0e3; }body .booked-modal .bm-window p i.fa,body .booked-modal .bm-window a,body .booked-appt-list .booked-public-appointment-title,body .booked-modal .bm-window p.appointment-title,.booked-ms-modal.visible:hover .booked-book-appt{ color:#50b0e3; }.booked-appt-list .timeslot.has-title .booked-public-appointment-title { color:inherit; }</style><meta name='robots' content='noindex,follow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="artdent &raquo; Лента" href="https://shalda.github.io/testArtdent/feed/" />
+<link rel="alternate" type="application/rss+xml" title="artdent &raquo; Лента комментариев" href="https://shalda.github.io/testArtdent/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/shalda.github.io\/testArtdent\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='booked-icons-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/css/icons.css?ver=2.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-tooltipster-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/js/tooltipster/css/tooltipster.css?ver=3.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-tooltipster-theme-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/js/tooltipster/css/themes/tooltipster-light.css?ver=3.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-animations-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/css/animations.css?ver=2.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-styles-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/css/styles.css?ver=2.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-responsive-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/css/responsive.css?ver=2.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.6.1' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='dentalpress-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C700%2C700i%7CPoppins%3A300%2C400%2C500%2C600%2C700&#038;subset=latin%2Clatin-ext&#038;ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='https://shalda.github.io/testArtdent/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://shalda.github.io/testArtdent/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-dentalpress-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/font-dentalpress/css/font-dentalpress.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/bootstrap/css/bootstrap.min.css?ver=3.3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-datepicker-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/bootstrap-datepicker/bootstrap-datepicker.css?ver=1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-timepicker-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/bootstrap-timepicker/bootstrap-timepicker.min.css?ver=0.2.6' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/magnific-popup/magnific-popup.min.css?ver=1.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/owl-carousel/owl.carousel.min.css?ver=1.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dentalpress-common-css-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/css/common.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dentalpress-main-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/style.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-dentalpress_theme_options-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C300italic%2C400italic%2C600italic%2C700italic%2C800italic%7CRoboto%3A400%2C500&#038;subset=latin&#038;ver=1543837023' type='text/css' media='all' />
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.6.1'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.6.1'></script>
+<link rel='https://api.w.org/' href='https://shalda.github.io/testArtdent/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://shalda.github.io/testArtdent/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://shalda.github.io/testArtdent/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel="canonical" href="https://shalda.github.io/testArtdent/" />
+<link rel='shortlink' href='https://shalda.github.io/testArtdent/' />
+<link rel="alternate" type="application/json+oembed" href="https://shalda.github.io/testArtdent/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps://shalda.github.io/testArtdent%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://shalda.github.io/testArtdent/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps://shalda.github.io/testArtdent%2F&#038;format=xml" />
+
+			<meta name="generator" content="Powered by FlexiPress" />
+			<style type="text/css" id="dentalpress_custom-css">body:before{background:-moz-linear-gradient(left,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-webkit-linear-gradient(left,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-webkit-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-o-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-ms-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-moz-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:linear-gradient(to right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%)}::-moz-selection{background-color:#50b0e3}::selection{background-color:#50b0e3}a{color:#50b0e3}a:hover{color:#a4d735}a.vu_link-inverse{color:#a4d735}a.vu_link-inverse:hover{color:#50b0e3}blockquote{border-left:2px solid #a4d735}.vu_info-item .vu_ii-icon{color:#50b0e3}.vu_top-bar a:hover{color:#50b0e3}.vu_tb-list .sub-menu li a:hover{color:#50b0e3}.vu_top-bar .vu_social-icon a:hover{color:#50b0e3}.vu_main-navigation>ul>li:before,.vu_main-navigation>ul>li.current-menu-parent:before,.vu_main-navigation>ul>li.current-menu-ancestor:before,.vu_main-navigation>ul>li.current-menu-item:before{background-color:#a4d735}.vu_main-navigation ul li a:hover,.vu_main-navigation ul li:hover>a,.vu_main-navigation ul li.current-menu-parent>a,.vu_main-navigation ul li.current-menu-ancestor>a,.vu_main-navigation ul li.current-menu-item>a{color:#50b0e3}.vu_main-navigation>ul>li.vu_appointment-menu-item a{background-color:#a4d735}.vu_mobile-menu ul li.current-menu-item>a{color:#50b0e3}.vu_mobile-menu ul li a:hover,.vu_mobile-menu ul li.current-menu-item>a:hover,.vu_mobile-menu .vu_mm-remove:hover{border-color:#50b0e3;background-color:#50b0e3}.vu_mm-open:hover,.vu_mm-open:focus,.vu_wc-menu-item.vu_wc-responsive:hover,.vu_wc-menu-item.vu_wc-responsive:focus{color:#50b0e3}.vu_page-header .vu_ph-title{color:#50b0e3!important}.vu_page-header .vu_ph-breadcrumbs .divider i{color:#a4d735!important}.vu_page-header.vu_ph-with-bg .vu_ph-title{color:#50b0e3}.widget_nav_menu ul li a:hover,.widget_nav_menu ul li.current-menu-parent>a,.widget_nav_menu ul li.current-menu-ancestor>a,.widget_nav_menu ul li.current-menu-item>a{border-color:#50b0e3;background-color:#50b0e3}.vu_sidebar .widget_nav_menu ul li a:hover,.vu_sidebar .widget_nav_menu ul li.current-menu-parent>a,.vu_sidebar .widget_nav_menu ul li.current-menu-ancestor>a,.vu_sidebar .widget_nav_menu ul li.current-menu-item>a{color:#50b0e3}.datepicker.dropdown-menu th.datepicker-switch{color:#a4d735}.datepicker.dropdown-menu th.dow{color:#50b0e3}.bootstrap-timepicker-widget table td input{border-color:#a4d735}.vu_accordion .vu_a-wrapper .vu_a-header a{color:#50b0e3}.vu_accordion .vu_a-wrapper .ui-state-default .ui-icon,.vu_accordion .vu_a-wrapper .ui-state-active .ui-icon{color:#a4d735}.vu_accordion .vu_a-wrapper .ui-state-active .ui-icon{border-color:#a4d735;background-color:#a4d735}.vu_toggle .vu_t-title .vu_t-icon{color:#a4d735}.vu_toggle .vu_t-title h4{color:#50b0e3}.vu_toggle .vu_t-title:hover .vu_t-icon,.vu_toggle.vc_toggle_active .vu_t-icon{border-color:#a4d735;background-color:#a4d735}.vu_tabs:not(.vu_t-nav-bottom) .vu_t-nav{border-bottom:1px solid #a4d735!important}.vu_tabs.vu_t-nav-bottom .vu_t-nav{border-top:1px solid #a4d735!important}.vu_tabs .vu_t-nav li.ui-tabs-active a,.vu_tabs .vu_t-nav li:hover a{color:#50b0e3!important}.vu_tabs.vu_t-style-3 .vu_t-nav .ui-state-default a:after{color:#a4d735}.vu_tour .vu_t-nav li.ui-tabs-active a{color:#50b0e3!important}.vu_progress-bar .vu_pb-bar{background-color:#a4d735}.vu_countdown .countdown-section:before{background-color:#50b0e3}.vu_countdown .countdown-amount{color:#a4d735}.vu_widget-nav li.active>a,.vu_widget-nav a:hover{color:#50b0e3}.vu_image-box .vu_ib-title{color:#50b0e3}.vu_image-box .vu_ib-read-more .vu_ib-btn i{color:#a4d735}.vu_team-member .vu_tm-name{color:#50b0e3}.vu_team-member .vu_tm-social-networks a:hover{color:#a4d735}.vu_team-member.vu_tm-style-2 .vu_tm-info{border-left:2px solid #a4d735}.vu_team-member.vu_tm-style-2 .vu_tm-social-networks a:hover{color:#50b0e3}.vu_testimonial.vu_t-style-1 .vu_t-author .vu_t-icon{color:#50b0e3}.vu_testimonial.vu_t-style-1 .vu_t-author-image{background-color:#50b0e3}.vu_testimonial.vu_t-style-1 .vu_t-author .vu_t-author-name{color:#a4d735}.vu_testimonial.vu_t-style-2 .vu_t-icon{background-color:#a4d735}.vu_testimonial.vu_t-style-2 .vu_t-author-image{background-color:#a4d735}.vu_testimonial.vu_t-style-2 .vu_t-author .vu_t-author-name{color:#50b0e3}.vu_before-after .twentytwenty-handle{background-color:#50b0e3}.form-control:focus{border-color:#a4d735}.vu_contact-form-7.vu_cf7-style-inverse .vu_cf7-frm .form-control:focus{border-color:#a4d735}.vu_contact-form-7 .vu_cf7-frm .vu_lbl-as-input-file:after{background-color:#50b0e3}.wpcf7-form:not(.vu_cf7-frm) .wpcf7-form-control:not(.wpcf7-submit):focus{border-color:#a4d735}.vu_icon-box .vu_ib-icon{background-color:#a4d735;border:2px solid #a4d735}.vu_icon-box .vu_ib-content .vu_ib-title{color:#50b0e3}.vu_icon-box.vu_ib-color-primary .vu_ib-content .vu_ib-title{color:#a4d735}.vu_icon-box.vu_ib-color-primary .vu_ib-icon{background-color:#50b0e3;border-color:#50b0e3}.vu_icon-box.vu_ib-color-secondary .vu_ib-content .vu_ib-title{color:#50b0e3}.vu_icon-box.vu_ib-color-secondary .vu_ib-icon{background-color:#a4d735;border-color:#a4d735}.vu_icon-box.vu_ib-color-black .vu_ib-content .vu_ib-title{color:#50b0e3}.vu_icon-box.vu_ib-color-white .vu_ib-content .vu_ib-title{color:#50b0e3}.vu_icon-box .vu_ib-read-more .vu_ib-btn i{color:#a4d735}.vu_icon-box-2 .vu_ib-icon{color:#a4d735}.vu_icon-box-2.vu_ib-type-image .vu_ib-icon *{color:#a4d735}.vu_icon-box-2 .vu_ib-content .vu_ib-title{color:#50b0e3}.vu_icon-box-2.vu_ib-style-2:after{background-color:#a4d735}.vu_icon-box-2.vu_ib-style-2:hover .vu_ib-icon,.vu_icon-box-2.vu_ib-style-2:hover .vu_ib-title{color:#50b0e3}.vu_timeline .vu_t-date{color:#a4d735}.vu_timeline .vu_t-title{color:#50b0e3}.vu_video-section .vu_vs-play{background-color:#a4d735}.custom.tparrows:hover{color:#50b0e3!important}.custom.tparrows:hover:before{color:#50b0e3!important}.custom .tp-bullet:hover,.custom .tp-bullet.selected{background-color:#50b0e3}.vu_carousel .owl-pagination .owl-page.active span,.vu_carousel .owl-pagination .owl-page span:hover{background-color:#50b0e3}.vu_client:hover{border-color:#a4d735}.vu_heading.vu_h-alignment-left.vu_h-style-1{border-left:2px solid #a4d735}.vu_heading.vu_h-alignment-right.vu_h-style-1{border-right:2px solid #a4d735}.vu_heading.vu_h-style-2 .vu_h-heading:after{background-color:#a4d735}.vu_heading.vu_h-style-3 .vu_h-heading:after{background-color:#a4d735}.vu_heading.vu_h-style-4 .vu_h-heading:before,.vu_heading.vu_h-style-4 .vu_h-heading:after{background-color:#a4d735}.vu_pricing-table .vu_pt-title{background-color:#50b0e3}.vu_pricing-table.vu_pt-active .vu_pt-title{background-color:#a4d735}.vu_pricing-table .vu_pt-button a{background-color:#50b0e3}.vu_pricing-table.vu_pt-active .vu_pt-button a{background-color:#a4d735}.btn.btn-primary,.btn.btn-primary.btn-default{color:#50b0e3;border-color:#50b0e3}.btn.btn-primary:hover,.btn.btn-primary.btn-default:hover,.btn.btn-primary.btn-inverse{border-color:#50b0e3;background-color:#50b0e3}.btn.btn-primary.btn-inverse:hover{color:#50b0e3;border-color:#50b0e3}.btn.btn-primary-hover:hover,.btn.btn-primary-hover.btn-default:hover{border-color:#50b0e3!important;background-color:#50b0e3!important}.btn.btn-primary-hover.btn-inverse:hover{color:#50b0e3!important;border-color:#50b0e3!important}.btn.btn-secondary,.btn.btn-secondary.btn-default{color:#a4d735;border-color:#a4d735}.btn.btn-secondary:hover,.btn.btn-secondary.btn-default:hover,.btn.btn-secondary.btn-inverse{border-color:#a4d735;background-color:#a4d735}.btn.btn-secondary.btn-inverse:hover{color:#a4d735;border-color:#a4d735}.btn.btn-secondary-hover:hover,.btn.btn-secondary-hover.btn-default:hover{border-color:#a4d735!important;background-color:#a4d735!important}.btn.btn-secondary-hover.btn-inverse:hover{color:#a4d735!important;border-color:#a4d735!important}.btn.btn-disable:hover{color:#50b0e3}.vu_filterable .vu_f-filters.vu_f-filters-style-1 .vu_f-filter.active{background-color:#50b0e3}.vu_filterable .vu_f-filters.vu_f-filters-style-2 .vu_f-filter.active{color:#50b0e3;border-color:#50b0e3}.vu_gallery .vu_g-filters.vu_g-filters-style-1 .vu_g-filter.active{background-color:#50b0e3}.vu_gallery .vu_g-filters.vu_g-filters-style-2 .vu_g-filter.active{color:#50b0e3;border-color:#50b0e3}.vu_gallery-item .vu_gi-details-container{background-color:rgba(164,215,53,0.5)}.vu_gallery-widget .vu_gw-item .vu_gw-image{background-color:#a4d735}.vu_counter .vu_c-label{color:#50b0e3}.vu_image-slider .vu_is-item .vu_is-i-caption{background-color:rgba(80,176,227,0.9)}.vu_posts-page .vu_blog-post .vu_bp-meta .vu_bp-m-item-icon{color:#a4d735}.vu_posts-page .vu_blog-post .vu_bp-meta .vu_bp-m-item a:hover{color:#50b0e3}.vu_posts-page .vu_blog-post .vu_bp-title{color:#50b0e3}.vu_posts-page .vu_blog-post .vu_bp-read-more .vu_bp-btn i{color:#a4d735}.vu_posts-page .vu_blog-post.vu_bp-type-audio .vu_bp-image .mejs-controls .mejs-time-rail .mejs-time-current{background-color:#a4d735}.vu_posts-page .vu_blog-post.vu_bp-type-link:before{background-color:#a4d735}.vu_posts-page .vu_blog-post.vu_bp-type-quote .vu_bp-quote:before{color:#a4d735}.vu_posts-page .vu_blog-post.vu_bp-type-quote .vu_bp-quote>blockquote cite,.vu_posts-page .vu_blog-post.vu_bp-type-quote .vu_bp-quote .vu_bp-q-author{border-left:2px solid #50b0e3}.vu_blog .vu_b-item.vu_blog-post .vu_bp-meta .vu_bp-m-item:before{color:#a4d735}.vu_blog .vu_b-item.vu_blog-post .vu_bp-title{color:#50b0e3}.vu_blog .vu_b-item.vu_blog-post .vu_bp-read-more .vu_bp-btn i{color:#a4d735}.vu_comments .vu_c-count,.vu_comments .vu_c-text{border-left:2px solid #50b0e3}.vu_comments .vu_c-a-author{color:#a4d735}.vu_comments .vu_c-a-m-item a:hover{color:#50b0e3}.vu_comments .vu_c-a-edit a,.vu_comments .vu_c-a-reply a{background-color:#50b0e3}.vu_comments .vu_c-a-edit a{background-color:#a4d735}.vu_comments .vu_c-a-content .vu_c-a-moderation{color:#50b0e3}.comment-reply-title{border-left:2px solid #50b0e3}.comment-reply-title small a{color:#50b0e3}.comment-reply-title small a:hover{color:#a4d735}.comment-form .form-control:focus{border-color:#a4d735}.vu_pagination .vu_p-list a:hover{color:#50b0e3}.vu_pagination .vu_p-list .current{background-color:#50b0e3}.vu_recent-posts .vu_rp-item .vu_rp-title a:hover{color:#a4d735}.vu_working-hours .vu_wh-item.active .vu_wh-day,.vu_working-hours .vu_wh-item.active .vu_wh-hours{color:#a4d735}.vu_error-page .vu_ep-404{color:#50b0e3}.vu_error-page .vu_ep-title{color:#a4d735}.widget_title{border-left:2px solid #a4d735}.widget .vu_social-icon a{background-color:#a4d735}.widget .vu_social-icon a:hover{background-color:#50b0e3}.vu_search-form .vu_sf-wrapper:before{background-color:#50b0e3}.widget .form-control:focus,.widget input[type="text"]:focus,.widget input[type="search"]:focus{border-color:#50b0e3}.vu_latest-tweets ul li:before{color:#50b0e3}.vu_sidebar .widget.widget_recent_comments li a{color:#a4d735}.vu_sidebar .widget.widget_recent_comments li a.url{color:#50b0e3}.widget.widget_archive li a:hover,.widget.widget_pages li a:hover,.widget.widget_recent_comments li a:hover,.widget.widget_recent_entries li a:hover,.widget.widget_meta li a:hover,.widget.widget_categories li a:hover{color:#50b0e3}.widget.widget_tag_cloud a{background-color:#a4d735}.widget.widget_tag_cloud a.active,.widget.widget_tag_cloud a:hover{background-color:#50b0e3}.widget.widget_rss .rss-date{color:#a4d735}.vu_highlight{background-color:#50b0e3}.vu_list-with-icon li a:hover{color:#50b0e3}.vu_list-with-icon li:before{color:#50b0e3}.vu_list-with-icon[data-color="primary"] li a:hover,.vu_list-with-icon[data-color="primary"] li:before{color:#50b0e3}.vu_list-with-icon[data-color="secondary"] li a:hover,.vu_list-with-icon[data-color="secondary"] li:before{color:#a4d735}.vu_newsletter .vu_n-form .form-control:focus{border-color:#a4d735}.vu_newsletter .vu_n-form .vu_n-button{background-color:#50b0e3}.vu_newsletter .vu_n-form .form-control:focus+.vu_n-button,.vu_newsletter .vu_n-form .vu_n-button:hover{background-color:#a4d735}.vu_main-footer .vu_mf-widgets:before{background:-moz-linear-gradient(left,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-webkit-linear-gradient(left,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-webkit-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-o-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-ms-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-moz-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:linear-gradient(to right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%)}.vu_main-footer [class*="vu_mf-footer"]:nth-child(even) .widget_title{border-left-color:#50b0e3}.vu_main-footer .vu_mf-bottom a:hover{color:#50b0e3}.vu_contact-info-item i{color:#50b0e3}.vu_contact-info-list li .fa{color:#50b0e3}.vu_useful-links li:before{color:#50b0e3}.vu_useful-links li a:hover{color:#a4d735}.vu_primary-text-color{color:#50b0e3}.vu_primary-border-color{border-color:#50b0e3}.vu_primary-bg-color{background-color:#50b0e3}.vu_secondary-text-color{color:#a4d735}.vu_secondary-border-color{border-color:#a4d735}.vu_secondary-bg-color{background-color:#a4d735}.vu_with-icon>i.fa{color:#50b0e3}.vu_arrow-down:after{border-top-color:#50b0e3}.vu_arrow-down.vu_secondary-bg-color:after{border-top-color:#a4d735}.vu_main-menu-container .vu_logo-container{width:177px}.vu_main-menu-container .vu_logo-container img{max-width:177px}.vu_main-menu ul li ul.sub-menu{width:200px}#vu_preloader{background-image:url(http://themes.flexipress.xyz/dentalpress/wp-content/themes/dentalpress/assets/img/preloader.svg);</style>		<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://shalda.github.io/testArtdent/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.6.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){
+				try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;					
+					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+				}catch(d){console.log("Failure at Presize of Slider:"+d)}
+			};</script>
+<style type="text/css" title="dynamic-css" class="options-output">body{background-color:#f9f9f9;background-image:url('http://themes.flexipress.xyz/dentalpress/wp-content/themes/dentalpress/assets/img/pattern.png');}body{font-family:"Open Sans";text-transform:none;line-height:24px;font-weight:400;font-style:normal;color:#777777;font-size:14px;}.vu_main-navigation > ul > li > a,.widget_nav_menu .menu > li > a{font-family:Roboto;text-transform:uppercase;line-height:24px;font-weight:400;font-style:normal;color:#777777;font-size:14px;}.vu_main-navigation .sub-menu a{font-family:"Open Sans";text-transform:none;line-height:20px;font-weight:400;font-style:normal;color:#777777;font-size:14px;}h1,.h1{font-family:Roboto;text-transform:none;line-height:34px;font-weight:500;font-style:normal;color:#414141;font-size:24px;}h2,.h2{font-family:Roboto;text-transform:none;line-height:30px;font-weight:500;font-style:normal;color:#414141;font-size:20px;}h3,.h3{font-family:Roboto;text-transform:none;line-height:28px;font-weight:500;font-style:normal;color:#414141;font-size:18px;}h4,.h4{font-family:Roboto;text-transform:none;line-height:26px;font-weight:500;font-style:normal;color:#414141;font-size:16px;}h5{font-family:Roboto;text-transform:none;line-height:24px;font-weight:500;font-style:normal;color:#414141;font-size:14px;}h6{font-family:Roboto;text-transform:none;line-height:22px;font-weight:400;font-style:normal;color:#414141;font-size:12px;}.vu_info-item .vu_ii-title,.datepicker.dropdown-menu th.datepicker-switch,.datepicker.dropdown-menu th.dow,.vu_accordion .vu_a-wrapper .vu_a-header a,.vu_tabs .vu_t-nav li a,.vu_tour .vu_t-wrapper .vu_t-nav a,.vu_countdown .countdown-amount,.vu_heading.vu_h-style-1 .vu_h-subheading p,.btn,.vu_filterable .vu_f-filters.vu_f-filters-style-1 .vu_f-filter,.vu_filterable .vu_f-filters.vu_f-filters-style-2 .vu_f-filter,.vu_gallery .vu_g-filters.vu_g-filters-style-1 .vu_g-filter,.vu_gallery .vu_g-filters.vu_g-filters-style-2 .vu_g-filter,.vu_gallery-item .vu_gi-details .vu_gi-content .vu_gi-title,.vu_posts-page .vu_blog-post.vu_bp-type-quote .vu_bp-quote > blockquote cite,.vu_posts-page .vu_blog-post.vu_bp-type-quote .vu_bp-quote .vu_bp-q-author{font-family:Roboto;}.vu_top-bar{color:#777777;}.vu_main-header .vu_h-content{padding-top:10px;padding-bottom:10px;}.vu_main-footer .vu_mf-widgets{background-color:#ffffff;}.vu_main-footer{color:#777777;}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1502984767906{padding-top: 50px !important;padding-right: 50px !important;padding-bottom: 20px !important;padding-left: 50px !important;background-image: url(https://shalda.github.io/testArtdent/wp-content/uploads/2017/08/parallax-2-min.jpg?id=62) !important;}.vc_custom_1543841057599{background-image: url(https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/bright-smile.jpg?id=1161) !important;}.vc_custom_1543839364538{padding-top: 50px !important;padding-bottom: 50px !important;background-image: url(https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/hirurgia.jpg?id=1126) !important;}.vc_custom_1543835340389{padding-top: 25px !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="home page-template-default page page-id-73 vu_nav-position-sidebar wpb-js-composer js-comp-ver-5.3 vc_responsive" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+			<div id="vu_preloader"></div>
+		
+	<!-- Main Container -->
+	<div class="vu_main-container">
+					<!-- Header -->
+						<header id="vu_main-header" class="vu_main-header" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+									<div class="vu_top-bar">
+						<div class="container">
+							<div class="row">
+								<div class="vu_tp-left col-md-7">
+									<span>Давайте позаботимся о вас и вашей улыбке!</span>								</div>
+								<div class="vu_tp-right col-md-5">
+									<div class="vu_social-icon"><a href="#" target="_self"><i class="fa fa-facebook"></i></a></div><div class="vu_social-icon m-r-0"><a href="#" target="_self"><i class="fa fa-instagram"></i></a></div>								</div>
+							</div>
+						</div>
+					</div>
+				
+				<div class="vu_h-container">
+					<div class="container">
+						<div id="vu_menu-affix" class="vu_menu-affix">
+							<div class="vu_main-menu-container" data-type="logo-center">
+								<div class="vu_h-content">
+									<div class="vu_d-tr">
+										<div class="vu_h-left vu_logo-container vu_d-td"> 
+											<div class="vu_site-logo">
+												<a href="https://shalda.github.io/testArtdent/">
+													<img class="vu_sl-img" alt="site-logo" width="379" height="189" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/11/artdent1.png">
+												</a>
+											</div>
+
+											<a href="#" class="vu_mm-toggle vu_mm-open"><i class="fa fa-bars"></i></a>
+
+																					</div>
+
+										<div class="vu_h-right vu_h-widgets">
+													
+		<div class="vu_info-item">
+			<div class="vu_ii-icon">
+				<i class="vu_fi vu_fi-envelope"></i>
+			</div>
+			<div class="vu_ii-details">
+				<span class="vu_ii-title">Наш адрес</span>
+				<p class="vu_ii-desc">г. Киев, ул. Дегтярёвская, 6</p>
+			</div>
+		</div>
+
+				
+		<div class="vu_info-item">
+			<div class="vu_ii-icon">
+				<i class="vu_fi vu_fi-phone"></i>
+			</div>
+			<div class="vu_ii-details">
+				<span class="vu_ii-title">Телефон</span>
+				<p class="vu_ii-desc"> 044 235 89 75</p>
+			</div>
+		</div>
+
+				
+		<div class="vu_info-item">
+			<div class="vu_ii-icon">
+				<i class="vu_fi vu_fi-clock"></i>
+			</div>
+			<div class="vu_ii-details">
+				<span class="vu_ii-title">Часы работы</span>
+				<p class="vu_ii-desc">Пн - Пт: 9:00 - 21:00 
+ Сб: 10:00 - 16:00</p>
+			</div>
+		</div>
+
+												</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="vu_menu-affix-height"></div>
+					</div>
+				</div>
+
+							</header><!-- /Header -->
+
+			
+			<!-- Container -->
+			<div class="vu_container">
+				<div class="row">
+
+									<!-- Main Navigation -->
+				<div class="vu_main-navigation-container col-xs-12 col-md-3">
+					<nav class="vu_main-navigation vu_main-menu" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+						<ul id="vu_mm-navigation" class="vu_mm-list vu_mm-navigation list-unstyled"><li id="menu-item-859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-73 current_page_item menu-item-859"><a href="https://shalda.github.io/testArtdent/" itemprop="url">Главная</a></li>
+<li id="menu-item-857" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-857"><a href="https://shalda.github.io/testArtdent/about/" itemprop="url">О нас</a></li>
+<li id="menu-item-856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-856"><a href="https://shalda.github.io/testArtdent/services/" itemprop="url">Услуги</a>
+<ul class="sub-menu">
+	<li id="menu-item-885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-885"><a href="https://shalda.github.io/testArtdent/services/otbelivanie/" itemprop="url">Отбеливание</a></li>
+	<li id="menu-item-884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884"><a href="https://shalda.github.io/testArtdent/services/implantologiya/" itemprop="url">Имплантология</a></li>
+	<li id="menu-item-887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-887"><a href="https://shalda.github.io/testArtdent/services/protezirovanie/" itemprop="url">Протезирование</a></li>
+	<li id="menu-item-886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-886"><a href="https://shalda.github.io/testArtdent/services/terapevtstomatology/" itemprop="url">Терапевтическая стоматология</a></li>
+	<li id="menu-item-916" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-916"><a href="https://shalda.github.io/testArtdent/services/hirurgiya/" itemprop="url">Хирургия</a></li>
+	<li id="menu-item-888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-888"><a href="https://shalda.github.io/testArtdent/services/profilaktika/" itemprop="url">Профилактика заболеваний полости рта</a></li>
+</ul>
+</li>
+<li id="menu-item-864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-864"><a href="https://shalda.github.io/testArtdent/gallery/" itemprop="url">Галерея</a></li>
+<li id="menu-item-903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-903"><a href="https://shalda.github.io/testArtdent/prices/" itemprop="url">Стоимость услуг</a></li>
+<li id="menu-item-919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-919"><a href="https://shalda.github.io/testArtdent/blog/articles/" itemprop="url">Новости</a></li>
+<li id="menu-item-900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-900"><a href="https://shalda.github.io/testArtdent/contact-2/" itemprop="url">Контакты</a></li>
+</ul>					</nav>
+					<div class="clear"></div>
+				</div>
+				<!-- /Main Navigation -->
+							
+		<!-- Content -->
+		<div class="vu_content col-xs-12 col-md-9" role="main">
+							<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper no-padding vu_s-custom-156167">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-416021">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-207308">
+		<div class="vu_c-wrapper">
+			<link href="http://fonts.googleapis.com/css?family=Roboto:500%7COpen+Sans:400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.4.6.1 auto mode -->
+	<div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.6.1">
+<ul>	<!-- SLIDE  -->
+	<li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/slider1min.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/slider1.jpg"  alt="" title="slider1"  width="1600" height="878" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-1-layer-1" 
+			 data-x="40" 
+			 data-y="130" 
+						data-width="['auto']"
+			data-height="['auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":1000,"speed":500,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+7200.0006103516","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textalign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5; white-space: nowrap; font-size: 24px; line-height: 24px; font-weight: 500; color: #50b0e3; letter-spacing: 0px;font-family:Roboto;">Терапевтическая стоматология </div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-1-layer-2" 
+			 data-x="40" 
+			 data-y="180" 
+						data-width="['360']"
+			data-height="['auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":1500,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+6700.0006103516","speed":300,"frame":"999","to":"y:50px;opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textalign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; min-width: 360px; max-width: 360px; white-space: normal; font-size: 16px; line-height: 26px; font-weight: 400; color: #777777; letter-spacing: 0px;font-family:Open Sans;">высокое качество по доступным ценам комплексный подход. </div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-2" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/childdentmin.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/childdent.jpg"  alt="" title="childdent"  width="1600" height="750" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-2-layer-1" 
+			 data-x="right" data-hoffset="11" 
+			 data-y="164" 
+						data-width="['271']"
+			data-height="['60']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":1000,"speed":500,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+7200.0006103516","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textalign="['right','right','right','right']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5; min-width: 271px; max-width: 271px; max-width: 60px; max-width: 60px; white-space: normal; font-size: 24px; line-height: 30px; font-weight: 500; color: #50b0e3; letter-spacing: 0px;font-family:Roboto;">Детская стоматология </div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-2-layer-2" 
+			 data-x="right" data-hoffset="35" 
+			 data-y="209" 
+						data-width="['360']"
+			data-height="['auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":1500,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+6700.0006103516","speed":300,"frame":"999","to":"y:50px;opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textalign="['right','right','right','right']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; min-width: 360px; max-width: 360px; white-space: normal; font-size: 16px; line-height: 26px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Open Sans;">высокое качество по доступным ценам комплексный подход. </div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/Family-dentistrymin.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/Family-dentistry.jpg"  alt="" title="Family-dentistry"  width="1600" height="720" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-3-layer-1" 
+			 data-x="614" 
+			 data-y="46" 
+						data-width="['220']"
+			data-height="['auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":1000,"speed":500,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+7200.0006103516","speed":300,"frame":"999","to":"y:-50px;opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textalign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5; min-width: 220px; max-width: 220px; white-space: normal; font-size: 24px; line-height: 30px; font-weight: 500; color: #50b0e3; letter-spacing: 0px;font-family:Roboto;">Стоматолог для всей семьи </div>
+
+		<!-- LAYER NR. 6 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-3-layer-2" 
+			 data-x="20" 
+			 data-y="333" 
+						data-width="['360']"
+			data-height="['auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":1500,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"+6700.0006103516","speed":300,"frame":"999","to":"y:50px;opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textalign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; min-width: 360px; max-width: 360px; white-space: normal; font-size: 16px; line-height: 26px; font-weight: 400; color: #777777; letter-spacing: 0px;font-family:Open Sans;">высокое качество по доступным ценам комплексный подход. </div>
+	</li>
+</ul>
+<div style="" class="tp-static-layers">
+
+		<!-- LAYER NR. 7 -->
+		<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme tp-static-layer" 
+			 id="slider-1-layer-3" 
+			 data-x="" 
+			 data-y="bottom" data-voffset="" 
+						data-width="['full','full','full','full']"
+			data-height="['120']"
+			data-visibility="['on','on','off','off']"
+ 
+			data-type="shape" 
+			data-responsive_offset="on" 
+
+			data-startslide="0" 
+			data-endslide="2" 
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textalign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 11;background-color:rgba(255,255,255,0.3);"> </div>
+</div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+						if(htmlDiv) {
+							htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+						}else{
+							var htmlDiv = document.createElement("div");
+							htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+							document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+						}
+					</script>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+				if(htmlDiv) {
+					htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+				}else{
+					var htmlDiv = document.createElement("div");
+					htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+					document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+				}
+			</script>
+		<script type="text/javascript">
+setREVStartSize({c: jQuery('#rev_slider_1_1'), gridwidth: [870], gridheight: [500], sliderLayout: 'auto'});
+			
+var revapi1,
+	tpj=jQuery;
+			
+tpj(document).ready(function() {
+	if(tpj("#rev_slider_1_1").revolution == undefined){
+		revslider_showDoubleJqueryError("#rev_slider_1_1");
+	}else{
+		revapi1 = tpj("#rev_slider_1_1").show().revolution({
+			sliderType:"standard",
+			jsFileLocation:"https://shalda.github.io/testArtdent/wp-content/plugins/revslider/public/assets/js/",
+			sliderLayout:"auto",
+			dottedOverlay:"none",
+			delay:9000,
+			navigation: {
+				keyboardNavigation:"off",
+				keyboard_direction: "horizontal",
+				mouseScrollNavigation:"off",
+ 							mouseScrollReverse:"default",
+				onHoverStop:"off",
+				touch:{
+					touchenabled:"on",
+					touchOnDesktop:"off",
+					swipe_threshold: 75,
+					swipe_min_touches: 1,
+					swipe_direction: "horizontal",
+					drag_block_vertical: false
+				}
+				,
+				arrows: {
+					style:"custom",
+					enable:true,
+					hide_onmobile:true,
+					hide_under:599,
+					hide_onleave:false,
+					tmp:'',
+					left: {
+						h_align:"right",
+						v_align:"bottom",
+						h_offset:92,
+						v_offset:38
+					},
+					right: {
+						h_align:"right",
+						v_align:"bottom",
+						h_offset:40,
+						v_offset:38
+					}
+				}
+				,
+				bullets: {
+					enable:true,
+					hide_onmobile:false,
+					hide_over:599,
+					style:"custom",
+					hide_onleave:false,
+					direction:"horizontal",
+					h_align:"center",
+					v_align:"bottom",
+					h_offset:0,
+					v_offset:20,
+					space:10,
+					tmp:''
+				}
+				,
+				thumbnails: {
+					style:"custom",
+					enable:true,
+					width:60,
+					height:60,
+					min_width:220,
+					wrapper_padding:0,
+					wrapper_color:"transparent",
+					tmp:'<span class="tp-thumb-image"></span>',
+					visibleAmount:3,
+					hide_onmobile:true,
+					hide_under:599,
+					hide_onleave:false,
+					direction:"horizontal",
+					span:false,
+					position:"inner",
+					space:20,
+					h_align:"left",
+					v_align:"bottom",
+					h_offset:40,
+					v_offset:30
+				}
+			},
+			visibilityLevels:[1240,1024,778,480],
+			gridwidth:870,
+			gridheight:500,
+			lazyType:"none",
+			shadow:0,
+			spinner:"spinner5",
+			stopLoop:"off",
+			stopAfterLoops:-1,
+			stopAtSlide:-1,
+			shuffle:"off",
+			autoHeight:"off",
+			disableProgressBar:"on",
+			hideThumbsOnMobile:"on",
+			hideSliderAtLimit:0,
+			hideCaptionAtLimit:0,
+			hideAllCaptionAtLilmit:0,
+			debugMode:false,
+			fallbacks: {
+				simplifyAll:"off",
+				nextSlideOnWindowFocus:"off",
+				disableFocusListener:false,
+			}
+		});
+	}
+	
+});	/*ready*/
+</script>
+		<script>
+					var htmlDivCss = unescape(".custom.tparrows%20%7B%0A%09cursor%3Apointer%3B%0A%09background%3A%23000%3B%0A%09background%3Argba%280%2C0%2C0%2C0.5%29%3B%0A%09width%3A40px%3B%0A%09height%3A40px%3B%0A%09position%3Aabsolute%3B%0A%09display%3Ablock%3B%0A%09z-index%3A100%3B%0A%7D%0A.custom.tparrows%3Ahover%20%7B%0A%09background%3A%23000%3B%0A%7D%0A.custom.tparrows%3Abefore%20%7B%0A%09font-family%3A%20%22revicons%22%3B%0A%09font-size%3A15px%3B%0A%09color%3A%23fff%3B%0A%09display%3Ablock%3B%0A%09line-height%3A%2040px%3B%0A%09text-align%3A%20center%3B%0A%7D%0A.custom.tparrows.tp-leftarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce824%22%3B%0A%7D%0A.custom.tparrows.tp-rightarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce825%22%3B%0A%7D%0A%0A%0A.custom.tp-bullets%20%7B%0A%7D%0A.custom.tp-bullets%3Abefore%20%7B%0A%09content%3A%22%20%22%3B%0A%09position%3Aabsolute%3B%0A%09width%3A100%25%3B%0A%09height%3A100%25%3B%0A%09background%3Atransparent%3B%0A%09padding%3A10px%3B%0A%09margin-left%3A-10px%3Bmargin-top%3A-10px%3B%0A%09box-sizing%3Acontent-box%3B%0A%7D%0A.custom%20.tp-bullet%20%7B%0A%09width%3A12px%3B%0A%09height%3A12px%3B%0A%09position%3Aabsolute%3B%0A%09background%3A%23aaa%3B%0A%20%20%20%20background%3Argba%28125%2C125%2C125%2C0.5%29%3B%0A%09cursor%3A%20pointer%3B%0A%09box-sizing%3Acontent-box%3B%0A%7D%0A.custom%20.tp-bullet%3Ahover%2C%0A.custom%20.tp-bullet.selected%20%7B%0A%09background%3Argb%28125%2C125%2C125%29%3B%0A%7D%0A.custom%20.tp-bullet-image%20%7B%0A%7D%0A.custom%20.tp-bullet-title%20%7B%0A%7D%0A%0A%0A");
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}
+					else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				  </script>
+				</div><!-- END REVOLUTION SLIDER -->		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-full">
+				<div class="vu_r-wrapper vu_r-custom-281054">
+			<div class="vu_r-content clearfix">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-374026 col-md-4">
+		<div class="vu_c-wrapper">
+						<div class="vu_icon-box-2 vu_ib-type-icon vu_ib-style-1 clearfix">
+				<div class="vu_ib-icon">
+											<i class="vu_fi vu_fi-pills-1"></i>
+									</div>
+
+				<div class="vu_ib-content">
+					<h5 class="vu_ib-title">3M ESPE</h5>
+					<div class="vu_ib-description"><p>Использование медикаментов ведущих мировых производителей </p>
+</div>
+									</div>
+			</div>
+				</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-368890 col-md-4">
+		<div class="vu_c-wrapper">
+						<div class="vu_icon-box-2 vu_ib-type-icon vu_ib-style-1 clearfix">
+				<div class="vu_ib-icon">
+											<i class="vu_fi vu_fi-flash"></i>
+									</div>
+
+				<div class="vu_ib-content">
+					<h5 class="vu_ib-title">ВЕКТОР ЛАЗЕР</h5>
+					<div class="vu_ib-description"><p>Безболезненное и комфортное лечение пародонтита с помощью ультразвука</p>
+</div>
+									</div>
+			</div>
+				</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-751242 col-md-4">
+		<div class="vu_c-wrapper">
+						<div class="vu_icon-box-2 vu_ib-type-icon vu_ib-style-1 clearfix">
+				<div class="vu_ib-icon">
+											<i class="vu_fi vu_fi-care"></i>
+									</div>
+
+				<div class="vu_ib-content">
+					<h5 class="vu_ib-title">Забота о пациенте</h5>
+					<div class="vu_ib-description"><p>Здоровая улыбка пациента наша главная цель и обязанность. </p>
+</div>
+									</div>
+			</div>
+				</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper p-b-0 vu_s-custom-226013">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-505752">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-833282 col-md-6">
+		<div class="vu_c-wrapper">
+					<header class="vu_heading vu_h-style-1 vu_h-alignment-left m-b-25">
+			
+							<h2 class="vu_h-heading">О нас</h2>
+			
+							<div class="vu_h-subheading">
+					<p>Добро пожаловать в нашу стоматологическую клинику</p>
+				</div>
+					</header>
+	
+	<div class="wpb_text_column wpb_content_element m-b-25" >
+		<div class="wpb_wrapper">
+			<p>Стоматология в первую очередь должна быть во благо здоровья пациента, в  последующем благоприятном для него прогнозе.</p>
+<p>Наша задача -поддерживать  здоровье пациента в течение многих лет, а не получать мгновенную прибыль. Наши  специалисты неустанно оттачивают свой профессионализм изучая новые технологии.</p>
+<p><em>Прибыль не главное, важнее уважение себя как высококлассного специалиста.</em></p>
+
+		</div>
+	</div>
+		<a href="https://shalda.github.io/testArtdent/about/" title="" target="_self" class="vu_button btn btn-default btn-sm btn-primary btn-icon m-b-30">
+			<span>Далее</span><i class="vu_fi vu_fi-arrow-right"></i>		</a>
+			</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-351229 col-md-6">
+		<div class="vu_c-wrapper">
+					<div class="vu_image-box clearfix">
+			<div class="vu_ib-image">
+				<img width="600" height="480" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/oborudovanie2-600x480.jpg" class="attachment-dentalpress_ratio-1:1 size-dentalpress_ratio-1:1" alt="" />			</div>
+
+			<div class="vu_ib-content">
+				<h4 class="vu_ib-title">
+									</h4>
+
+				
+							</div>
+		</div>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper p-b-0 vu_s-custom-780932">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-equal-height vu_r-custom-523220">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column col-sm-8 vu_c-layout-normal vu_c-valign-middle vu_c-custom-543572 col-md-8">
+		<div class="vu_c-wrapper">
+					<header class="vu_heading vu_h-style-1 vu_h-alignment-left">
+			
+							<h2 class="vu_h-heading">Наши услуги</h2>
+			
+							<div class="vu_h-subheading">
+					<p>Предоставление специализированной стоматологической помощи</p>
+				</div>
+					</header>
+			</div>
+	</div>
+
+	
+	<div class="vu_column col-sm-4 text-right vu_text-left-md vu_c-layout-normal vu_c-valign-middle vu_c-custom-554147 col-md-4">
+		<div class="vu_c-wrapper">
+					<a href="https://shalda.github.io/testArtdent/services/" title="" target="_self" class="vu_button btn btn-inverse btn-sm btn-secondary btn-icon m-b-30">
+			<span>Просмотреть все услуги</span><i class="vu_fi vu_fi-arrow-right"></i>		</a>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-455187">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-848306 col-md-6">
+		<div class="vu_c-wrapper">
+						<div class="vu_icon-box clearfix vu_ib-size-large vu_ib-position-left vu_ib-style-square vu_ib-color-primary">
+				<span class="vu_ib-icon"><i class="vu_fi vu_fi-tooth-3"></i></span>
+				<div class="vu_ib-content">
+					<h5 class="vu_ib-title"><a href="https://shalda.github.io/testArtdent/services/otbelivanie/" title="" target="_self">Отбеливание</a></h5>					<div class="vu_ib-description"><p>Профессиональная чистка зубов, удаление налета, зубного камня. Ультразвук, флюоризацич эмали.</p>
+</div>
+					<div class="clear"></div><div class="vu_ib-read-more-container"><a href="https://shalda.github.io/testArtdent/services/otbelivanie/" title="" target="_self" class="vu_ib-read-more vu_link-inverse"><span class="vu_ib-btn"><i class="vu_ib-btn-icon-left vu_fi vu_fi-arrow-right"></i><span class="vu_ib-btn-text">Далее</span><i class="vu_ib-btn-icon-right vu_fi vu_fi-arrow-right"></i></span></a></div>				</div>
+			</div>
+				</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-484136 col-md-6">
+		<div class="vu_c-wrapper">
+						<div class="vu_icon-box clearfix vu_ib-size-large vu_ib-position-left vu_ib-style-square vu_ib-color-primary">
+				<span class="vu_ib-icon"><i class="vu_fi vu_fi-implants"></i></span>
+				<div class="vu_ib-content">
+					<h5 class="vu_ib-title"><a href="https://shalda.github.io/testArtdent/services/implantologiya/" title="" target="_self">Имплантология</a></h5>					<div class="vu_ib-description"><p>Современные технологии позволяют даже, непосредственно после удаления зуба, заменить его протезом.</p>
+</div>
+					<div class="clear"></div><div class="vu_ib-read-more-container"><a href="https://shalda.github.io/testArtdent/services/implantologiya/" title="" target="_self" class="vu_ib-read-more vu_link-inverse"><span class="vu_ib-btn"><i class="vu_ib-btn-icon-left vu_fi vu_fi-arrow-right"></i><span class="vu_ib-btn-text">Далее</span><i class="vu_ib-btn-icon-right vu_fi vu_fi-arrow-right"></i></span></a></div>				</div>
+			</div>
+				</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-656869">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-908154 col-md-6">
+		<div class="vu_c-wrapper">
+						<div class="vu_icon-box clearfix vu_ib-size-large vu_ib-position-left vu_ib-style-square vu_ib-color-primary">
+				<span class="vu_ib-icon"><i class="vu_fi vu_fi-denture"></i></span>
+				<div class="vu_ib-content">
+					<h5 class="vu_ib-title"><a href="https://shalda.github.io/testArtdent/services/protezirovanie/" title="" target="_self">Протезирование</a></h5>					<div class="vu_ib-description"><p>Ортопедическая стоматология: здоровая улыбка в любом возрасте</p>
+</div>
+					<div class="clear"></div><div class="vu_ib-read-more-container"><a href="https://shalda.github.io/testArtdent/services/protezirovanie/" title="" target="_self" class="vu_ib-read-more vu_link-inverse"><span class="vu_ib-btn"><i class="vu_ib-btn-icon-left vu_fi vu_fi-arrow-right"></i><span class="vu_ib-btn-text">Далее</span><i class="vu_ib-btn-icon-right vu_fi vu_fi-arrow-right"></i></span></a></div>				</div>
+			</div>
+				</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-552883 col-md-6">
+		<div class="vu_c-wrapper">
+						<div class="vu_icon-box clearfix vu_ib-size-large vu_ib-position-left vu_ib-style-square vu_ib-color-primary">
+				<span class="vu_ib-icon"><i class="vu_fi vu_fi-toothbrush-2"></i></span>
+				<div class="vu_ib-content">
+					<h5 class="vu_ib-title"><a href="https://shalda.github.io/testArtdent/services/profilaktika/" title="" target="_self">Профилактика заболеваний </a></h5>					<div class="vu_ib-description"><p>Обеспечим правильный уход за областью рта наших пациентов.</p>
+</div>
+					<div class="clear"></div><div class="vu_ib-read-more-container"><a href="https://shalda.github.io/testArtdent/services/profilaktika/" title="" target="_self" class="vu_ib-read-more vu_link-inverse"><span class="vu_ib-btn"><i class="vu_ib-btn-icon-left vu_fi vu_fi-arrow-right"></i><span class="vu_ib-btn-text">Далее</span><i class="vu_ib-btn-icon-right vu_fi vu_fi-arrow-right"></i></span></a></div>				</div>
+			</div>
+				</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-289349">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-406271 col-md-6">
+		<div class="vu_c-wrapper">
+						<div class="vu_icon-box clearfix vu_ib-size-large vu_ib-position-left vu_ib-style-square vu_ib-color-primary">
+				<span class="vu_ib-icon"><i class="vu_fi vu_fi-scalpel"></i></span>
+				<div class="vu_ib-content">
+					<h5 class="vu_ib-title"><a href="https://shalda.github.io/testArtdent/services/hirurgiya/" title="" target="_self">Хирургия</a></h5>					<div class="vu_ib-description"><p>В стоматологической клинике artdent выполняются все виды стоматологических операций.</p>
+</div>
+					<div class="clear"></div><div class="vu_ib-read-more-container"><a href="https://shalda.github.io/testArtdent/services/hirurgiya/" title="" target="_self" class="vu_ib-read-more vu_link-inverse"><span class="vu_ib-btn"><i class="vu_ib-btn-icon-left vu_fi vu_fi-arrow-right"></i><span class="vu_ib-btn-text">Далее</span><i class="vu_ib-btn-icon-right vu_fi vu_fi-arrow-right"></i></span></a></div>				</div>
+			</div>
+				</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-649206 col-md-6">
+		<div class="vu_c-wrapper">
+						<div class="vu_icon-box clearfix vu_ib-size-large vu_ib-position-left vu_ib-style-square vu_ib-color-primary">
+				<span class="vu_ib-icon"><i class="vu_fi vu_fi-medicine2"></i></span>
+				<div class="vu_ib-content">
+					<h5 class="vu_ib-title"><a href="https://shalda.github.io/testArtdent/services/terapevtstomatology/" title="" target="_self">Терапевтическая стоматология </a></h5>					<div class="vu_ib-description"><p>Стоматологи-терапевты являются первоначальными специалистами в сфере заботы о здоровье полости рта.</p>
+</div>
+					<div class="clear"></div><div class="vu_ib-read-more-container"><a href="https://shalda.github.io/testArtdent/services/terapevtstomatology/" title="" target="_self" class="vu_ib-read-more vu_link-inverse"><span class="vu_ib-btn"><i class="vu_ib-btn-icon-left vu_fi vu_fi-arrow-right"></i><span class="vu_ib-btn-text">Далее</span><i class="vu_ib-btn-icon-right vu_fi vu_fi-arrow-right"></i></span></a></div>				</div>
+			</div>
+				</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper p-b-0 vu_s-custom-958828">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-943585">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-899227 col-md-6">
+		<div class="vu_c-wrapper">
+					<div class="vu_image-box clearfix">
+			<div class="vu_ib-image">
+				<img width="800" height="400" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/tooth-2414909_1920-800x400.jpg" class="attachment-dentalpress_ratio-2:1 size-dentalpress_ratio-2:1" alt="" />			</div>
+
+			<div class="vu_ib-content">
+				<h4 class="vu_ib-title">
+									</h4>
+
+				
+							</div>
+		</div>
+			</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-437719 col-md-6">
+		<div class="vu_c-wrapper">
+					<header class="vu_heading vu_h-style-1 vu_h-alignment-left m-b-20">
+			
+							<h2 class="vu_h-heading">Почему выбирают нас?</h2>
+			
+							<div class="vu_h-subheading">
+					<p>Что отличает нас от других стоматологических клиник</p>
+				</div>
+					</header>
+	
+	<div class="wpb_text_column wpb_content_element m-b-30" >
+		<div class="wpb_wrapper">
+			<p>Наша клиника является уникальной, потому что под одной крышей мы объединили мастерство, опыт и современные технологии.</p>
+<p>Работа наших высококвалифицированных врачей, в сочетании с использованием новейшего оборудования и технологий гарантирует, что каждый пациент почувствует себя персоной особенной.</p>
+<p>Наша цель &#8212; поддерживать  здоровье пациента в течение многих лет, а не получать мгновенную прибыль.</p>
+
+		</div>
+	</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper vu_s-custom-238015">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-281219">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-982614">
+		<div class="vu_c-wrapper">
+					<header class="vu_heading vu_h-style-1 vu_h-alignment-center">
+			
+							<h2 class="vu_h-heading">Наша галерея</h2>
+			
+							<div class="vu_h-subheading">
+					<p>Мы с заботой относимся к вашей улыбке!</p>
+				</div>
+					</header>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-583068">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-612319">
+		<div class="vu_c-wrapper">
+					<div class="vu_gallery vu_g-type-masonry vu_lightbox vu_l-gallery vu_g-style-with-space" data-delegate=".vu_g-item:visible a.vu_gi-lightbox" data-layout="3" data-space="30">
+			
+			<div class="vu_g-items">
+									<div class="vu_g-item d41d8cd98f00b204e9800998ecf8427e" data-size="1x1">
+		
+			<div class="vu_gallery-item">
+									<div class="vu_gi-image vu_lazy-load" data-img="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio1.jpg">
+						<img width="600" height="432" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio1-600x432.jpg" class="attachment-dentalpress_ratio-1:1 size-dentalpress_ratio-1:1" alt="" />					</div>
+								<div class="vu_gi-details-container">
+					<div class="vu_gi-details">
+													<a href="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio1.jpg" title="" class="vu_gi-lightbox vu_gi-content-container">
+														<span class="vu_gi-content">
+																			<span class="vu_gi-icons">
+											<span class="vu_gi-icon"><i class="vu_fi vu_fi-add-tool"></i></span>
+										</span>
+									
+																		
+																	</span>
+													</a>
+											</div>
+				</div>
+			</div>
+
+		</div>						<div class="vu_g-item d41d8cd98f00b204e9800998ecf8427e" data-size="1x1">
+		
+			<div class="vu_gallery-item">
+									<div class="vu_gi-image vu_lazy-load" data-img="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/stomatolog.jpg">
+						<img width="432" height="600" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/stomatolog-432x600.jpg" class="attachment-dentalpress_ratio-1:1 size-dentalpress_ratio-1:1" alt="" />					</div>
+								<div class="vu_gi-details-container vu_gi-empty">
+					<div class="vu_gi-details">
+													<a href="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/stomatolog.jpg" title="" class="vu_gi-lightbox vu_gi-content-container">
+														<span class="vu_gi-content">
+									
+																		
+																	</span>
+													</a>
+											</div>
+				</div>
+			</div>
+
+		</div>						<div class="vu_g-item d41d8cd98f00b204e9800998ecf8427e" data-size="1x1">
+		
+			<div class="vu_gallery-item">
+									<div class="vu_gi-image vu_lazy-load" data-img="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio3.jpg">
+						<img width="600" height="493" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio3-600x493.jpg" class="attachment-dentalpress_ratio-1:1 size-dentalpress_ratio-1:1" alt="" />					</div>
+								<div class="vu_gi-details-container">
+					<div class="vu_gi-details">
+													<a href="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio3.jpg" title="" class="vu_gi-lightbox vu_gi-content-container">
+														<span class="vu_gi-content">
+																			<span class="vu_gi-icons">
+											<span class="vu_gi-icon"><i class="vu_fi vu_fi-add-tool"></i></span>
+										</span>
+									
+																		
+																	</span>
+													</a>
+											</div>
+				</div>
+			</div>
+
+		</div>				</div>
+		</div>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-186627">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column text-center vu_c-layout-normal vu_c-valign-top vu_c-custom-853305 vc_custom_1543835340389">
+		<div class="vu_c-wrapper">
+					<a href="https://shalda.github.io/testArtdent/gallery/" title="" target="_self" class="vu_button btn btn-inverse btn-sm btn-secondary">
+			<span>Посмотреть все фотографии</span>		</a>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+		<style scoped>.vu_section .vu_s-custom-944628.vu_s-wrapper.vu_s-color-overlay:before{background-color:rgba(10,10,10,0.1)}</style>		<div class="vu_s-wrapper vu_parallax-blur-img vu_s-bg-image vu_s-color-overlay vu_s-custom-944628 vc_custom_1502984767906" data-parallax="scroll" data-image-src="https://shalda.github.io/testArtdent/wp-content/uploads/2017/08/parallax-2-min.jpg?id=62">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-253616">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-294183">
+		<div class="vu_c-wrapper">
+					<div class="vu_carousel-container">
+			<div class="vu_carousel clearfix m-b-0" data-options="{&quot;singleItem&quot;:false,&quot;itemsScaleUp&quot;:false,&quot;addClassActive&quot;:true,&quot;navigationText&quot;:[&quot;&lt;i class=\&quot;fa fa-angle-left\&quot;&gt;&lt;\/i&gt;&quot;,&quot;&lt;i class=\&quot;fa fa-angle-right\&quot;&gt;&lt;\/i&gt;&quot;],&quot;autoHeight&quot;:true,&quot;items&quot;:1,&quot;itemsDesktop&quot;:[1199,1],&quot;itemsDesktopSmall&quot;:[980,1],&quot;itemsTablet&quot;:[768,1],&quot;itemsMobile&quot;:[479,1],&quot;slideSpeed&quot;:200,&quot;paginationSpeed&quot;:800,&quot;rewindSpeed&quot;:1000,&quot;autoPlay&quot;:5000,&quot;stopOnHover&quot;:true,&quot;navigation&quot;:false,&quot;rewindNav&quot;:true,&quot;scrollPerPage&quot;:true,&quot;pagination&quot;:true,&quot;paginationNumbers&quot;:false}">
+						<div class="vu_carousel-item">
+					<div class="vu_testimonial vu_t-style-1" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+						
+			<div class="vu_t-content clearfix" itemprop="text">
+				<p>Хожу сюда раз в пол года на удаление зубного камня. Цена устраивает, качество чистки тоже классное. После нее зубы становятся немного белее. Единственный минус - ощущения во время чистки</p>
+			</div>
+
+			<div class="vu_t-author" itemscope="itemscope" itemtype="https://schema.org/Person">
+															<i class="vu_t-icon vu_fi vu_fi-customer-review" aria-hidden="true"></i>
+									
+				<h4 class="vu_t-author-name m-t-10 m-b-10" itemprop="name">Сергей Косенко</h4>
+
+							</div>
+		</div>
+			</div>
+			<div class="vu_carousel-item">
+					<div class="vu_testimonial vu_t-style-1" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+						
+			<div class="vu_t-content clearfix" itemprop="text">
+				<p>Спасибо за бережное, и абсолютно безболезненное лечение зуба! Было совершенно не больно во время лечения, и даже после - совершенно никаких болезненных ощущений, хотя зуб был на столько плохим, что в предыдущей клинике, настаивали на удалении и установке моста. </p>
+			</div>
+
+			<div class="vu_t-author" itemscope="itemscope" itemtype="https://schema.org/Person">
+															<i class="vu_t-icon vu_fi vu_fi-customer-review" aria-hidden="true"></i>
+									
+				<h4 class="vu_t-author-name m-t-10 m-b-10" itemprop="name">Аноним</h4>
+
+							</div>
+		</div>
+			</div>
+			<div class="vu_carousel-item">
+					<div class="vu_testimonial vu_t-style-1" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+						
+			<div class="vu_t-content clearfix" itemprop="text">
+				<p>Лечила прогрессирующий парадонтит. Все сдалано аккуратно и с заботой, не думала что врачи бывают с таким отношение в не супер-люксовой клинике. После самой процедуры подробно обьяснили как нужно ухаживать за зубами, помимо ежедневной чимтки два раза в день.</p>
+			</div>
+
+			<div class="vu_t-author" itemscope="itemscope" itemtype="https://schema.org/Person">
+															<i class="vu_t-icon vu_fi vu_fi-customer-review" aria-hidden="true"></i>
+									
+				<h4 class="vu_t-author-name m-t-10 m-b-10" itemprop="name">Ирина Черниченко</h4>
+
+							</div>
+		</div>
+			</div>
+				</div>
+		</div>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper p-b-0 vu_s-custom-258175">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-931774">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-483779">
+		<div class="vu_c-wrapper">
+					<header class="vu_heading vu_h-style-1 vu_h-alignment-left m-b-20">
+			
+							<h2 class="vu_h-heading">Прайс</h2>
+			
+							<div class="vu_h-subheading">
+					<p>Стоимость предоставляемых услуг</p>
+				</div>
+					</header>
+			<div class="vu_accordion wpb_accordion wpb_content_element not-column-inherit" data-collapsible="yes" data-vc-disable-keydown="false" data-active-tab="999">
+			<div class="vu_a-wrapper wpb_wrapper wpb_accordion_wrapper ui-accordion">
+											<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1543771182967-548f3ec7-52b2">ТЕРАПЕВТИЧЕСКАЯ СТОМАТОЛОГИЯ</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<table>
+<tbody>
+<tr>
+<td>Консультация</td>
+<td>100.00грн</td>
+</tr>
+<tr>
+<td>Анестезия</td>
+<td>100.00грн</td>
+</tr>
+<tr>
+<td>Анестезия М</td>
+<td>150.00грн</td>
+</tr>
+<tr>
+<td>Аппликационная анестезия</td>
+<td>50.00грн</td>
+</tr>
+<tr>
+<td>Лекарственная обработка</td>
+<td>100.00грн</td>
+</tr>
+<tr>
+<td>Рентген снимок</td>
+<td>100.00грн</td>
+</tr>
+<tr>
+<td>Временная пломба</td>
+<td>100.00грн</td>
+</tr>
+<tr>
+<td>Герметизация фисур</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Пломбирование стеклоиномерными цементами</td>
+<td>400.00грн</td>
+</tr>
+<tr>
+<td>Жидкотекучий фотополимер</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Пломба фотополимерная минимальная</td>
+<td>650.00грн</td>
+</tr>
+<tr>
+<td>Пломба фотополимерная средняя</td>
+<td>950.00грн</td>
+</tr>
+<tr>
+<td>Пломба фотополимерная глубокая</td>
+<td>1050.00грн</td>
+</tr>
+<tr>
+<td>Реставрация фронтальной группы зубов (1 зуб)</td>
+<td>1500.00грн</td>
+</tr>
+<tr>
+<td>Адгезивный мостик</td>
+<td>1600.00грн</td>
+</tr>
+<tr>
+<td>Анкерный штифт</td>
+<td>400.00грн</td>
+</tr>
+<tr>
+<td>Стекловолоконный штифт</td>
+<td>400.00грн</td>
+</tr>
+<tr>
+<td>Использование коффердама</td>
+<td>200.00грн</td>
+</tr>
+<tr>
+<td>Витребонд прокладка</td>
+<td>100.00грн</td>
+</tr>
+<tr>
+<td>Кетак-моляр</td>
+<td>400.00грн</td>
+</tr>
+<tr>
+<td>Кетак моляр II уровня</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Кетак моляр база</td>
+<td>600.00грн</td>
+</tr>
+<tr>
+<td>Пломба Витремер I уровня</td>
+<td>550.00грн</td>
+</tr>
+<tr>
+<td>Пломба Витремер II уровня</td>
+<td>650.00грн</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1543771483871-73676276-5baa">ЭНДОДОНТИЧЕСКОЕ ЛЕЧЕНИЕ</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<table>
+<tbody>
+<tr>
+<td>Медикаментозная обработка канала</td>
+<td>400.00грн</td>
+</tr>
+<tr>
+<td>Медобработка слизистой</td>
+<td>50.00грн</td>
+</tr>
+<tr>
+<td>Пломбирование канала постоянное</td>
+<td>600.00грн</td>
+</tr>
+<tr>
+<td>Лекарство в канале</td>
+<td>150.00грн</td>
+</tr>
+<tr>
+<td>Распломбировка канала</td>
+<td>450.00грн</td>
+</tr>
+<tr>
+<td>Извлечение инструмента из канала</td>
+<td>450.00грн</td>
+</tr>
+<tr>
+<td>Закрытие перфорации</td>
+<td>800.00грн</td>
+</tr>
+<tr>
+<td>Депофорез 1 сеанс</td>
+<td>400.00грн</td>
+</tr>
+<tr>
+<td>Септопак повязка</td>
+<td>100.00грн</td>
+</tr>
+<tr>
+<td>Цементировка на временный цемент 1 ед.</td>
+<td>50.00грн</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1543771579278-f9ad962c-ccff">ОРТОПЕДИЧЕСКАЯ СТОМАТОЛОГИЯ</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<table>
+<tbody>
+<tr>
+<td>Снятие оттисков. Альгинатной массой</td>
+<td>150.00грн</td>
+</tr>
+<tr>
+<td>Снятие оттисков. Силиконовой массой</td>
+<td>250.00грн</td>
+</tr>
+<tr>
+<td>Снятие оттисков. Индивидуальная ложка</td>
+<td>300.00грн</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1543771636420-661d7188-dd35">НЕСЪЕМНОЕ ПРОТЕЗИРОВАНИЕ</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<table>
+<tbody>
+<tr>
+<td>Временная коронка</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Гибридизация</td>
+<td>100.00грн</td>
+</tr>
+<tr>
+<td>Пластмассовая коронка</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Цельнолитая коронка</td>
+<td>900.00грн</td>
+</tr>
+<tr>
+<td>Металлокерамическая коронка</td>
+<td>2500.00грн</td>
+</tr>
+<tr>
+<td>Металлокерамическая коронка (фронтальная)</td>
+<td>2500.00грн</td>
+</tr>
+<tr>
+<td>Металлокерамическая коронка (с плечевой массой)</td>
+<td>3000.00грн</td>
+</tr>
+<tr>
+<td>Прессованная коронка</td>
+<td>7700.00грн</td>
+</tr>
+<tr>
+<td>Прессованная коронка повышенной эстетиики</td>
+<td>7700.00грн</td>
+</tr>
+<tr>
+<td>Циркониевая коронка</td>
+<td>7700.00грн</td>
+</tr>
+<tr>
+<td>Циркониевая коронка повышенной эстетиики</td>
+<td>7700.00грн</td>
+</tr>
+<tr>
+<td>Керамический винир</td>
+<td>7700.00грн</td>
+</tr>
+<tr>
+<td>Снятие штамповой коронки</td>
+<td>200.00грн</td>
+</tr>
+<tr>
+<td>Снятие цельнолитой, металлокерамической коронки</td>
+<td>300.00грн</td>
+</tr>
+<tr>
+<td>Цементировка коронки (чужой)</td>
+<td>200.00грн</td>
+</tr>
+<tr>
+<td>Изготовление штифтовой вкладки</td>
+<td>600.00грн</td>
+</tr>
+<tr>
+<td>Извлечение штифта</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Анкерный штифт + композитная культя</td>
+<td>600.00грн</td>
+</tr>
+<tr>
+<td>Постановка импланта Alpha-Bio (І этап)</td>
+<td>9000.00грн</td>
+</tr>
+<tr>
+<td>Формирователь десны+абатмент (ІІ этап)</td>
+<td>1500.00грн</td>
+</tr>
+<tr>
+<td>Металлокерамическая коронка на имплантанте (ІІІ этап)</td>
+<td>3000.00грн</td>
+</tr>
+<tr>
+<td>Установка формирователя десны</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Индивидуальный абатмент циркониевый</td>
+<td>6000.00грн</td>
+</tr>
+<tr>
+<td>Временная металлокерамическая коронка</td>
+<td>1200.00грн</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1543771683012-fb08c96f-4880">СЪЕМНОЕ ПРОТЕЗИРОВАНИЕ</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<table>
+<tbody>
+<tr>
+<td>Диагностическая модель</td>
+<td>200.00грн</td>
+</tr>
+<tr>
+<td>Частичный съемный протез</td>
+<td>3500.00грн</td>
+</tr>
+<tr>
+<td>Полный съемный протез</td>
+<td>5000.00грн</td>
+</tr>
+<tr>
+<td>Нейлоновый протез</td>
+<td>5500.00грн</td>
+</tr>
+<tr>
+<td>Частичный протез «бабочка»</td>
+<td>1500.00грн</td>
+</tr>
+<tr>
+<td>Бюгельный протез</td>
+<td>7500.00грн</td>
+</tr>
+<tr>
+<td>Замок бюгельного протеза (аттачмент)</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Бюгельный протез с ацеталовым базисом</td>
+<td>5850.00грн</td>
+</tr>
+<tr>
+<td>Условно съемный протез с винтовой фиксацией</td>
+<td>12000.00грн</td>
+</tr>
+<tr>
+<td>Съемный протез с фиксацией на временных имп.</td>
+<td>4500.00грн</td>
+</tr>
+<tr>
+<td>Ацеталовый кламер</td>
+<td>600.00грн</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1543771726960-67375e25-7c6e">ПОЧИНКИ</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<table>
+<tbody>
+<tr>
+<td>Перелом базиса</td>
+<td>750.00грн</td>
+</tr>
+<tr>
+<td>Приварка зуба</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Приварка кламмера</td>
+<td>600.00грн</td>
+</tr>
+<tr>
+<td>Перебазировка</td>
+<td>600.00грн</td>
+</tr>
+<tr>
+<td>Перебазировка в условиях лаборатории</td>
+<td>1000.00грн</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1543771764987-6196fa9b-57e0">ПРОФИЛАКТИКА СТОМАТОЛОГИЧЕСКИХ ЗАБОЛЕВАНИЙ</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<table>
+<tbody>
+<tr>
+<td>Профессиональная гигиеническая чистка зубов</td>
+<td>900.00грн</td>
+</tr>
+<tr>
+<td>Обработка лазером (1 челюсть)</td>
+<td>250.00грн</td>
+</tr>
+<tr>
+<td>Снятие зубных отложений Аэр-фло (1 челюсть)</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Снятие поддесневых отложений скайлером (1 челюсть)</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Пародонтальная повязка (1 челюсть)</td>
+<td>200.00грн</td>
+</tr>
+<tr>
+<td>Чистка 1 челюсти</td>
+<td>600.00грн</td>
+</tr>
+<tr>
+<td>Чистка 1 сегмента</td>
+<td>400.00грн</td>
+</tr>
+<tr>
+<td>Урок гигиены с подбором средств для индивидуальной гигены полости рта, составление индивидуального плана-графика санации полости рта</td>
+<td>300.00грн</td>
+</tr>
+<tr>
+<td>Контроль чистки зубов</td>
+<td>100.00грн</td>
+</tr>
+<tr>
+<td>Вектор-терапия полная первичная</td>
+<td>3000.00грн</td>
+</tr>
+<tr>
+<td>Вектор-терапия полная вторичная</td>
+<td>2000.00грн</td>
+</tr>
+<tr>
+<td>Вектор-терапия: 1 зуб</td>
+<td>200.00грн</td>
+</tr>
+<tr>
+<td>Кюретаж (1 зуб )</td>
+<td>300.00грн</td>
+</tr>
+<tr>
+<td>Регинерализующая терапия</td>
+<td>200.00грн</td>
+</tr>
+<tr>
+<td>Ортодонтическая капа (1 сет)</td>
+<td>5000.00грн</td>
+</tr>
+<tr>
+<td>Ортодонтическая капа (2 сет)</td>
+<td>3000.00грн</td>
+</tr>
+<tr>
+<td>Лечение парадонтита 1 степени</td>
+<td>6000.00грн</td>
+</tr>
+<tr>
+<td>Лечение парадонтита 2 степени</td>
+<td>7000.00грн</td>
+</tr>
+<tr>
+<td>Лечение парадонтита 3 степени</td>
+<td>8000.00грн</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1543771801916-26ab28c1-3029">ОТБЕЛИВАНИЕ ЗУБОВ</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<table>
+<tbody>
+<tr>
+<td>Изготовление индивидуальной каппы (1 челюсть)</td>
+<td>800.00грн</td>
+</tr>
+<tr>
+<td>Отбеливание лазером (2 челюсти)</td>
+<td>5000.00грн</td>
+</tr>
+<tr>
+<td>Домашнее отбеливание с помощью индивидуальных капп (1 челюсть)</td>
+<td>от 5000.00грн</td>
+</tr>
+<tr>
+<td>Отбеливание с ионизацией ультрафиолетом (1 челюсть)</td>
+<td>3000.00грн</td>
+</tr>
+<tr>
+<td>Отбеливание с ионизацией ультрафиолетом (2 челюсти)</td>
+<td>5200.00грн</td>
+</tr>
+<tr>
+<td>Дополнительный шприц</td>
+<td>1000.00грн</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1543771847569-3031394c-629a">ИНЪЕКЦИИ</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<table>
+<tbody>
+<tr>
+<td>Антибиотик</td>
+<td>150.00грн</td>
+</tr>
+<tr>
+<td>Витамины</td>
+<td>150.00грн</td>
+</tr>
+<tr>
+<td>Траумель С</td>
+<td>150.00грн</td>
+</tr>
+<tr>
+<td>Инъекции вивакс</td>
+<td>600.00грн</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1543771952148-96234c63-6ca8">ПРОФИЛАКТИКА СТОМАТОЛОГИЧЕСКИХ ЗАБОЛЕВАНИЙ ДЛЯ ДЕТЕЙ</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<table>
+<tbody>
+<tr>
+<td>Осмотр</td>
+<td>150.00грн</td>
+</tr>
+<tr>
+<td>Профессиональная чистка полости рта</td>
+<td>400.00грн</td>
+</tr>
+<tr>
+<td>Регинерализующая терапия всех зубов</td>
+<td>300.00грн</td>
+</tr>
+<tr>
+<td>Урок гигиены полости рта с подбором средств, рекомендации по питанию</td>
+<td>200.00грн</td>
+</tr>
+<tr>
+<td>Контроль чистки зубов по мере формирования навыков гигиены</td>
+<td>150.00грн</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1543771995692-dad070a7-96e6">ХИРУРГИЯ</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<table>
+<tbody>
+<tr>
+<td>Удаление однокорневого зуба</td>
+<td>400.00грн</td>
+</tr>
+<tr>
+<td>Удаление 2-х корневого зуба</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Удаление 3-х корневого зуба</td>
+<td>700.00грн</td>
+</tr>
+<tr>
+<td>Удаление 8-го зуба</td>
+<td>1000.00грн</td>
+</tr>
+<tr>
+<td>Сложное удаление</td>
+<td>1400.00грн</td>
+</tr>
+<tr>
+<td>Ушивание лунки</td>
+<td>200.00грн</td>
+</tr>
+<tr>
+<td>Лечение альвеолита</td>
+<td>200.00грн</td>
+</tr>
+<tr>
+<td>Лечение перикоронарита</td>
+<td>400.00грн</td>
+</tr>
+<tr>
+<td>Вскрытие абсцесса</td>
+<td>300.00грн</td>
+</tr>
+<tr>
+<td>Гингивэктомияа</td>
+<td>500.00грн</td>
+</tr>
+<tr>
+<td>Удаление парадонтозного зуба</td>
+<td>150.00грн</td>
+</tr>
+</tbody>
+</table>
+
+		</div>
+	</div>
+								</div>
+							</div>
+									</div>
+		</div>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+		<style scoped>.vu_section .vu_s-custom-688262.vu_s-wrapper.vu_s-color-overlay:before{background-color:rgba(80,176,227,0.7)}</style>		<div class="vu_s-wrapper p-t-25 p-b-25 vu_s-bg-image vu_s-color-overlay vu_s-custom-688262 vc_custom_1543841057599" data-parallax="scroll" data-image-src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/bright-smile.jpg?id=1161">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-294100">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-403881 col-md-3">
+		<div class="vu_c-wrapper">
+					<div class="vu_counter vu_c-size-large">
+			<span class="vu_c-digit" style="color:#ffffff">17</span>
+			<h5 class="vu_c-label" style="color:#ffffff">МНОГОЛЕТНИЙ ОПЫТ</h5>
+		</div>
+			</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-374685 col-md-3">
+		<div class="vu_c-wrapper">
+					<div class="vu_counter vu_c-size-large">
+			<span class="vu_c-digit" style="color:#ffffff">1124</span>
+			<h5 class="vu_c-label" style="color:#ffffff">ПАЦИЕНТОВ В ГОД</h5>
+		</div>
+			</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-103240 col-md-3">
+		<div class="vu_c-wrapper">
+					<div class="vu_counter vu_c-size-large">
+			<span class="vu_c-digit" style="color:#ffffff">12</span>
+			<h5 class="vu_c-label" style="color:#ffffff">СОТРУДНИКОВ</h5>
+		</div>
+			</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-707955 col-md-3">
+		<div class="vu_c-wrapper">
+					<div class="vu_counter vu_c-size-large">
+			<span class="vu_c-digit" style="color:#ffffff">2317</span>
+			<h5 class="vu_c-label" style="color:#ffffff">СЧАСТЛИВЫХ УЛЫБОК</h5>
+		</div>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper p-b-0 vu_s-custom-570324">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-equal-height vu_r-custom-348208">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column col-sm-8 vu_c-layout-normal vu_c-valign-middle vu_c-custom-423492 col-md-8">
+		<div class="vu_c-wrapper">
+					<header class="vu_heading vu_h-style-1 vu_h-alignment-left">
+			
+							<h2 class="vu_h-heading">Наша команда</h2>
+			
+							<div class="vu_h-subheading">
+					<p>Встречайте наш персонал</p>
+				</div>
+					</header>
+			</div>
+	</div>
+
+	
+	<div class="vu_column col-sm-4 text-right vu_text-left-md vu_c-layout-normal vu_c-valign-middle vu_c-custom-796615 col-md-4">
+		<div class="vu_c-wrapper">
+					<a href="https://shalda.github.io/testArtdent/about/" title="" target="_self" class="vu_button btn btn-inverse btn-sm btn-secondary btn-icon m-b-30">
+			<span>Просмотреть весь персонал</span><i class="vu_fi vu_fi-arrow-right"></i>		</a>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-390478">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-376223 col-md-4">
+		<div class="vu_c-wrapper">
+					<div class="vu_team-member vu_tm-style-1 vu_tm-with-social-networks" itemscope="itemscope" itemtype="https://schema.org/Person">
+			<div class="vu_tm-container">
+				
+				<div class="vu_tm-info">
+					<h4 class="vu_tm-name"><a href="https://shalda.github.io/testArtdent/meet-the-dentist/" title="" target="_self">Головина М.А.</a></h4>					
+											<span class="vu_tm-position" itemprop="jobTitle">Гигиенист</span>
+									</div>
+			</div>
+			
+					</div>
+			</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-383392 col-md-4">
+		<div class="vu_c-wrapper">
+					<div class="vu_team-member vu_tm-style-1 vu_tm-with-social-networks" itemscope="itemscope" itemtype="https://schema.org/Person">
+			<div class="vu_tm-container">
+				
+				<div class="vu_tm-info">
+					<h4 class="vu_tm-name"><a href="https://shalda.github.io/testArtdent/meet-the-dentist/" title="" target="_self">Соломяный С.П.</a></h4>					
+											<span class="vu_tm-position" itemprop="jobTitle">Реставратор, Ортопед, Хирург</span>
+									</div>
+			</div>
+			
+					</div>
+			</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-306954 col-md-4">
+		<div class="vu_c-wrapper">
+					<div class="vu_team-member vu_tm-style-1 vu_tm-with-social-networks" itemscope="itemscope" itemtype="https://schema.org/Person">
+			<div class="vu_tm-container">
+				
+				<div class="vu_tm-info">
+					<h4 class="vu_tm-name"><a href="https://shalda.github.io/testArtdent/meet-the-dentist/" title="" target="_self">Третевич Э.В.</a></h4>					
+											<span class="vu_tm-position" itemprop="jobTitle">Эндодонт</span>
+									</div>
+			</div>
+			
+					</div>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper p-b-0 vu_s-custom-173718">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-equal-height vu_r-custom-880606">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column col-sm-8 vu_c-layout-normal vu_c-valign-middle vu_c-custom-967315 col-md-8">
+		<div class="vu_c-wrapper">
+					<header class="vu_heading vu_h-style-1 vu_h-alignment-left">
+			
+							<h2 class="vu_h-heading">Наши статьи</h2>
+			
+							<div class="vu_h-subheading">
+					<p>Будьте в курсе последних новостей </p>
+				</div>
+					</header>
+			</div>
+	</div>
+
+	
+	<div class="vu_column col-sm-4 text-right vu_text-left-md vu_c-layout-normal vu_c-valign-middle vu_c-custom-335848 col-md-4">
+		<div class="vu_c-wrapper">
+					<a href="https://shalda.github.io/testArtdent/blog/" title="" target="_self" class="vu_button btn btn-inverse btn-sm btn-secondary btn-icon m-b-30">
+			<span>Просмотреть все</span><i class="vu_fi vu_fi-arrow-right"></i>		</a>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-679418">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-933230">
+		<div class="vu_c-wrapper">
+					<div class="vu_blog vu_b-type-carousel vu_b-layout-2 clearfix">
+							<div class="vu_b-carousel vu_carousel" data-options="{&quot;singleItem&quot;:false,&quot;items&quot;:2,&quot;itemsDesktop&quot;:[1199,2],&quot;itemsDesktopSmall&quot;:[980,2],&quot;itemsTablet&quot;:[768,2],&quot;itemsMobile&quot;:[479,1],&quot;navigation&quot;:false,&quot;navigationText&quot;:[&quot;&lt;i class=\&quot;fa fa-angle-left\&quot;&gt;&lt;\/i&gt;&quot;,&quot;&lt;i class=\&quot;fa fa-angle-right\&quot;&gt;&lt;\/i&gt;&quot;],&quot;pagination&quot;:true,&quot;autoHeight&quot;:true,&quot;rewindNav&quot;:true,&quot;scrollPerPage&quot;:true,&quot;autoPlay&quot;:false,&quot;stopOnHover&quot;:false}">
+			
+									
+						<article class="vu_b-item vu_blog-post post-97 post type-post status-publish format-aside has-post-thumbnail hentry category-1 post_format-post-format-aside" data-id="97" itemscope="itemscope" itemtype="https://schema.org/BlogPosting">
+															<div class="vu_bp-image">
+									<img width="425" height="212" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news1.jpg" class="attachment-dentalpress_ratio-2:1 size-dentalpress_ratio-2:1 wp-post-image" alt="" itemprop="image" srcset="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news1.jpg 425w, https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news1-300x150.jpg 300w" sizes="(max-width: 425px) 100vw, 425px" />
+																			<span class="vu_bp-categories">
+											<a href="https://shalda.github.io/testArtdent/category/%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8/" rel="category tag">Без рубрики</a>										</span>
+																	</div>
+							
+							<div class="vu_bp-content-wrapper">
+								<header class="vu_bp-header">
+									
+									<div class="clear"></div>
+
+									<h3 class="vu_bp-title entry-title" itemprop="name">
+										<a href="https://shalda.github.io/testArtdent/2018/08/03/gigenicheskayachistka/" itemprop="url" rel="bookmark" title="Гигиеническая чистка зубов – надежная защита от кариеса">Гигиеническая чистка зубов – надежная защита от кариеса</a>
+									</h3>
+								</header>
+
+																	<div class="vu_bp-content">
+										<div class="vu_bp-content-excerpt" itemprop="description">
+											Не секрет, что даже взрослые люди боятся идти в стоматологию, откладывая визит до последнего. Между тем, дантист совсем не страшен пациентам, которые регулярно проверяют [...]										</div>
+
+										<div class="clear"></div>
+
+										<a href="https://shalda.github.io/testArtdent/2018/08/03/gigenicheskayachistka/" class="vu_bp-read-more">
+											<span class="vu_bp-btn">
+												<i class="vu_bp-btn-icon-left vu_fi vu_fi-arrow-right"></i>
+												<span class="vu_bp-btn-text">Читать далее</span>
+												<i class="vu_bp-btn-icon-right vu_fi vu_fi-arrow-right"></i>
+											</span>
+										</a>
+									</div>
+															</div>
+						</article>
+														
+						<article class="vu_b-item vu_blog-post post-105 post type-post status-publish format-image has-post-thumbnail hentry category-1 post_format-post-format-image" data-id="105" itemscope="itemscope" itemtype="https://schema.org/BlogPosting">
+															<div class="vu_bp-image">
+									<img width="425" height="212" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news7.jpg" class="attachment-dentalpress_ratio-2:1 size-dentalpress_ratio-2:1 wp-post-image" alt="" itemprop="image" srcset="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news7.jpg 425w, https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news7-300x150.jpg 300w" sizes="(max-width: 425px) 100vw, 425px" />
+																			<span class="vu_bp-categories">
+											<a href="https://shalda.github.io/testArtdent/category/%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8/" rel="category tag">Без рубрики</a>										</span>
+																	</div>
+							
+							<div class="vu_bp-content-wrapper">
+								<header class="vu_bp-header">
+									
+									<div class="clear"></div>
+
+									<h3 class="vu_bp-title entry-title" itemprop="name">
+										<a href="https://shalda.github.io/testArtdent/2018/03/17/ispravlenieprikusa/" itemprop="url" rel="bookmark" title="Исправление прикуса без брекетов: возможно ли это?">Исправление прикуса без брекетов: возможно ли это?</a>
+									</h3>
+								</header>
+
+																	<div class="vu_bp-content">
+										<div class="vu_bp-content-excerpt" itemprop="description">
+											Судя по результатам медицинских обследований, зубы растут стройными рядами только у 10–20% счастливчиков. Остальным приходится мириться с дефектами прикуса или исправлять ситуацию. Первое, что [...]										</div>
+
+										<div class="clear"></div>
+
+										<a href="https://shalda.github.io/testArtdent/2018/03/17/ispravlenieprikusa/" class="vu_bp-read-more">
+											<span class="vu_bp-btn">
+												<i class="vu_bp-btn-icon-left vu_fi vu_fi-arrow-right"></i>
+												<span class="vu_bp-btn-text">Читать далее</span>
+												<i class="vu_bp-btn-icon-right vu_fi vu_fi-arrow-right"></i>
+											</span>
+										</a>
+									</div>
+															</div>
+						</article>
+														
+						<article class="vu_b-item vu_blog-post post-107 post type-post status-publish format-standard has-post-thumbnail hentry category-1 tag-tag1 tag-tag2 tag-tag3" data-id="107" itemscope="itemscope" itemtype="https://schema.org/BlogPosting">
+															<div class="vu_bp-image">
+									<img width="425" height="212" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news2.jpg" class="attachment-dentalpress_ratio-2:1 size-dentalpress_ratio-2:1 wp-post-image" alt="" itemprop="image" srcset="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news2.jpg 425w, https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news2-300x150.jpg 300w" sizes="(max-width: 425px) 100vw, 425px" />
+																			<span class="vu_bp-categories">
+											<a href="https://shalda.github.io/testArtdent/category/%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8/" rel="category tag">Без рубрики</a>										</span>
+																	</div>
+							
+							<div class="vu_bp-content-wrapper">
+								<header class="vu_bp-header">
+									
+									<div class="clear"></div>
+
+									<h3 class="vu_bp-title entry-title" itemprop="name">
+										<a href="https://shalda.github.io/testArtdent/2018/03/12/uhodparodontoz/" itemprop="url" rel="bookmark" title="Уход за деснами при пародонтозе">Уход за деснами при пародонтозе</a>
+									</h3>
+								</header>
+
+																	<div class="vu_bp-content">
+										<div class="vu_bp-content-excerpt" itemprop="description">
+											Несмотря на то, что термин «пародонтоз» знаком каждому – спасибо рекламе, это заболевание встречается редко, только у 2–8% людей. Гораздо чаще недуг путают с [...]										</div>
+
+										<div class="clear"></div>
+
+										<a href="https://shalda.github.io/testArtdent/2018/03/12/uhodparodontoz/" class="vu_bp-read-more">
+											<span class="vu_bp-btn">
+												<i class="vu_bp-btn-icon-left vu_fi vu_fi-arrow-right"></i>
+												<span class="vu_bp-btn-text">Читать далее</span>
+												<i class="vu_bp-btn-icon-right vu_fi vu_fi-arrow-right"></i>
+											</span>
+										</a>
+									</div>
+															</div>
+						</article>
+														
+						<article class="vu_b-item vu_blog-post post-99 post type-post status-publish format-aside has-post-thumbnail hentry category-1 post_format-post-format-aside" data-id="99" itemscope="itemscope" itemtype="https://schema.org/BlogPosting">
+															<div class="vu_bp-image">
+									<img width="425" height="212" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news6.jpg" class="attachment-dentalpress_ratio-2:1 size-dentalpress_ratio-2:1 wp-post-image" alt="" itemprop="image" srcset="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news6.jpg 425w, https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news6-300x150.jpg 300w" sizes="(max-width: 425px) 100vw, 425px" />
+																			<span class="vu_bp-categories">
+											<a href="https://shalda.github.io/testArtdent/category/%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8/" rel="category tag">Без рубрики</a>										</span>
+																	</div>
+							
+							<div class="vu_bp-content-wrapper">
+								<header class="vu_bp-header">
+									
+									<div class="clear"></div>
+
+									<h3 class="vu_bp-title entry-title" itemprop="name">
+										<a href="https://shalda.github.io/testArtdent/2017/11/23/rentgenzuba/" itemprop="url" rel="bookmark" title="Рентген зуба: показания и особенности диагностики">Рентген зуба: показания и особенности диагностики</a>
+									</h3>
+								</header>
+
+																	<div class="vu_bp-content">
+										<div class="vu_bp-content-excerpt" itemprop="description">
+											Решить судьбу зуба, выбрать правильное направление лечения помогает рентгеновский снимок. На черно-белой пленке врачу видно, в каком состоянии корни и нервы зуба, есть ли [...]										</div>
+
+										<div class="clear"></div>
+
+										<a href="https://shalda.github.io/testArtdent/2017/11/23/rentgenzuba/" class="vu_bp-read-more">
+											<span class="vu_bp-btn">
+												<i class="vu_bp-btn-icon-left vu_fi vu_fi-arrow-right"></i>
+												<span class="vu_bp-btn-text">Читать далее</span>
+												<i class="vu_bp-btn-icon-right vu_fi vu_fi-arrow-right"></i>
+											</span>
+										</a>
+									</div>
+															</div>
+						</article>
+														
+						<article class="vu_b-item vu_blog-post post-101 post type-post status-publish format-aside has-post-thumbnail hentry category-1 post_format-post-format-aside" data-id="101" itemscope="itemscope" itemtype="https://schema.org/BlogPosting">
+															<div class="vu_bp-image">
+									<img width="425" height="212" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news5.jpg" class="attachment-dentalpress_ratio-2:1 size-dentalpress_ratio-2:1 wp-post-image" alt="" itemprop="image" srcset="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news5.jpg 425w, https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news5-300x150.jpg 300w" sizes="(max-width: 425px) 100vw, 425px" />
+																			<span class="vu_bp-categories">
+											<a href="https://shalda.github.io/testArtdent/category/%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8/" rel="category tag">Без рубрики</a>										</span>
+																	</div>
+							
+							<div class="vu_bp-content-wrapper">
+								<header class="vu_bp-header">
+									
+									<div class="clear"></div>
+
+									<h3 class="vu_bp-title entry-title" itemprop="name">
+										<a href="https://shalda.github.io/testArtdent/2017/08/17/lechenienerva/" itemprop="url" rel="bookmark" title="Лечение тройничного нерва после удаления зуба">Лечение тройничного нерва после удаления зуба</a>
+									</h3>
+								</header>
+
+																	<div class="vu_bp-content">
+										<div class="vu_bp-content-excerpt" itemprop="description">
+											Иногда после удаления зуба пациенты испытывают сильные боли в области носа, глаз и височно-нижнечелюстного сустава. Их вызывают обыденные вещи, такие как чистка зубов, нанесение [...]										</div>
+
+										<div class="clear"></div>
+
+										<a href="https://shalda.github.io/testArtdent/2017/08/17/lechenienerva/" class="vu_bp-read-more">
+											<span class="vu_bp-btn">
+												<i class="vu_bp-btn-icon-left vu_fi vu_fi-arrow-right"></i>
+												<span class="vu_bp-btn-text">Читать далее</span>
+												<i class="vu_bp-btn-icon-right vu_fi vu_fi-arrow-right"></i>
+											</span>
+										</a>
+									</div>
+															</div>
+						</article>
+														
+						<article class="vu_b-item vu_blog-post post-103 post type-post status-publish format-gallery has-post-thumbnail hentry category-1 post_format-post-format-gallery" data-id="103" itemscope="itemscope" itemtype="https://schema.org/BlogPosting">
+															<div class="vu_bp-image">
+									<img width="425" height="211" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news4.jpg" class="attachment-dentalpress_ratio-2:1 size-dentalpress_ratio-2:1 wp-post-image" alt="" itemprop="image" srcset="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news4.jpg 425w, https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/news4-300x149.jpg 300w" sizes="(max-width: 425px) 100vw, 425px" />
+																			<span class="vu_bp-categories">
+											<a href="https://shalda.github.io/testArtdent/category/%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8/" rel="category tag">Без рубрики</a>										</span>
+																	</div>
+							
+							<div class="vu_bp-content-wrapper">
+								<header class="vu_bp-header">
+									
+									<div class="clear"></div>
+
+									<h3 class="vu_bp-title entry-title" itemprop="name">
+										<a href="https://shalda.github.io/testArtdent/2015/12/21/lasernayastomatologiya/" itemprop="url" rel="bookmark" title="Лазерная стоматология – прогресс в действии">Лазерная стоматология – прогресс в действии</a>
+									</h3>
+								</header>
+
+																	<div class="vu_bp-content">
+										<div class="vu_bp-content-excerpt" itemprop="description">
+											Оптоволоконные линии, Blu-Ray приводы, косметология, военное дело, теперь в этот ряд попала и стоматология. Эти, на первый взгляд, логически несвязанные сферы объединил лазер. То, [...]										</div>
+
+										<div class="clear"></div>
+
+										<a href="https://shalda.github.io/testArtdent/2015/12/21/lasernayastomatologiya/" class="vu_bp-read-more">
+											<span class="vu_bp-btn">
+												<i class="vu_bp-btn-icon-left vu_fi vu_fi-arrow-right"></i>
+												<span class="vu_bp-btn-text">Читать далее</span>
+												<i class="vu_bp-btn-icon-right vu_fi vu_fi-arrow-right"></i>
+											</span>
+										</a>
+									</div>
+															</div>
+						</article>
+																</div>
+		</div>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+		<style scoped>.vu_section .vu_s-custom-909637.vu_s-wrapper.vu_s-color-overlay:before{background-color:rgba(0,0,0,0.35)}</style>		<div class="vu_s-wrapper vu_s-bg-image vu_s-color-overlay vu_s-custom-909637 vc_custom_1543839364538" data-parallax="scroll" data-image-src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/hirurgia.jpg?id=1126">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-630172">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-416955 col-md-2">
+		<div class="vu_c-wrapper">
+					</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-955972 col-md-8">
+		<div class="vu_c-wrapper">
+			
+	<div class="wpb_text_column wpb_content_element m-b-20" >
+		<div class="wpb_wrapper">
+			<h3 class="m-t-0 m-b-0" style="text-align: center;"><span style="color: #a4d735;">Подпишись На Уведомления</span></h3>
+<h3 class="m-t-0 m-b-0" style="text-align: center;"><span style="color: #ffffff;">получай сообщения о специальных предложениях</span></h3>
+
+		</div>
+	</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-294732 col-md-2">
+		<div class="vu_c-wrapper">
+					</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-486801">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-145703 col-md-3">
+		<div class="vu_c-wrapper">
+					</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-920706 col-md-6">
+		<div class="vu_c-wrapper">
+			
+	<div class="wpb_text_column wpb_content_element m-b-20" >
+		<div class="wpb_wrapper">
+			
+		<div class="vu_newsletter">
+			
+			<form class="vu_n-form vu_frm-ajax vu_clear-fields" role="form">
+				<div class="hide">
+					<input type="hidden" name="action" value="vu_newsletter">
+					<input type="hidden" name="_wpnonce" value="a23f7cfb44">
+				</div>
+
+				<input type="email" name="email" class="form-control" placeholder="Email адрес">
+				<button type="submit" class="vu_n-button fa fa-paper-plane"></button>
+
+				<div class="clear"></div>
+
+				<div class="vu_msg" data-class="m-t-15 m-b-0"></div>
+			</form>
+		</div>
+
+
+		
+
+		</div>
+	</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-556976 col-md-3">
+		<div class="vu_c-wrapper">
+					</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-552609">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-175036 col-md-2">
+		<div class="vu_c-wrapper">
+					</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-349307 col-md-8">
+		<div class="vu_c-wrapper">
+			
+	<div class="wpb_text_column wpb_content_element m-b-0" >
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><span style="color: #ffffff;">Предоставляя нам свой адрес электронной почты, вы соглашаетесь с </span><br />
+<span style="color: #ffffff;"> данными <a href="#">условиями предоставления услуг.</a></span></p>
+
+		</div>
+	</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-880743 col-md-2">
+		<div class="vu_c-wrapper">
+					</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper no-padding vu_s-custom-124472">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-364331">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-113650">
+		<div class="vu_c-wrapper">
+			<div class="vu_map vu_m-fullwith" data-options="{&quot;zoom_level&quot;:&quot;16&quot;,&quot;center_lat&quot;:&quot;50.462138&quot;,&quot;center_lng&quot;:&quot;30.4769657&quot;,&quot;map_type&quot;:&quot;roadmap&quot;,&quot;tilt_45&quot;:&quot;&quot;,&quot;others_options&quot;:{&quot;draggable&quot;:&quot;1&quot;,&quot;zoomControl&quot;:&quot;&quot;,&quot;disableDoubleClickZoom&quot;:&quot;&quot;,&quot;scrollwheel&quot;:&quot;&quot;,&quot;panControl&quot;:&quot;&quot;,&quot;mapTypeControl&quot;:&quot;&quot;,&quot;scaleControl&quot;:&quot;&quot;,&quot;streetViewControl&quot;:&quot;&quot;},&quot;use_custom_marker&quot;:&quot;1&quot;,&quot;custom_marker&quot;:&quot;https:\/\/shalda.github.io\/testArtdent\/wp-content\/uploads\/2017\/08\/map-marker.png&quot;,&quot;enable_animation&quot;:&quot;1&quot;,&quot;locations&quot;:[{&quot;lat&quot;:&quot;50.462138&quot;,&quot;lng&quot;:&quot;30.4769657&quot;,&quot;info&quot;:&quot;&quot;,&quot;marker_id&quot;:&quot;57&quot;,&quot;marker_url&quot;:&quot;https:\/\/shalda.github.io\/testArtdent\/wp-content\/uploads\/2017\/08\/map-marker.png&quot;}],&quot;styles&quot;:&quot;&quot;}" style="height:360px;"></div>		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+			
+					</div>
+		<!-- /Content -->
+
+					<aside class="vu_sidebar vu_s-inherit col-xs-12 col-md-3" role="complementary" itemscope="itemscope" itemtype="https://schema.org/WPSideBar">
+				<div class="widget widget_text text-1 clearfix">			<div class="textwidget"><div class="vu_dental-emergency" style="background-image: url('https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/slider_thumbnail.jpg');">
+<div class="vu_de-content">
+<h4><strong>Экстренный вызов?</strong></h4>
+<strong>+38<em>(063) 597-3836</em></strong>
+
+</div>
+</div></div>
+		</div><div class="widget widget_text text-2 clearfix">			<div class="textwidget"><a class="btn btn-primary btn-block btn-left btn-icon m-b-15" href="tel: 044235-8975">(044) 235-8975<i class="fa fa-phone" style="float: right;"></i></a>
+
+<a class="btn btn-secondary btn-block btn-left btn-icon" href="tel: 272-2618">(044) 272-2618<i class="fa fa-phone" style="float: right;"></i></a></div>
+		</div><div class="widget widget_text text-4 clearfix">			<div class="textwidget"><div class="text-center">
+<h4 class="m-t-0 m-b-10">Нужна помощь?</h4>
+<p class="m-b-20">Каждый член нашей команды окажет Вам отличную стоматологическую помощь в спокойной, дружественной обстановке. Мы являемся стоматологической клиникой общего профиля, предоставляя широкий спектр услуг и процедур.</p>
+<a class="btn btn-primary btn-inverse btn-sm btn-icon" href="#">Контакты   <i class="fa fa-phone-square"></i></a>
+
+</div></div>
+		</div><div class="widget widget_text text-5 clearfix"><h3 class="widget_title">Мы в соцсетях</h3>			<div class="textwidget"><div class="vu_social-icon"><a href="#" target="_self"><i class="fa fa-facebook"></i></a></div><div class="vu_social-icon"><a href="#" target="_self"><i class="fa fa-instagram"></i></a></div></div>
+		</div>			</aside>
+		
+					</div>
+		</div>
+		<!-- /Container -->
+
+		<!-- Footer -->
+		<footer id="vu_main-footer" class="vu_main-footer" role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
+							<!-- Footer Widgets -->
+				<div class="vu_mf-widgets m-b-20">
+					<div class="container">
+						<div class="row">
+							<div class="vu_mf-footer-1 col-md-3 col-xs-12"><div class="widget widget_text text-9 clearfix">			<div class="textwidget"><img style="display: block; width: 125px; margin: 0 0 15px 0;" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/11/artdent1.png" alt="ArtDent Theme" />
+<em>Эстетическая стоматология &#171;Арт&#187;. Свитедельство о государственной регистрации ЧП &#171;Лыбидь 45&#187; № 213770. Лицензия министерства здравоохранения №511903 от 21.01.2010г.</em>
+<div class="vu_contact-info-item m-t-25">
+<div class="vu_ii-details">
+<p class="vu_ii-desc">г. Киев, ул. Дегтярёвская, 6</p>
+<p class="vu_ii-desc">044 235 89 75</p>
+<p class="vu_ii-desc">044 272 26 18</p>
+<p class="vu_ii-desc">063 597 38 36</p>
+
+</div>
+</div></div>
+		</div></div><div class="vu_mf-footer-2 col-md-3 col-xs-12"><div class="widget widget_text text-10 clearfix"><h3 class="widget_title">Наша Галерея</h3>			<div class="textwidget"><a href="https://shalda.github.io/testArtdent/gallery/">подробнее</a></div>
+		</div><div class="widget widget_media_gallery media_gallery-2 clearfix">
+		<style type='text/css'>
+			#gallery-1 {
+				margin: auto;
+			}
+			#gallery-1 .gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 33%;
+			}
+			#gallery-1 img {
+				border: 2px solid #cfcfcf;
+			}
+			#gallery-1 .gallery-caption {
+				margin-left: 0;
+			}
+			/* see gallery_shortcode() in wp-includes/media.php */
+		</style>
+		<div id='gallery-1' class='gallery galleryid-73 gallery-columns-3 gallery-size-thumbnail'><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio9.jpg'><img width="150" height="150" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio9-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio5.jpg'><img width="150" height="150" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio5-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio1.jpg'><img width="150" height="150" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</dt></dl><br style="clear: both" /><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio3.jpg'><img width="150" height="150" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio3-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon portrait'>
+				<a href='https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/stomatolog.jpg'><img width="150" height="150" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/stomatolog-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/rokstories-blank1.png'><img width="150" height="150" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/rokstories-blank1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</dt></dl><br style="clear: both" />
+		</div>
+</div><div class="widget widget_text text-13 clearfix">			<div class="textwidget"><div class="vu_social-icon"><a href="#" target="_self"><i class="fa fa-facebook"></i></a></div><div class="vu_social-icon"><a href="#" target="_self"><i class="fa fa-instagram"></i></a></div></div>
+		</div></div><div class="vu_mf-footer-3 col-md-3 col-xs-12"><div class="widget widget_text text-11 clearfix"><h3 class="widget_title">Наши услуги</h3>			<div class="textwidget"><ul class="vu_list-with-icon" data-font="FontAwesome" data-icon="" data-color="primary">
+ 	<li><a href="#">Отбеливание</a></li>
+ 	<li><a href="#">Имплантология</a></li>
+ 	<li><a href="#">Протезирование</a></li>
+ 	<li><a href="#">Терапевтическая стоматология</a></li>
+ 	<li><a href="#">Хирургия</a></li>
+ 	<li><a href="#">Профилактика полости рта</a></li>
+</ul></div>
+		</div></div><div class="vu_mf-footer-4 col-md-3 col-xs-12"><div class="widget widget_text text-12 clearfix"><h3 class="widget_title">Часы Работы</h3>			<div class="textwidget"><div class="vu_working-hours">
+<div class="vu_wh-item" data-day="1">
+<div class="vu_wh-day">Понедельник</div>
+<div class="vu_wh-hours">9:00 &#8212; 21:00</div>
+</div>
+<div class="vu_wh-item" data-day="2">
+<div class="vu_wh-day">Вторник</div>
+<div class="vu_wh-hours">9:00 &#8212; 21:00</div>
+</div>
+<div class="vu_wh-item" data-day="3">
+<div class="vu_wh-day">Среда</div>
+<div class="vu_wh-hours">9:00 &#8212; 21:00</div>
+</div>
+<div class="vu_wh-item" data-day="4">
+<div class="vu_wh-day">Четверг</div>
+<div class="vu_wh-hours">9:00 &#8212; 21:00</div>
+</div>
+<div class="vu_wh-item" data-day="5">
+<div class="vu_wh-day">Пятница</div>
+<div class="vu_wh-hours">9:00 &#8212; 21:00</div>
+</div>
+<div class="vu_wh-item" data-day="6">
+<div class="vu_wh-day">Суббота</div>
+<div class="vu_wh-hours">10:00 &#8212; 16:00</div>
+</div>
+<div class="vu_wh-item" data-day="7">
+<div class="vu_wh-day">Воскресенье</div>
+<div class="vu_wh-hours">выходной</div>
+</div>
+</div></div>
+		</div></div>						</div>
+					</div>
+				</div>
+				<!-- /Footer Widgets -->
+						
+			
+							<a href="#" class="vu_back-to-top">
+					<i class="vu_fi vu_fi-arrow-up"></i>
+				</a>
+					</footer>
+		<!-- /Footer -->
+	
+	</div><!-- /Main Container -->
+
+				<script type="text/javascript">
+				function revslider_showDoubleJqueryError(sliderID) {
+					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+					errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+					errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+					errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+						jQuery(sliderID).show().html(errorMessage);
+				}
+			</script>
+			<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","currentText":"\u0421\u0435\u0433\u043e\u0434\u043d\u044f","monthNames":["\u042f\u043d\u0432\u0430\u0440\u044c","\u0424\u0435\u0432\u0440\u0430\u043b\u044c","\u041c\u0430\u0440\u0442","\u0410\u043f\u0440\u0435\u043b\u044c","\u041c\u0430\u0439","\u0418\u044e\u043d\u044c","\u0418\u044e\u043b\u044c","\u0410\u0432\u0433\u0443\u0441\u0442","\u0421\u0435\u043d\u0442\u044f\u0431\u0440\u044c","\u041e\u043a\u0442\u044f\u0431\u0440\u044c","\u041d\u043e\u044f\u0431\u0440\u044c","\u0414\u0435\u043a\u0430\u0431\u0440\u044c"],"monthNamesShort":["\u042f\u043d\u0432","\u0424\u0435\u0432","\u041c\u0430\u0440","\u0410\u043f\u0440","\u041c\u0430\u0439","\u0418\u044e\u043d","\u0418\u044e\u043b","\u0410\u0432\u0433","\u0421\u0435\u043d","\u041e\u043a\u0442","\u041d\u043e\u044f","\u0414\u0435\u043a"],"nextText":"\u0414\u0430\u043b\u0435\u0435","prevText":"\u041d\u0430\u0437\u0430\u0434","dayNames":["\u0412\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435","\u041f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a","\u0412\u0442\u043e\u0440\u043d\u0438\u043a","\u0421\u0440\u0435\u0434\u0430","\u0427\u0435\u0442\u0432\u0435\u0440\u0433","\u041f\u044f\u0442\u043d\u0438\u0446\u0430","\u0421\u0443\u0431\u0431\u043e\u0442\u0430"],"dayNamesShort":["\u0412\u0441","\u041f\u043d","\u0412\u0442","\u0421\u0440","\u0427\u0442","\u041f\u0442","\u0421\u0431"],"dayNamesMin":["\u0412\u0441","\u041f\u043d","\u0412\u0442","\u0421\u0440","\u0427\u0442","\u041f\u0442","\u0421\u0431"],"dateFormat":"dd.mm.yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/js/spin.min.js?ver=2.0.1'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/js/spin.jquery.js?ver=2.0.1'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js?ver=3.3.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var booked_js_vars = {"ajax_url":"https:\/\/shalda.github.io\/testArtdent\/wp-admin\/admin-ajax.php","profilePage":"","publicAppointments":"","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_please_wait":"Please wait ...","i18n_wrong_username_pass":"Wrong username\/password combination.","i18n_fill_out_required_fields":"Please fill out all required fields.","i18n_guest_appt_required_fields":"Please enter your name to book an appointment.","i18n_appt_required_fields":"Please enter your name, your email address and choose a password to book an appointment.","i18n_appt_required_fields_guest":"Please fill in all \"Information\" fields.","i18n_password_reset":"Please check your email for instructions on resetting your password.","i18n_password_reset_error":"That username or email is not recognized."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/js/functions.js?ver=2.0.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/shalda.github.io\/testArtdent\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0435, \u0447\u0442\u043e \u0432\u044b \u043d\u0435 \u0440\u043e\u0431\u043e\u0442."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.5'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.3'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"ru","strings":{"mejs.install-flash":"Flash player \u043f\u043b\u0430\u0433\u0438\u043d \u0431\u044b\u043b \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d \u0438\u043b\u0438 \u043d\u0435 \u0431\u044b\u043b \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d \u0432 \u0432\u0430\u0448\u0435\u043c \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u0435. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043f\u043b\u0430\u0433\u0438\u043d Flash player \u0438\u043b\u0438 \u0441\u043a\u0430\u0447\u0430\u0439\u0442\u0435 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044e\u044e \u0432\u0435\u0440\u0441\u0438\u044e \u0441 https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"\u0412\u044b\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u043f\u043e\u043b\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d","mejs.fullscreen-on":"\u041f\u043e\u043b\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d","mejs.download-video":"\u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0432\u0438\u0434\u0435\u043e","mejs.fullscreen":"\u041d\u0430 \u0432\u0435\u0441\u044c \u044d\u043a\u0440\u0430\u043d","mejs.time-jump-forward":["\u0412\u043f\u0435\u0440\u0451\u0434 \u043d\u0430 1 \u0441\u0435\u043a\u0443\u043d\u0434\u0443","\u0412\u043f\u0435\u0440\u0435\u0434 \u043d\u0430 %1 \u0441\u0435\u043a\u0443\u043d\u0434"],"mejs.loop":"\u0412\u043a\u043b\u044e\u0447\u0438\u0442\u044c\/\u0432\u044b\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0437\u0430\u0446\u0438\u043a\u043b\u0438\u0432\u0430\u043d\u0438\u0435","mejs.play":"\u0412\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0441\u0442\u0438","mejs.pause":"\u041f\u0430\u0443\u0437\u0430","mejs.close":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","mejs.time-slider":"\u0428\u043a\u0430\u043b\u0430 \u0432\u0440\u0435\u043c\u0435\u043d\u0438","mejs.time-help-text":"\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u043a\u043b\u0430\u0432\u0438\u0448\u0438 \u0432\u043b\u0435\u0432\u043e\/\u0432\u043f\u0440\u0430\u0432\u043e, \u0447\u0442\u043e\u0431\u044b \u043f\u0435\u0440\u0435\u043c\u0435\u0441\u0442\u0438\u0442\u044c\u0441\u044f \u043d\u0430 \u043e\u0434\u043d\u0443 \u0441\u0435\u043a\u0443\u043d\u0434\u0443; \u0432\u0432\u0435\u0440\u0445\/\u0432\u043d\u0438\u0437, \u0447\u0442\u043e\u0431\u044b \u043f\u0435\u0440\u0435\u043c\u0435\u0441\u0442\u0438\u0442\u044c\u0441\u044f \u043d\u0430 \u0434\u0435\u0441\u044f\u0442\u044c \u0441\u0435\u043a\u0443\u043d\u0434.","mejs.time-skip-back":["\u041f\u0435\u0440\u0435\u0439\u0442\u0438 \u043d\u0430\u0437\u0430\u0434 \u043d\u0430 1 \u0441\u0435\u043a\u0443\u043d\u0434\u0443","\u041d\u0430\u0437\u0430\u0434 \u043d\u0430 %1 \u0441\u0435\u043a\u0443\u043d\u0434"],"mejs.captions-subtitles":"\u0421\u0443\u0431\u0442\u0438\u0442\u0440\u044b","mejs.captions-chapters":"\u0413\u043b\u0430\u0432\u044b","mejs.none":"\u041d\u0435\u0442","mejs.mute-toggle":"\u0412\u043a\u043b\u044e\u0447\u0438\u0442\u044c\/\u0432\u044b\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0437\u0432\u0443\u043a","mejs.volume-help-text":"\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u043a\u043b\u0430\u0432\u0438\u0448\u0438 \u0432\u0432\u0435\u0440\u0445\/\u0432\u043d\u0438\u0437, \u0447\u0442\u043e\u0431\u044b \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0442\u044c \u0438\u043b\u0438 \u0443\u043c\u0435\u043d\u044c\u0448\u0438\u0442\u044c \u0433\u0440\u043e\u043c\u043a\u043e\u0441\u0442\u044c.","mejs.unmute":"\u0412\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0437\u0432\u0443\u043a","mejs.mute":"\u0411\u0435\u0437 \u0437\u0432\u0443\u043a\u0430","mejs.volume-slider":"\u0420\u0435\u0433\u0443\u043b\u044f\u0442\u043e\u0440 \u0433\u0440\u043e\u043c\u043a\u043e\u0441\u0442\u0438","mejs.video-player":"\u0412\u0438\u0434\u0435\u043e\u043f\u043b\u0435\u0435\u0440","mejs.audio-player":"\u0410\u0443\u0434\u0438\u043e\u043f\u043b\u0435\u0435\u0440","mejs.ad-skip":"\u041f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u0440\u0435\u043a\u043b\u0430\u043c\u0443","mejs.ad-skip-info":["\u041f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u0447\u0435\u0440\u0435\u0437 1 \u0441\u0435\u043a\u0443\u043d\u0434\u0443","\u041f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u0447\u0435\u0440\u0435\u0437 %1 \u0441\u0435\u043a\u0443\u043d\u0434"],"mejs.source-chooser":"\u0412\u044b\u0431\u043e\u0440 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430","mejs.stop":"\u041e\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c","mejs.speed-rate":"\u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c","mejs.live-broadcast":"\u041f\u0440\u044f\u043c\u0430\u044f \u0442\u0440\u0430\u043d\u0441\u043b\u044f\u0446\u0438\u044f","mejs.afrikaans":"\u0410\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0439","mejs.albanian":"\u0410\u043b\u0431\u0430\u043d\u0441\u043a\u0438\u0439","mejs.arabic":"\u0410\u0440\u0430\u0431\u0441\u043a\u0438\u0439","mejs.belarusian":"\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u0441\u043a\u0438\u0439","mejs.bulgarian":"\u0411\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u0438\u0439","mejs.catalan":"\u041a\u0430\u0442\u0430\u043b\u043e\u043d\u0441\u043a\u0438\u0439","mejs.chinese":"\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439","mejs.chinese-simplified":"\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439 (\u0443\u043f\u0440\u043e\u0449\u0435\u043d\u043d\u044b\u0439)","mejs.chinese-traditional":"\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439 (\u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439)","mejs.croatian":"\u0425\u043e\u0440\u0432\u0430\u0442\u0441\u043a\u0438\u0439","mejs.czech":"\u0427\u0435\u0448\u0441\u043a\u0438\u0439","mejs.danish":"\u0414\u0430\u0442\u0441\u043a\u0438\u0439","mejs.dutch":"\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439 (\u0433\u043e\u043b\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439)","mejs.english":"\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439","mejs.estonian":"\u042d\u0441\u0442\u043e\u043d\u0441\u043a\u0438\u0439","mejs.filipino":"\u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u0441\u043a\u0438\u0439","mejs.finnish":"\u0424\u0438\u043d\u0441\u043a\u0438\u0439","mejs.french":"\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0439","mejs.galician":"\u0413\u0430\u043b\u0438\u0441\u0438\u0439\u0441\u043a\u0438\u0439","mejs.german":"\u041d\u0435\u043c\u0435\u0446\u043a\u0438\u0439","mejs.greek":"\u0413\u0440\u0435\u0447\u0435\u0441\u043a\u0438\u0439","mejs.haitian-creole":"\u0413\u0430\u0438\u0442\u044f\u043d\u0441\u043a\u0438\u0439 \u043a\u0440\u0435\u043e\u043b\u044c\u0441\u043a\u0438\u0439","mejs.hebrew":"\u0418\u0432\u0440\u0438\u0442","mejs.hindi":"\u0425\u0438\u043d\u0434\u0438","mejs.hungarian":"\u0412\u0435\u043d\u0433\u0435\u0440\u0441\u043a\u0438\u0439","mejs.icelandic":"\u0418\u0441\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439","mejs.indonesian":"\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u0439\u0441\u043a\u0438\u0439","mejs.irish":"\u0418\u0440\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439","mejs.italian":"\u0418\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0438\u0439","mejs.japanese":"\u042f\u043f\u043e\u043d\u0441\u043a\u0438\u0439","mejs.korean":"\u041a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439","mejs.latvian":"\u041b\u0430\u0442\u0432\u0438\u0439\u0441\u043a\u0438\u0439","mejs.lithuanian":"\u041b\u0438\u0442\u043e\u0432\u0441\u043a\u0438\u0439","mejs.macedonian":"\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438\u0439","mejs.malay":"\u041c\u0430\u043b\u0430\u0439\u0441\u043a\u0438\u0439","mejs.maltese":"\u041c\u0430\u043b\u044c\u0442\u0438\u0439\u0441\u043a\u0438\u0439","mejs.norwegian":"\u041d\u043e\u0440\u0432\u0435\u0436\u0441\u043a\u0438\u0439","mejs.persian":"\u041f\u0435\u0440\u0441\u0438\u0434\u0441\u043a\u0438\u0439","mejs.polish":"\u041f\u043e\u043b\u044c\u0441\u043a\u0438\u0439","mejs.portuguese":"\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u044c\u0441\u043a\u0438\u0439","mejs.romanian":"\u0420\u0443\u043c\u044b\u043d\u0441\u043a\u0438\u0439","mejs.russian":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439","mejs.serbian":"\u0421\u0435\u0440\u0431\u0441\u043a\u0438\u0439","mejs.slovak":"\u0421\u043b\u043e\u0432\u0430\u0446\u043a\u0438\u0439","mejs.slovenian":"\u0421\u043b\u043e\u0432\u0435\u043d\u0441\u043a\u0438\u0439","mejs.spanish":"\u0418\u0441\u043f\u0430\u043d\u0441\u043a\u0438\u0439","mejs.swahili":"\u0421\u0443\u0430\u0445\u0438\u043b\u0438","mejs.swedish":"\u0428\u0432\u0435\u0434\u0441\u043a\u0438\u0439","mejs.tagalog":"\u0422\u0430\u0433\u0430\u043b\u043e\u0433","mejs.thai":"\u0422\u0430\u0439\u0441\u043a\u0438\u0439","mejs.turkish":"\u0422\u0443\u0440\u0435\u0446\u043a\u0438\u0439","mejs.ukrainian":"\u0423\u043a\u0440\u0430\u0438\u043d\u0441\u043a\u0438\u0439","mejs.vietnamese":"\u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0441\u043a\u0438\u0439","mejs.welsh":"\u0412\u0430\u043b\u043b\u0438\u0439\u0441\u043a\u0438\u0439","mejs.yiddish":"\u0418\u0434\u0438\u0448"}};
+</script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/bootstrap/js/bootstrap.min.js?ver=3.3.6'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/bootstrap-datepicker/bootstrap-datepicker.js?ver=1.5'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/bootstrap-timepicker/bootstrap-timepicker.min.js?ver=0.2.6'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/magnific-popup/magnific-popup.min.js?ver=1.1.0'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/owl-carousel/owl.carousel.min.js?ver=1.3.3'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/js/common.js?ver=1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dentalpress_config = {"ajaxurl":"https:\/\/shalda.github.io\/testArtdent\/wp-admin\/admin-ajax.php","home_url":"https:\/\/shalda.github.io\/testArtdent\/","google_maps_api_key":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/js/main.js?ver=1.2'></script>
+</body>
+</html>

@@ -1,0 +1,1030 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DentalPress Theme\n"
+"Language-Team: FlexiPress <support@flexipress.xyz>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: includes/lib/class-tgm-plugin-activation.php\n"
+
+#: 404.php:7
+msgid "404!"
+msgstr ""
+
+#: 404.php:10
+msgid "The requested page cannot be found"
+msgstr ""
+
+#: 404.php:13
+msgid "Sorry but the page you are looking for cannot be found."
+msgstr ""
+
+#: 404.php:15
+msgid "Please make sure you have typed the correct url."
+msgstr ""
+
+#: 404.php:18
+msgid "Return to home"
+msgstr ""
+
+#: archive.php:21 author.php:20 category.php:20 index.php:20 search.php:20
+#: tag.php:22
+msgid "No posts found"
+msgstr ""
+
+#: comments.php:16
+#, php-format
+msgid "One Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:18
+msgid "No Comment"
+msgstr ""
+
+#: comments.php:24
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:43
+msgid "Prev"
+msgstr ""
+
+#: comments.php:46
+msgid "Next"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:64
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:65
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:66
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:67
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:68
+msgid "Your comment here"
+msgstr ""
+
+#: comments.php:69
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:70
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:71
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:76
+msgid "Your name here"
+msgstr ""
+
+#: comments.php:79
+msgid "Your email here"
+msgstr ""
+
+#: comments.php:82
+msgid "Your website here"
+msgstr ""
+
+#: functions.php:135 functions.php:137
+msgid "Latest Posts"
+msgstr ""
+
+#: header.php:98
+#, php-format
+msgid "All products from '%s' category"
+msgstr ""
+
+#: header.php:106
+#, php-format
+msgid "All products tagged with '%s'"
+msgstr ""
+
+#: header.php:112
+msgid "Archive for tag"
+msgstr ""
+
+#: header.php:118
+msgid "Archive for category"
+msgstr ""
+
+#: header.php:126
+msgid "Archive for author"
+msgstr ""
+
+#: header.php:133
+msgid "Archive for date"
+msgstr ""
+
+#: header.php:136
+msgid "Archive for month"
+msgstr ""
+
+#: header.php:139
+msgid "Archive for year"
+msgstr ""
+
+#: header.php:153
+msgid "Search results for"
+msgstr ""
+
+#: header.php:160 includes/lib/breadcrumbs.php:16
+msgid "Error 404"
+msgstr ""
+
+#: header.php:162
+msgid "Page not found"
+msgstr ""
+
+#: includes/actions.php:81
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/actions.php:86
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/actions.php:136
+msgid "Main Navigation"
+msgstr ""
+
+#: includes/actions.php:237
+msgid "General Sidebar"
+msgstr ""
+
+#: includes/actions.php:251
+msgid "Blog Sidebar"
+msgstr ""
+
+#: includes/actions.php:265
+msgid "Footer #1"
+msgstr ""
+
+#: includes/actions.php:279
+msgid "Footer #2"
+msgstr ""
+
+#: includes/actions.php:293
+msgid "Footer #3"
+msgstr ""
+
+#: includes/actions.php:307
+msgid "Footer #4"
+msgstr ""
+
+#: includes/actions.php:406
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/actions.php:407
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/actions.php:408
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/actions.php:409
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/actions.php:410
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/actions.php:411
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/actions.php:412
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/actions.php:413
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/actions.php:414
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/actions.php:415
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/actions.php:416
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/actions.php:417
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/actions.php:418
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/actions.php:419
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/actions.php:420
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/actions.php:421
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/actions.php:422
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/functions.php:85 includes/functions.php:112
+msgid "Edit"
+msgstr ""
+
+#: includes/functions.php:86
+msgid "Pingback:"
+msgstr ""
+
+#: includes/functions.php:109
+msgid "at"
+msgstr ""
+
+#: includes/functions.php:115
+msgid "Reply"
+msgstr ""
+
+#: includes/functions.php:122
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/lib/breadcrumbs.php:11
+msgid "Home"
+msgstr ""
+
+#: includes/lib/breadcrumbs.php:12
+#, php-format
+msgid "All posts from '%s' category"
+msgstr ""
+
+#: includes/lib/breadcrumbs.php:13
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: includes/lib/breadcrumbs.php:14
+#, php-format
+msgid "All posts tagged with '%s'"
+msgstr ""
+
+#: includes/lib/breadcrumbs.php:15
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: includes/lib/breadcrumbs.php:17
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: includes/lib/breadcrumbs.php:18
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: includes/lib/breadcrumbs.php:19
+msgid "Products"
+msgstr ""
+
+#: includes/meta/page-options.php:11
+msgid "Page Options"
+msgstr ""
+
+#: includes/meta/page-options.php:31
+msgid "Show Page Header?"
+msgstr ""
+
+#: includes/meta/page-options.php:32
+msgid "Check this option to show page header."
+msgstr ""
+
+#: includes/meta/page-options.php:35 includes/meta/page-options.php:79
+msgid "Yes"
+msgstr ""
+
+#: includes/meta/page-options.php:36 includes/meta/page-options.php:80
+msgid "No"
+msgstr ""
+
+#: includes/meta/page-options.php:37 includes/meta/page-options.php:81
+#: includes/meta/page-options.php:113
+msgid "Inherit from Theme Options"
+msgstr ""
+
+#: includes/meta/page-options.php:42 includes/vc-addons/modify.php:833
+msgid "Title"
+msgstr ""
+
+#: includes/meta/page-options.php:43
+msgid ""
+"Enter in page header title. If left blank, page name will be shown as page "
+"header title."
+msgstr ""
+
+#: includes/meta/page-options.php:49
+msgid "Subtitle"
+msgstr ""
+
+#: includes/meta/page-options.php:50
+msgid "Enter in page header subtitle."
+msgstr ""
+
+#: includes/meta/page-options.php:56
+msgid "Show Breadcrumbs?"
+msgstr ""
+
+#: includes/meta/page-options.php:57
+msgid ""
+"Check this option to show breadcrumbs. If yes subtitle will not be shown."
+msgstr ""
+
+#: includes/meta/page-options.php:59
+msgid "Yes, Please"
+msgstr ""
+
+#: includes/meta/page-options.php:63 includes/vc-addons/modify.php:194
+#: includes/vc-addons/modify.php:366
+msgid "Background Image"
+msgstr ""
+
+#: includes/meta/page-options.php:64
+msgid ""
+"Click Upload and select header background image.The image should be between "
+"1200px - 1920px in width and have a minimum height of 400px for best results."
+msgstr ""
+
+#: includes/meta/page-options.php:69 includes/meta/post-meta.php:79
+#: includes/vc-addons/params.php:85 includes/vc-addons/params.php:86
+msgid "Add Image"
+msgstr ""
+
+#: includes/meta/page-options.php:69 includes/meta/post-meta.php:79
+#: includes/meta/post-meta.php:117 includes/vc-addons/params.php:87
+msgid "Upload"
+msgstr ""
+
+#: includes/meta/page-options.php:70 includes/vc-addons/params.php:88
+msgid "Remove"
+msgstr ""
+
+#: includes/meta/page-options.php:75
+msgid "Parallax Effect?"
+msgstr ""
+
+#: includes/meta/page-options.php:76
+msgid "Check this option to enable parallax effect."
+msgstr ""
+
+#: includes/meta/page-options.php:86
+msgid "Menu"
+msgstr ""
+
+#: includes/meta/page-options.php:87
+msgid "Select the page menu."
+msgstr ""
+
+#: includes/meta/page-options.php:91
+msgid "Default Menu"
+msgstr ""
+
+#: includes/meta/page-options.php:108
+msgid "Sidebar"
+msgstr ""
+
+#: includes/meta/page-options.php:109
+msgid "Select the page sidebar."
+msgstr ""
+
+#: includes/meta/page-options.php:114
+msgid "No Sidebar"
+msgstr ""
+
+#: includes/meta/post-meta.php:11
+msgid "Post Format Settings"
+msgstr ""
+
+#: includes/meta/post-meta.php:32
+msgid "MP3 File URL"
+msgstr ""
+
+#: includes/meta/post-meta.php:33
+msgid "Enter the URL of the .mp3 file"
+msgstr ""
+
+#: includes/meta/post-meta.php:39
+msgid "OGA File URL"
+msgstr ""
+
+#: includes/meta/post-meta.php:40
+msgid "Enter the URL of the .ogg or .oga file"
+msgstr ""
+
+#: includes/meta/post-meta.php:53
+msgid "M4V File URL"
+msgstr ""
+
+#: includes/meta/post-meta.php:54
+msgid ""
+"Please upload the .m4v video file.<br><b>You must include both formats.</b>"
+msgstr ""
+
+#: includes/meta/post-meta.php:58 includes/meta/post-meta.php:68
+msgid "Choose a File"
+msgstr ""
+
+#: includes/meta/post-meta.php:58 includes/meta/post-meta.php:68
+msgid "Select File"
+msgstr ""
+
+#: includes/meta/post-meta.php:58 includes/meta/post-meta.php:68
+msgid "Add Media"
+msgstr ""
+
+#: includes/meta/post-meta.php:63
+msgid "OGV File URL"
+msgstr ""
+
+#: includes/meta/post-meta.php:64
+msgid ""
+"Please upload the .ogv video file<br><b>You must include both formats.</b>"
+msgstr ""
+
+#: includes/meta/post-meta.php:73
+msgid "Preview Image"
+msgstr ""
+
+#: includes/meta/post-meta.php:74
+msgid ""
+"Image should be at least 800px wide. Click the \"Upload\" button to begin "
+"uploading your image, followed by \"Select File\" once you have made your "
+"selection. Only applies to self hosted videos."
+msgstr ""
+
+#: includes/meta/post-meta.php:84
+msgid "Embed Video"
+msgstr ""
+
+#: includes/meta/post-meta.php:85
+msgid "Enter the Vimeo or Youtube video embed URL here."
+msgstr ""
+
+#: includes/meta/post-meta.php:100
+msgid "Gallery"
+msgstr ""
+
+#: includes/meta/post-meta.php:101
+msgid ""
+"Click the \"Upload\" button to begin uploading your images, followed by "
+"\"Add Images\" once you have made your selection."
+msgstr ""
+
+#: includes/meta/post-meta.php:117
+msgid "Add Images"
+msgstr ""
+
+#: includes/meta/post-meta.php:129
+msgid "Link URL"
+msgstr ""
+
+#: includes/meta/post-meta.php:130
+msgid "Please input the URL. i.e. http://www.flexipress.xyz"
+msgstr ""
+
+#: includes/meta/post-meta.php:143
+msgid "Quote Content"
+msgstr ""
+
+#: includes/meta/post-meta.php:144
+msgid "Please enter your quote here."
+msgstr ""
+
+#: includes/meta/post-meta.php:152
+msgid "Quote Author"
+msgstr ""
+
+#: includes/meta/post-meta.php:153
+msgid "Please enter the qoute author."
+msgstr ""
+
+#: includes/meta/post-meta.php:166
+msgid "Aside Content"
+msgstr ""
+
+#: includes/meta/post-meta.php:167
+msgid "Please enter the text for your aside here."
+msgstr ""
+
+#: includes/post-templates/entry-audio.php:13
+msgid "Your browser does not support the audio element."
+msgstr ""
+
+#: includes/post-templates/entry-audio.php:49
+#: includes/post-templates/entry-gallery.php:58
+#: includes/post-templates/entry-image.php:39
+#: includes/post-templates/entry-video.php:73
+#: includes/post-templates/entry.php:39
+msgid "Posts by"
+msgstr ""
+
+#: includes/post-templates/entry-audio.php:60
+#: includes/post-templates/entry-gallery.php:64
+#: includes/post-templates/entry-image.php:45
+#: includes/post-templates/entry-video.php:86
+#: includes/post-templates/entry.php:45
+msgid "No Comments"
+msgstr ""
+
+#: includes/post-templates/entry-audio.php:60
+#: includes/post-templates/entry-gallery.php:64
+#: includes/post-templates/entry-image.php:45
+#: includes/post-templates/entry-video.php:86
+#: includes/post-templates/entry.php:45
+msgid "One Comment "
+msgstr ""
+
+#: includes/post-templates/entry-audio.php:60
+#: includes/post-templates/entry-gallery.php:64
+#: includes/post-templates/entry-image.php:45
+#: includes/post-templates/entry-video.php:86
+#: includes/post-templates/entry.php:45
+msgid "% Comments"
+msgstr ""
+
+#: includes/post-templates/entry-audio.php:89
+#: includes/post-templates/entry-gallery.php:93
+#: includes/post-templates/entry-image.php:74
+#: includes/post-templates/entry-video.php:115
+#: includes/post-templates/entry.php:75
+msgid "Read More"
+msgstr ""
+
+#: includes/post-templates/entry-link.php:32
+msgid "Tags: "
+msgstr ""
+
+#: includes/post-templates/entry-video.php:28
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: includes/vc-addons/modify.php:115 includes/vc-addons/modify.php:129
+#: includes/vc-addons/modify.php:138 includes/vc-addons/modify.php:148
+#: includes/vc-addons/modify.php:158 includes/vc-addons/modify.php:168
+#: includes/vc-addons/modify.php:277 includes/vc-addons/modify.php:291
+#: includes/vc-addons/modify.php:301 includes/vc-addons/modify.php:310
+#: includes/vc-addons/modify.php:320 includes/vc-addons/modify.php:330
+#: includes/vc-addons/modify.php:340 includes/vc-addons/modify.php:449
+#: includes/vc-addons/modify.php:459 includes/vc-addons/modify.php:468
+#: includes/vc-addons/modify.php:478 includes/vc-addons/modify.php:488
+#: includes/vc-addons/modify.php:498
+msgid "General"
+msgstr ""
+
+#: includes/vc-addons/modify.php:117 includes/vc-addons/modify.php:279
+msgid "Content Layout"
+msgstr ""
+
+#: includes/vc-addons/modify.php:121 includes/vc-addons/modify.php:283
+msgid "Boxed"
+msgstr ""
+
+#: includes/vc-addons/modify.php:122 includes/vc-addons/modify.php:284
+msgid "Full"
+msgstr ""
+
+#: includes/vc-addons/modify.php:126
+msgid "Select section content layout."
+msgstr ""
+
+#: includes/vc-addons/modify.php:131 includes/vc-addons/modify.php:303
+#: includes/vc-addons/modify.php:461 includes/vc-addons/modify.php:548
+#: includes/vc-addons/modify.php:583
+msgid "CSS Animation"
+msgstr ""
+
+#: includes/vc-addons/modify.php:135 includes/vc-addons/modify.php:307
+#: includes/vc-addons/modify.php:465 includes/vc-addons/modify.php:552
+#: includes/vc-addons/modify.php:587
+msgid ""
+"Select type of animation for element to be animated when it 'enters' the "
+"browsers viewport (Note: works only in modern browsers)."
+msgstr ""
+
+#: includes/vc-addons/modify.php:140 includes/vc-addons/modify.php:312
+#: includes/vc-addons/modify.php:470 includes/vc-addons/modify.php:556
+#: includes/vc-addons/modify.php:591
+msgid "Animation Delay"
+msgstr ""
+
+#: includes/vc-addons/modify.php:145 includes/vc-addons/modify.php:317
+#: includes/vc-addons/modify.php:475 includes/vc-addons/modify.php:561
+#: includes/vc-addons/modify.php:596
+msgid "Specify time delay in milliseconds before animation happens."
+msgstr ""
+
+#: includes/vc-addons/modify.php:150
+msgid "Disable section"
+msgstr ""
+
+#: includes/vc-addons/modify.php:153 includes/vc-addons/modify.php:229
+#: includes/vc-addons/modify.php:239 includes/vc-addons/modify.php:296
+#: includes/vc-addons/modify.php:325 includes/vc-addons/modify.php:401
+#: includes/vc-addons/modify.php:411 includes/vc-addons/modify.php:454
+#: includes/vc-addons/modify.php:483
+msgid "Yes Please"
+msgstr ""
+
+#: includes/vc-addons/modify.php:155
+msgid ""
+"If checked the section won't be visible on the public side of your website. "
+"You can switch it back any time."
+msgstr ""
+
+#: includes/vc-addons/modify.php:160
+msgid "Section ID"
+msgstr ""
+
+#: includes/vc-addons/modify.php:165
+msgid ""
+"Use this to option to add an ID onto your section. This can then be used to "
+"target the section with CSS or as an anchor point to scroll to when the "
+"relevant link is clicked."
+msgstr ""
+
+#: includes/vc-addons/modify.php:170 includes/vc-addons/modify.php:342
+#: includes/vc-addons/modify.php:500 includes/vc-addons/modify.php:676
+#: includes/vc-addons/modify.php:737 includes/vc-addons/modify.php:768
+#: includes/vc-addons/modify.php:797
+msgid "Extra class name"
+msgstr ""
+
+#: includes/vc-addons/modify.php:175 includes/vc-addons/modify.php:347
+#: includes/vc-addons/modify.php:505 includes/vc-addons/modify.php:680
+#: includes/vc-addons/modify.php:741 includes/vc-addons/modify.php:772
+#: includes/vc-addons/modify.php:801
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/vc-addons/modify.php:178 includes/vc-addons/modify.php:192
+#: includes/vc-addons/modify.php:203 includes/vc-addons/modify.php:214
+#: includes/vc-addons/modify.php:224 includes/vc-addons/modify.php:234
+#: includes/vc-addons/modify.php:244 includes/vc-addons/modify.php:255
+#: includes/vc-addons/modify.php:350 includes/vc-addons/modify.php:364
+#: includes/vc-addons/modify.php:375 includes/vc-addons/modify.php:386
+#: includes/vc-addons/modify.php:396 includes/vc-addons/modify.php:406
+#: includes/vc-addons/modify.php:416 includes/vc-addons/modify.php:427
+msgid "Background"
+msgstr ""
+
+#: includes/vc-addons/modify.php:180 includes/vc-addons/modify.php:352
+msgid "Background Type"
+msgstr ""
+
+#: includes/vc-addons/modify.php:184 includes/vc-addons/modify.php:356
+msgid "Image"
+msgstr ""
+
+#: includes/vc-addons/modify.php:185 includes/vc-addons/modify.php:357
+msgid "Video"
+msgstr ""
+
+#: includes/vc-addons/modify.php:189 includes/vc-addons/modify.php:361
+msgid "Select background type."
+msgstr ""
+
+#: includes/vc-addons/modify.php:200 includes/vc-addons/modify.php:252
+#: includes/vc-addons/modify.php:372 includes/vc-addons/modify.php:424
+msgid "Select image from media library."
+msgstr ""
+
+#: includes/vc-addons/modify.php:205 includes/vc-addons/modify.php:377
+msgid "Background Video"
+msgstr ""
+
+#: includes/vc-addons/modify.php:211 includes/vc-addons/modify.php:383
+msgid "Add YouTube video url."
+msgstr ""
+
+#: includes/vc-addons/modify.php:216 includes/vc-addons/modify.php:388
+msgid "Color Overlay"
+msgstr ""
+
+#: includes/vc-addons/modify.php:226 includes/vc-addons/modify.php:398
+msgid "Enable Parallax"
+msgstr ""
+
+#: includes/vc-addons/modify.php:231 includes/vc-addons/modify.php:403
+msgid "If checked parallax effect will be enable."
+msgstr ""
+
+#: includes/vc-addons/modify.php:236 includes/vc-addons/modify.php:408
+msgid "Enable Pattern"
+msgstr ""
+
+#: includes/vc-addons/modify.php:241 includes/vc-addons/modify.php:413
+msgid "If checked pattern overaly will be enable."
+msgstr ""
+
+#: includes/vc-addons/modify.php:246 includes/vc-addons/modify.php:418
+msgid "Pattern Image"
+msgstr ""
+
+#: includes/vc-addons/modify.php:257 includes/vc-addons/modify.php:429
+msgid "Pattern Opacity"
+msgstr ""
+
+#: includes/vc-addons/modify.php:263 includes/vc-addons/modify.php:435
+msgid "Fill the number between 0 to 1"
+msgstr ""
+
+#: includes/vc-addons/modify.php:266 includes/vc-addons/modify.php:438
+#: includes/vc-addons/modify.php:508
+msgid "Design Options"
+msgstr ""
+
+#: includes/vc-addons/modify.php:268 includes/vc-addons/modify.php:440
+#: includes/vc-addons/modify.php:510
+msgid "CSS box"
+msgstr ""
+
+#: includes/vc-addons/modify.php:288
+msgid "Select row content layout."
+msgstr ""
+
+#: includes/vc-addons/modify.php:293 includes/vc-addons/modify.php:451
+msgid "Equal Height"
+msgstr ""
+
+#: includes/vc-addons/modify.php:298 includes/vc-addons/modify.php:456
+msgid "If checked columns will be set to equal height."
+msgstr ""
+
+#: includes/vc-addons/modify.php:322 includes/vc-addons/modify.php:480
+msgid "Disable row"
+msgstr ""
+
+#: includes/vc-addons/modify.php:327 includes/vc-addons/modify.php:485
+msgid ""
+"If checked the row won't be visible on the public side of your website. You "
+"can switch it back any time."
+msgstr ""
+
+#: includes/vc-addons/modify.php:332 includes/vc-addons/modify.php:490
+msgid "Row ID"
+msgstr ""
+
+#: includes/vc-addons/modify.php:337 includes/vc-addons/modify.php:495
+msgid ""
+"Use this to option to add an ID onto your row. This can then be used to "
+"target the row with CSS or as an anchor point to scroll to when the relevant "
+"link is clicked."
+msgstr ""
+
+#: includes/vc-addons/modify.php:520
+msgid "Layout"
+msgstr ""
+
+#: includes/vc-addons/modify.php:524
+msgid "Normal"
+msgstr ""
+
+#: includes/vc-addons/modify.php:525
+msgid "Stretch Left"
+msgstr ""
+
+#: includes/vc-addons/modify.php:526
+msgid "Stretch Right"
+msgstr ""
+
+#: includes/vc-addons/modify.php:530
+msgid "Select column layout."
+msgstr ""
+
+#: includes/vc-addons/modify.php:534 includes/vc-addons/modify.php:569
+msgid "Vertical Align"
+msgstr ""
+
+#: includes/vc-addons/modify.php:538 includes/vc-addons/modify.php:573
+#: includes/vc-addons/modify.php:641
+msgid "Top"
+msgstr ""
+
+#: includes/vc-addons/modify.php:539 includes/vc-addons/modify.php:574
+msgid "Middle"
+msgstr ""
+
+#: includes/vc-addons/modify.php:540 includes/vc-addons/modify.php:575
+#: includes/vc-addons/modify.php:642
+msgid "Bottom"
+msgstr ""
+
+#: includes/vc-addons/modify.php:544
+msgid "Select column vertical alignment."
+msgstr ""
+
+#: includes/vc-addons/modify.php:626
+msgid "Style"
+msgstr ""
+
+#: includes/vc-addons/modify.php:629
+msgid "Style 1"
+msgstr ""
+
+#: includes/vc-addons/modify.php:630
+msgid "Style 2"
+msgstr ""
+
+#: includes/vc-addons/modify.php:631
+msgid "Style 3"
+msgstr ""
+
+#: includes/vc-addons/modify.php:634
+msgid "Select tabs style."
+msgstr ""
+
+#: includes/vc-addons/modify.php:638 includes/vc-addons/modify.php:711
+msgid "Position"
+msgstr ""
+
+#: includes/vc-addons/modify.php:645 includes/vc-addons/modify.php:718
+msgid "Select tabs navigation position."
+msgstr ""
+
+#: includes/vc-addons/modify.php:649
+msgid "Alignment"
+msgstr ""
+
+#: includes/vc-addons/modify.php:652 includes/vc-addons/modify.php:714
+msgid "Left"
+msgstr ""
+
+#: includes/vc-addons/modify.php:653
+msgid "Center"
+msgstr ""
+
+#: includes/vc-addons/modify.php:654 includes/vc-addons/modify.php:715
+msgid "Right"
+msgstr ""
+
+#: includes/vc-addons/modify.php:657
+msgid "Select tabs section title alignment."
+msgstr ""
+
+#: includes/vc-addons/modify.php:661 includes/vc-addons/modify.php:722
+msgid "Autoplay"
+msgstr ""
+
+#: includes/vc-addons/modify.php:664 includes/vc-addons/modify.php:725
+msgid "Disable"
+msgstr ""
+
+#: includes/vc-addons/modify.php:672 includes/vc-addons/modify.php:733
+msgid "Select auto rotate for tabs in seconds (Note: disabled by default)."
+msgstr ""
+
+#: includes/vc-addons/modify.php:825
+msgid "Toggle"
+msgstr ""
+
+#: includes/vc-addons/modify.php:826
+msgid "Add toggle element"
+msgstr ""
+
+#: includes/vc-addons/modify.php:838
+msgid "Content"
+msgstr ""
+
+#: includes/vc-addons/params.php:54
+msgid "Delete"
+msgstr ""
+
+#: includes/vc-addons/params.php:55
+msgid "Clone"
+msgstr ""
+
+#: includes/vc-addons/params.php:56
+msgid "Move"
+msgstr ""
+
+#: includes/vc-addons/params.php:67
+msgid "Add More"
+msgstr ""
+
+#: includes/vc-addons/params.php:89
+msgid "No media selected"
+msgstr ""
+
+#: includes/vc-addons/templates/vc_toggle.php:12
+msgid "Click to toggle"
+msgstr ""
+
+#: searchform.php:3
+msgid "Type your search..."
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""

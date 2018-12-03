@@ -1,0 +1,2231 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DentalPress Shortcodes\n"
+"POT-Creation-Date: 2017-10-10 17:24+0200\n"
+"PO-Revision-Date: 2015-04-06 03:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: FlexiPress <support@flexipress.xyz>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+
+#: functions.php:261
+msgid "No contact forms found"
+msgstr ""
+
+#: functions.php:296
+msgid "Default Calendar"
+msgstr ""
+
+#: shortcodes/before-after.php:72
+msgid "Before After"
+msgstr ""
+
+#: shortcodes/before-after.php:73
+msgid "Add before after images"
+msgstr ""
+
+#: shortcodes/before-after.php:78 shortcodes/blog.php:188
+#: shortcodes/booked-calendar.php:23 shortcodes/button.php:82
+#: shortcodes/button.php:155 shortcodes/call-to-action.php:98
+#: shortcodes/call-to-action.php:204 shortcodes/carousel-item.php:59
+#: shortcodes/carousel.php:116 shortcodes/client.php:70
+#: shortcodes/contact-form-7.php:72 shortcodes/countdown.php:54
+#: shortcodes/counter.php:62 shortcodes/filterable-item.php:60
+#: shortcodes/filterable.php:73 shortcodes/gallery-item.php:132
+#: shortcodes/gallery-item.php:230 shortcodes/gallery.php:137
+#: shortcodes/heading.php:103 shortcodes/hover-box.php:89
+#: shortcodes/icon-box-2.php:96 shortcodes/icon-box-2.php:124
+#: shortcodes/icon-box.php:89 shortcodes/icon-box.php:96
+#: shortcodes/image-box.php:85 shortcodes/image-slider.php:99
+#: shortcodes/image-switch.php:87 shortcodes/map.php:100
+#: shortcodes/pie-chart.php:100 shortcodes/pie-chart.php:152
+#: shortcodes/pricing-list.php:127 shortcodes/pricing-table.php:94
+#: shortcodes/progress-bar.php:65 shortcodes/team-member.php:125
+#: shortcodes/testimonial.php:100 shortcodes/timeline.php:70
+#: shortcodes/video-section.php:89
+msgid "DentalPress"
+msgstr ""
+
+#: shortcodes/before-after.php:82
+msgid "Before image"
+msgstr ""
+
+#: shortcodes/before-after.php:87
+msgid "Select before image."
+msgstr ""
+
+#: shortcodes/before-after.php:91
+msgid "After image"
+msgstr ""
+
+#: shortcodes/before-after.php:96
+msgid "Select after image."
+msgstr ""
+
+#: shortcodes/before-after.php:100 shortcodes/blog.php:240
+#: shortcodes/gallery-item.php:144 shortcodes/hover-box.php:101
+#: shortcodes/image-box.php:97 shortcodes/image-slider.php:112
+#: shortcodes/image-switch.php:109 shortcodes/team-member.php:139
+msgid "Ratio"
+msgstr ""
+
+#: shortcodes/before-after.php:105 shortcodes/gallery-item.php:150
+#: shortcodes/hover-box.php:107 shortcodes/team-member.php:144
+msgid "Select ratio of image."
+msgstr ""
+
+#: shortcodes/before-after.php:109
+msgid "Orientation"
+msgstr ""
+
+#: shortcodes/before-after.php:113
+msgid "Horizontal"
+msgstr ""
+
+#: shortcodes/before-after.php:114
+msgid "Vertical"
+msgstr ""
+
+#: shortcodes/before-after.php:117
+msgid "Select orientation."
+msgstr ""
+
+#: shortcodes/before-after.php:121
+msgid "Show label?"
+msgstr ""
+
+#: shortcodes/before-after.php:123 shortcodes/blog.php:364
+#: shortcodes/button.php:144 shortcodes/call-to-action.php:132
+#: shortcodes/call-to-action.php:192 shortcodes/carousel.php:200
+#: shortcodes/carousel.php:209 shortcodes/carousel.php:218
+#: shortcodes/carousel.php:228 shortcodes/carousel.php:239
+#: shortcodes/carousel.php:249 shortcodes/contact-form-7.php:106
+#: shortcodes/gallery-item.php:220 shortcodes/gallery.php:194
+#: shortcodes/heading.php:167 shortcodes/image-slider.php:124
+#: shortcodes/image-slider.php:133 shortcodes/map.php:108
+#: shortcodes/map.php:176 shortcodes/map.php:380 shortcodes/map.php:400
+#: shortcodes/pricing-list.php:176 shortcodes/pricing-table.php:138
+#: shortcodes/pricing-table.php:166 shortcodes/progress-bar.php:89
+#: shortcodes/team-member.php:213 shortcodes/video-section.php:103
+#: shortcodes/video-section.php:149 shortcodes/video-section.php:159
+#: shortcodes/video-section.php:182
+msgid "Yes, Please"
+msgstr ""
+
+#: shortcodes/before-after.php:126
+msgid "Check to show before and after label."
+msgstr ""
+
+#: shortcodes/before-after.php:130
+msgid "Before label"
+msgstr ""
+
+#: shortcodes/before-after.php:136
+msgid "Enter before label text."
+msgstr ""
+
+#: shortcodes/before-after.php:140
+msgid "After label"
+msgstr ""
+
+#: shortcodes/before-after.php:146
+msgid "Enter after label text."
+msgstr ""
+
+#: shortcodes/before-after.php:150 shortcodes/blog.php:320
+#: shortcodes/booked-calendar.php:101 shortcodes/button.php:202
+#: shortcodes/call-to-action.php:112 shortcodes/call-to-action.php:255
+#: shortcodes/carousel-item.php:64 shortcodes/carousel.php:266
+#: shortcodes/client.php:90 shortcodes/countdown.php:89
+#: shortcodes/counter.php:126 shortcodes/filterable-item.php:73
+#: shortcodes/filterable.php:131 shortcodes/gallery-item.php:265
+#: shortcodes/gallery.php:267 shortcodes/heading.php:201
+#: shortcodes/hover-box.php:141 shortcodes/icon-box-2.php:203
+#: shortcodes/icon-box.php:214 shortcodes/image-box.php:140
+#: shortcodes/image-slider.php:172 shortcodes/image-switch.php:148
+#: shortcodes/map.php:257 shortcodes/pie-chart.php:244
+#: shortcodes/pricing-list.php:228 shortcodes/pricing-table.php:146
+#: shortcodes/progress-bar.php:123 shortcodes/team-member.php:186
+#: shortcodes/testimonial.php:171 shortcodes/timeline.php:111
+#: shortcodes/video-section.php:189
+msgid "Extra class name"
+msgstr ""
+
+#: shortcodes/before-after.php:154 shortcodes/blog.php:324
+#: shortcodes/booked-calendar.php:105 shortcodes/button.php:206
+#: shortcodes/call-to-action.php:116 shortcodes/call-to-action.php:259
+#: shortcodes/carousel-item.php:68 shortcodes/carousel.php:270
+#: shortcodes/client.php:94 shortcodes/countdown.php:93
+#: shortcodes/counter.php:130 shortcodes/filterable-item.php:77
+#: shortcodes/filterable.php:135 shortcodes/gallery-item.php:269
+#: shortcodes/gallery.php:271 shortcodes/heading.php:205
+#: shortcodes/hover-box.php:145 shortcodes/icon-box-2.php:207
+#: shortcodes/icon-box.php:218 shortcodes/image-box.php:144
+#: shortcodes/image-slider.php:176 shortcodes/image-switch.php:152
+#: shortcodes/map.php:262 shortcodes/pie-chart.php:248
+#: shortcodes/pricing-list.php:232 shortcodes/pricing-table.php:150
+#: shortcodes/progress-bar.php:127 shortcodes/team-member.php:190
+#: shortcodes/testimonial.php:175 shortcodes/timeline.php:115
+#: shortcodes/video-section.php:193
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: shortcodes/blog.php:110
+msgid "by"
+msgstr ""
+
+#: shortcodes/blog.php:111
+msgid "Posts by"
+msgstr ""
+
+#: shortcodes/blog.php:117
+msgid "No Comments"
+msgstr ""
+
+#: shortcodes/blog.php:117
+msgid "One Comment "
+msgstr ""
+
+#: shortcodes/blog.php:117
+msgid "% Comments"
+msgstr ""
+
+#: shortcodes/blog.php:182
+msgid "Blog"
+msgstr ""
+
+#: shortcodes/blog.php:183
+msgid "Show blog posts"
+msgstr ""
+
+#: shortcodes/blog.php:191 shortcodes/blog.php:209 shortcodes/blog.php:222
+#: shortcodes/blog.php:238 shortcodes/blog.php:248 shortcodes/blog.php:258
+#: shortcodes/blog.php:268 shortcodes/blog.php:278 shortcodes/blog.php:288
+#: shortcodes/blog.php:298 shortcodes/blog.php:308 shortcodes/blog.php:318
+#: shortcodes/call-to-action.php:101 shortcodes/call-to-action.php:110
+#: shortcodes/carousel.php:121 shortcodes/carousel.php:130
+#: shortcodes/carousel.php:139 shortcodes/carousel.php:148
+#: shortcodes/map.php:103 shortcodes/map.php:114 shortcodes/map.php:125
+#: shortcodes/map.php:136 shortcodes/map.php:146 shortcodes/map.php:156
+#: shortcodes/map.php:171 shortcodes/map.php:180 shortcodes/map.php:191
+#: shortcodes/map.php:200 shortcodes/map.php:209 shortcodes/map.php:218
+#: shortcodes/map.php:227 shortcodes/map.php:236 shortcodes/map.php:245
+#: shortcodes/map.php:255 shortcodes/team-member.php:128
+#: shortcodes/team-member.php:137 shortcodes/team-member.php:147
+#: shortcodes/team-member.php:157 shortcodes/team-member.php:166
+#: shortcodes/team-member.php:175 shortcodes/team-member.php:184
+msgid "General"
+msgstr ""
+
+#: shortcodes/blog.php:193
+msgid "Blog Query"
+msgstr ""
+
+#: shortcodes/blog.php:206
+msgid "Create WordPress loop, to show posts from your site."
+msgstr ""
+
+#: shortcodes/blog.php:211 shortcodes/gallery.php:142
+#: shortcodes/icon-box-2.php:100 shortcodes/map.php:158
+#: shortcodes/pie-chart.php:128
+msgid "Type"
+msgstr ""
+
+#: shortcodes/blog.php:215 shortcodes/gallery.php:145
+msgid "Standard"
+msgstr ""
+
+#: shortcodes/blog.php:216 shortcodes/carousel.php:105
+#: shortcodes/gallery.php:147
+msgid "Carousel"
+msgstr ""
+
+#: shortcodes/blog.php:219
+msgid "Select blog type."
+msgstr ""
+
+#: shortcodes/blog.php:224 shortcodes/filterable.php:77
+#: shortcodes/gallery.php:154
+msgid "Layout"
+msgstr ""
+
+#: shortcodes/blog.php:228 shortcodes/filterable.php:80
+#: shortcodes/gallery.php:158
+msgid "1 Column"
+msgstr ""
+
+#: shortcodes/blog.php:229 shortcodes/filterable.php:81
+#: shortcodes/gallery.php:159
+msgid "2 Columns"
+msgstr ""
+
+#: shortcodes/blog.php:230 shortcodes/filterable.php:82
+#: shortcodes/gallery.php:160
+msgid "3 Columns"
+msgstr ""
+
+#: shortcodes/blog.php:231 shortcodes/filterable.php:83
+#: shortcodes/gallery.php:161
+msgid "4 Columns"
+msgstr ""
+
+#: shortcodes/blog.php:235
+msgid "Select blog layout."
+msgstr ""
+
+#: shortcodes/blog.php:245 shortcodes/image-box.php:102
+#: shortcodes/image-slider.php:118 shortcodes/image-switch.php:115
+msgid "Select ratio of images."
+msgstr ""
+
+#: shortcodes/blog.php:250
+msgid "Show date"
+msgstr ""
+
+#: shortcodes/blog.php:255
+msgid "Check to show post date."
+msgstr ""
+
+#: shortcodes/blog.php:260
+msgid "Show author"
+msgstr ""
+
+#: shortcodes/blog.php:265
+msgid "Check to show post author."
+msgstr ""
+
+#: shortcodes/blog.php:270
+msgid "Show categories"
+msgstr ""
+
+#: shortcodes/blog.php:275
+msgid "Check to show post categories."
+msgstr ""
+
+#: shortcodes/blog.php:280
+msgid "Show comments"
+msgstr ""
+
+#: shortcodes/blog.php:285
+msgid "Check to show post comments."
+msgstr ""
+
+#: shortcodes/blog.php:290
+msgid "Show content"
+msgstr ""
+
+#: shortcodes/blog.php:295
+msgid "Check to show post content."
+msgstr ""
+
+#: shortcodes/blog.php:300
+msgid "Number of words"
+msgstr ""
+
+#: shortcodes/blog.php:305
+msgid "Enter in number of words to show in content."
+msgstr ""
+
+#: shortcodes/blog.php:310 shortcodes/icon-box-2.php:187
+#: shortcodes/icon-box.php:197 shortcodes/image-box.php:123
+msgid "Read more text"
+msgstr ""
+
+#: shortcodes/blog.php:313
+msgid "Read More"
+msgstr ""
+
+#: shortcodes/blog.php:315 shortcodes/icon-box-2.php:191
+#: shortcodes/icon-box.php:202 shortcodes/image-box.php:128
+msgid "Enter read more text."
+msgstr ""
+
+#: shortcodes/blog.php:327 shortcodes/blog.php:338 shortcodes/blog.php:349
+#: shortcodes/blog.php:359
+msgid "Carousel Options"
+msgstr ""
+
+#: shortcodes/blog.php:329 shortcodes/gallery.php:238
+#: shortcodes/image-slider.php:140
+msgid "Show navigation"
+msgstr ""
+
+#: shortcodes/blog.php:335 shortcodes/gallery.php:244
+msgid "Check to show carousel navigation."
+msgstr ""
+
+#: shortcodes/blog.php:340 shortcodes/carousel.php:237
+#: shortcodes/gallery.php:248 shortcodes/image-slider.php:152
+msgid "Show pagination"
+msgstr ""
+
+#: shortcodes/blog.php:346 shortcodes/gallery.php:254
+msgid "Check to show carousel pagination."
+msgstr ""
+
+#: shortcodes/blog.php:351 shortcodes/carousel.php:188
+#: shortcodes/gallery.php:258 shortcodes/image-slider.php:164
+msgid "Auto play"
+msgstr ""
+
+#: shortcodes/blog.php:356 shortcodes/carousel.php:192
+#: shortcodes/gallery.php:263 shortcodes/image-slider.php:168
+msgid "Change to any integrer for example <b>5000</b> to play every <b>5</b> seconds. Leave blank to disable autoplay."
+msgstr ""
+
+#: shortcodes/blog.php:361 shortcodes/carousel.php:197
+msgid "Stop autoplay on mouse hover"
+msgstr ""
+
+#: shortcodes/blog.php:366
+msgid "Check to stop carousel on hover."
+msgstr ""
+
+#: shortcodes/booked-calendar.php:17
+msgid "Booked Calendar"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:18
+msgid "Add custom calendar"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:27 shortcodes/button.php:103
+#: shortcodes/contact-form-7.php:93 shortcodes/filterable.php:93
+#: shortcodes/gallery.php:171 shortcodes/heading.php:107
+#: shortcodes/icon-box-2.php:159 shortcodes/icon-box.php:154
+#: shortcodes/map.php:265 shortcodes/map.php:267 shortcodes/pie-chart.php:104
+#: shortcodes/team-member.php:193 shortcodes/team-member.php:195
+#: shortcodes/testimonial.php:104
+msgid "Style"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:31 shortcodes/booked-calendar.php:51
+msgid "Calendar"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:32
+msgid "List"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:35
+msgid "Select style of calendar."
+msgstr ""
+
+#: shortcodes/booked-calendar.php:39 shortcodes/button.php:114
+#: shortcodes/countdown.php:76 shortcodes/counter.php:66
+#: shortcodes/gallery-item.php:154 shortcodes/icon-box.php:131
+#: shortcodes/pie-chart.php:204
+msgid "Size"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:43 shortcodes/button.php:120
+#: shortcodes/countdown.php:79 shortcodes/counter.php:69
+#: shortcodes/icon-box.php:134
+msgid "Large"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:44 shortcodes/button.php:118
+#: shortcodes/countdown.php:81 shortcodes/counter.php:70
+#: shortcodes/icon-box.php:135
+msgid "Small"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:47
+msgid "Select size of calendar."
+msgstr ""
+
+#: shortcodes/booked-calendar.php:56
+msgid "Select appointment calendar."
+msgstr ""
+
+#: shortcodes/booked-calendar.php:60
+msgid "Year"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:64
+msgid "Enter year."
+msgstr ""
+
+#: shortcodes/booked-calendar.php:68
+msgid "Month"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:72
+msgid "Enter month."
+msgstr ""
+
+#: shortcodes/booked-calendar.php:76
+msgid "Day"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:81
+msgid "Enter day."
+msgstr ""
+
+#: shortcodes/booked-calendar.php:85
+msgid "Switcher"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:87 shortcodes/booked-calendar.php:95
+msgid "Yes, please"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:89
+msgid "Check to show calendar switcher."
+msgstr ""
+
+#: shortcodes/booked-calendar.php:93
+msgid "Member Only?"
+msgstr ""
+
+#: shortcodes/booked-calendar.php:97
+msgid "Check to hide the appointment calendar from non-logged-in users."
+msgstr ""
+
+#: shortcodes/button.php:76 shortcodes/call-to-action.php:128
+#: shortcodes/call-to-action.php:138 shortcodes/call-to-action.php:151
+#: shortcodes/call-to-action.php:166 shortcodes/call-to-action.php:177
+#: shortcodes/call-to-action.php:187 shortcodes/call-to-action.php:198
+#: shortcodes/call-to-action.php:211 shortcodes/call-to-action.php:226
+#: shortcodes/call-to-action.php:240 shortcodes/call-to-action.php:253
+#: shortcodes/pricing-table.php:162 shortcodes/pricing-table.php:172
+#: shortcodes/pricing-table.php:182
+msgid "Button"
+msgstr ""
+
+#: shortcodes/button.php:77
+msgid "Add button"
+msgstr ""
+
+#: shortcodes/button.php:86 shortcodes/pie-chart.php:131
+#: shortcodes/pie-chart.php:139 shortcodes/pricing-table.php:174
+msgid "Text"
+msgstr ""
+
+#: shortcodes/button.php:91 shortcodes/call-to-action.php:174
+msgid "Enter button text."
+msgstr ""
+
+#: shortcodes/button.php:95 shortcodes/client.php:82
+#: shortcodes/gallery-item.php:208 shortcodes/hover-box.php:133
+#: shortcodes/icon-box-2.php:195 shortcodes/icon-box.php:206
+#: shortcodes/image-box.php:132 shortcodes/image-switch.php:140
+#: shortcodes/pricing-list.php:140 shortcodes/pricing-table.php:184
+#: shortcodes/team-member.php:177
+msgid "URL (Link)"
+msgstr ""
+
+#: shortcodes/button.php:99
+msgid "Add link to button."
+msgstr ""
+
+#: shortcodes/button.php:106 shortcodes/call-to-action.php:144
+#: shortcodes/contact-form-7.php:96 shortcodes/map.php:272
+msgid "Default"
+msgstr ""
+
+#: shortcodes/button.php:107 shortcodes/call-to-action.php:145
+#: shortcodes/contact-form-7.php:97
+msgid "Inverse"
+msgstr ""
+
+#: shortcodes/button.php:110 shortcodes/button.php:124
+#: shortcodes/call-to-action.php:148 shortcodes/call-to-action.php:163
+msgid "Select button style."
+msgstr ""
+
+#: shortcodes/button.php:117
+msgid "Mini"
+msgstr ""
+
+#: shortcodes/button.php:119 shortcodes/video-section.php:170
+msgid "Normal"
+msgstr ""
+
+#: shortcodes/button.php:128 shortcodes/icon-box.php:166
+msgid "Color"
+msgstr ""
+
+#: shortcodes/button.php:131 shortcodes/call-to-action.php:157
+#: shortcodes/icon-box.php:169
+msgid "Primary"
+msgstr ""
+
+#: shortcodes/button.php:132 shortcodes/call-to-action.php:158
+#: shortcodes/icon-box.php:170
+msgid "Secondary"
+msgstr ""
+
+#: shortcodes/button.php:133 shortcodes/call-to-action.php:159
+#: shortcodes/icon-box.php:171
+msgid "Black"
+msgstr ""
+
+#: shortcodes/button.php:134 shortcodes/call-to-action.php:160
+#: shortcodes/icon-box.php:172
+msgid "White"
+msgstr ""
+
+#: shortcodes/button.php:138
+msgid "Select button color."
+msgstr ""
+
+#: shortcodes/button.php:142 shortcodes/call-to-action.php:189
+#: shortcodes/gallery-item.php:217
+msgid "Show Icon"
+msgstr ""
+
+#: shortcodes/button.php:147 shortcodes/call-to-action.php:195
+#: shortcodes/gallery-item.php:222
+msgid "Check to show icon."
+msgstr ""
+
+#: shortcodes/button.php:151 shortcodes/call-to-action.php:200
+#: shortcodes/gallery-item.php:226 shortcodes/icon-box-2.php:120
+#: shortcodes/icon-box.php:93 shortcodes/pie-chart.php:148
+msgid "Icon Library"
+msgstr ""
+
+#: shortcodes/button.php:156 shortcodes/call-to-action.php:205
+#: shortcodes/gallery-item.php:231 shortcodes/icon-box-2.php:125
+#: shortcodes/icon-box.php:97 shortcodes/pie-chart.php:153
+msgid "FontAwesome"
+msgstr ""
+
+#: shortcodes/button.php:159 shortcodes/call-to-action.php:208
+#: shortcodes/gallery-item.php:234 shortcodes/icon-box-2.php:107
+#: shortcodes/icon-box-2.php:128 shortcodes/icon-box.php:100
+#: shortcodes/pie-chart.php:156
+msgid "Select icon type."
+msgstr ""
+
+#: shortcodes/button.php:163 shortcodes/button.php:177
+#: shortcodes/call-to-action.php:213 shortcodes/call-to-action.php:228
+#: shortcodes/gallery-item.php:238 shortcodes/gallery-item.php:252
+#: shortcodes/icon-box-2.php:103 shortcodes/icon-box-2.php:132
+#: shortcodes/icon-box-2.php:146 shortcodes/icon-box.php:104
+#: shortcodes/icon-box.php:118 shortcodes/pie-chart.php:132
+#: shortcodes/pie-chart.php:160 shortcodes/pie-chart.php:174
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/button.php:173 shortcodes/button.php:186
+#: shortcodes/call-to-action.php:223 shortcodes/call-to-action.php:237
+#: shortcodes/gallery-item.php:248 shortcodes/gallery-item.php:261
+#: shortcodes/icon-box-2.php:142 shortcodes/icon-box-2.php:155
+#: shortcodes/icon-box.php:114 shortcodes/icon-box.php:127
+#: shortcodes/pie-chart.php:170 shortcodes/pie-chart.php:183
+msgid "Pick an icon from the library."
+msgstr ""
+
+#: shortcodes/button.php:190 shortcodes/call-to-action.php:242
+msgid "Icon Position"
+msgstr ""
+
+#: shortcodes/button.php:194 shortcodes/call-to-action.php:246
+msgid "Before Text"
+msgstr ""
+
+#: shortcodes/button.php:195 shortcodes/call-to-action.php:247
+msgid "After Text"
+msgstr ""
+
+#: shortcodes/button.php:198 shortcodes/call-to-action.php:250
+#: shortcodes/icon-box.php:150
+msgid "Select icon position."
+msgstr ""
+
+#: shortcodes/call-to-action.php:92
+msgid "Call to Action"
+msgstr ""
+
+#: shortcodes/call-to-action.php:93
+msgid "Catch visitors attention with CTA block"
+msgstr ""
+
+#: shortcodes/call-to-action.php:103 shortcodes/hover-box.php:150
+msgid "Background Color"
+msgstr ""
+
+#: shortcodes/call-to-action.php:107
+msgid "Select custom background color."
+msgstr ""
+
+#: shortcodes/call-to-action.php:119 shortcodes/call-to-action.php:121
+#: shortcodes/hover-box.php:148 shortcodes/hover-box.php:157
+#: shortcodes/hover-box.php:159 shortcodes/pricing-table.php:153
+#: shortcodes/pricing-table.php:155 shortcodes/testimonial.php:163
+#: shortcodes/timeline.php:103
+msgid "Content"
+msgstr ""
+
+#: shortcodes/call-to-action.php:125
+msgid "Write the content of CTA."
+msgstr ""
+
+#: shortcodes/call-to-action.php:130 shortcodes/pricing-table.php:164
+msgid "Show Button"
+msgstr ""
+
+#: shortcodes/call-to-action.php:135
+msgid "Uncheck to hide button."
+msgstr ""
+
+#: shortcodes/call-to-action.php:140
+msgid "Button Style"
+msgstr ""
+
+#: shortcodes/call-to-action.php:153
+msgid "Button Color"
+msgstr ""
+
+#: shortcodes/call-to-action.php:168
+msgid "Button Text"
+msgstr ""
+
+#: shortcodes/call-to-action.php:179
+msgid "Button URL (Link)"
+msgstr ""
+
+#: shortcodes/call-to-action.php:184 shortcodes/client.php:86
+msgid "Add the button link, link target and link title."
+msgstr ""
+
+#: shortcodes/carousel-item.php:48
+msgid "Carousel Item"
+msgstr ""
+
+#: shortcodes/carousel-item.php:49 shortcodes/filterable-item.php:50
+msgid "Add filterable item"
+msgstr ""
+
+#: shortcodes/carousel-item.php:71 shortcodes/client.php:97
+#: shortcodes/contact-form-7.php:136 shortcodes/heading.php:208
+#: shortcodes/hover-box.php:166 shortcodes/image-switch.php:155
+#: shortcodes/pricing-list.php:235 shortcodes/team-member.php:230
+#: shortcodes/testimonial.php:178
+msgid "Design Options"
+msgstr ""
+
+#: shortcodes/carousel-item.php:73 shortcodes/client.php:99
+#: shortcodes/contact-form-7.php:138 shortcodes/heading.php:210
+#: shortcodes/hover-box.php:168 shortcodes/image-switch.php:157
+#: shortcodes/pricing-list.php:237 shortcodes/team-member.php:232
+#: shortcodes/testimonial.php:180
+msgid "CSS box"
+msgstr ""
+
+#: shortcodes/carousel.php:106
+msgid "Add carousel"
+msgstr ""
+
+#: shortcodes/carousel.php:123 shortcodes/gallery.php:229
+msgid "Items to display on screen"
+msgstr ""
+
+#: shortcodes/carousel.php:127 shortcodes/gallery.php:234
+msgid "Maximum items to display at a time."
+msgstr ""
+
+#: shortcodes/carousel.php:132
+msgid "Items to display on small desktops"
+msgstr ""
+
+#: shortcodes/carousel.php:136
+msgid "Maximum items to display at a time for smaller screened desktops."
+msgstr ""
+
+#: shortcodes/carousel.php:141
+msgid "Items to display on tablets"
+msgstr ""
+
+#: shortcodes/carousel.php:145
+msgid "Maximum items to display at a time for tablet devices."
+msgstr ""
+
+#: shortcodes/carousel.php:150
+msgid "Items to display on mobile phones"
+msgstr ""
+
+#: shortcodes/carousel.php:154
+msgid "Maximum items to display at a time for mobile devices."
+msgstr ""
+
+#: shortcodes/carousel.php:158 shortcodes/carousel.php:167
+#: shortcodes/carousel.php:176
+msgid "Speeds"
+msgstr ""
+
+#: shortcodes/carousel.php:160
+msgid "Slide speed"
+msgstr ""
+
+#: shortcodes/carousel.php:164
+msgid "Slide speed in milliseconds."
+msgstr ""
+
+#: shortcodes/carousel.php:169
+msgid "Pagination speed"
+msgstr ""
+
+#: shortcodes/carousel.php:173
+msgid "Pagination speed in milliseconds."
+msgstr ""
+
+#: shortcodes/carousel.php:178
+msgid "Rewind speed"
+msgstr ""
+
+#: shortcodes/carousel.php:182
+msgid "Rewind speed in milliseconds."
+msgstr ""
+
+#: shortcodes/carousel.php:186 shortcodes/carousel.php:195
+#: shortcodes/video-section.php:171
+msgid "Autoplay"
+msgstr ""
+
+#: shortcodes/carousel.php:205 shortcodes/carousel.php:214
+#: shortcodes/carousel.php:224
+msgid "Navigation"
+msgstr ""
+
+#: shortcodes/carousel.php:207
+msgid "Display 'next' and 'prev' buttons"
+msgstr ""
+
+#: shortcodes/carousel.php:216
+msgid "Rewind Navigation"
+msgstr ""
+
+#: shortcodes/carousel.php:221
+msgid "Slide to first item. Use 'Rewind speed' to change animation speed."
+msgstr ""
+
+#: shortcodes/carousel.php:226
+msgid "Scroll per page"
+msgstr ""
+
+#: shortcodes/carousel.php:231
+msgid "Scroll per page not per item. This affect next/prev buttons and mouse/touch dragging."
+msgstr ""
+
+#: shortcodes/carousel.php:235 shortcodes/carousel.php:244
+msgid "Pagination"
+msgstr ""
+
+#: shortcodes/carousel.php:246
+msgid "Show numbers inside pagination buttons"
+msgstr ""
+
+#: shortcodes/carousel.php:255 shortcodes/carousel.php:264
+msgid "Others"
+msgstr ""
+
+#: shortcodes/carousel.php:257
+msgid "Carousel ID"
+msgstr ""
+
+#: shortcodes/carousel.php:261
+msgid "Use this to option to add an ID onto your carousel."
+msgstr ""
+
+#: shortcodes/client.php:63 shortcodes/client.php:68
+msgid "Client"
+msgstr ""
+
+#: shortcodes/client.php:64
+msgid "Add client or partner"
+msgstr ""
+
+#: shortcodes/client.php:74 shortcodes/gallery-item.php:136
+#: shortcodes/hover-box.php:93 shortcodes/icon-box-2.php:104
+#: shortcodes/icon-box-2.php:111 shortcodes/image-box.php:89
+#: shortcodes/team-member.php:130 shortcodes/testimonial.php:138
+#: shortcodes/video-section.php:93
+msgid "Image"
+msgstr ""
+
+#: shortcodes/client.php:78 shortcodes/gallery-item.php:140
+#: shortcodes/hover-box.php:97 shortcodes/icon-box-2.php:116
+#: shortcodes/image-box.php:93 shortcodes/testimonial.php:142
+msgid "Select image from media library."
+msgstr ""
+
+#: shortcodes/contact-form-7.php:66
+msgid "Contact Form 7"
+msgstr ""
+
+#: shortcodes/contact-form-7.php:67
+msgid "Add contact form"
+msgstr ""
+
+#: shortcodes/contact-form-7.php:76 shortcodes/gallery-item.php:169
+#: shortcodes/icon-box-2.php:170 shortcodes/icon-box.php:180
+#: shortcodes/image-box.php:106 shortcodes/pricing-list.php:131
+#: shortcodes/pricing-table.php:99 shortcodes/timeline.php:94
+#: shortcodes/video-section.php:129
+msgid "Title"
+msgstr ""
+
+#: shortcodes/contact-form-7.php:80
+msgid "What text use as form title. Leave blank if no title is needed."
+msgstr ""
+
+#: shortcodes/contact-form-7.php:84
+msgid "Form"
+msgstr ""
+
+#: shortcodes/contact-form-7.php:89
+msgid "Select previously created contact form from the drop down list."
+msgstr ""
+
+#: shortcodes/contact-form-7.php:100
+msgid "Select form style."
+msgstr ""
+
+#: shortcodes/contact-form-7.php:104
+msgid "Hide Validation Messages?"
+msgstr ""
+
+#: shortcodes/contact-form-7.php:109
+msgid "Check to hide all validation messages for fields."
+msgstr ""
+
+#: shortcodes/contact-form-7.php:113
+msgid "ID"
+msgstr ""
+
+#: shortcodes/contact-form-7.php:117
+msgid "Use this to option to add an ID onto your contact form. Leave blank if no title is needed."
+msgstr ""
+
+#: shortcodes/contact-form-7.php:121 shortcodes/team-member.php:149
+#: shortcodes/testimonial.php:146
+msgid "Name"
+msgstr ""
+
+#: shortcodes/contact-form-7.php:125
+msgid "Use this to option to add an Name onto your contact form. Leave blank if no title is needed."
+msgstr ""
+
+#: shortcodes/contact-form-7.php:129
+msgid "Class"
+msgstr ""
+
+#: shortcodes/contact-form-7.php:133
+msgid "Use this to option to add an extra Class onto your contact form. Leave blank if no title is needed."
+msgstr ""
+
+#: shortcodes/countdown.php:48
+msgid "Countdown"
+msgstr ""
+
+#: shortcodes/countdown.php:49
+msgid "Add countdown"
+msgstr ""
+
+#: shortcodes/countdown.php:58 shortcodes/timeline.php:85
+msgid "Date"
+msgstr ""
+
+#: shortcodes/countdown.php:63
+msgid "Enter date in '<b>yyyy-mm-dd</b>' format."
+msgstr ""
+
+#: shortcodes/countdown.php:67
+msgid "Format"
+msgstr ""
+
+#: shortcodes/countdown.php:72
+msgid "Enter date format. Default is <b>dHMS</b>."
+msgstr ""
+
+#: shortcodes/countdown.php:80
+msgid "Medium"
+msgstr ""
+
+#: shortcodes/countdown.php:85 shortcodes/gallery-item.php:204
+msgid "Select gallery item link type."
+msgstr ""
+
+#: shortcodes/counter.php:56
+msgid "Counter"
+msgstr ""
+
+#: shortcodes/counter.php:57
+msgid "Add counter"
+msgstr ""
+
+#: shortcodes/counter.php:73
+msgid "Select counter size."
+msgstr ""
+
+#: shortcodes/counter.php:77
+msgid "Digit"
+msgstr ""
+
+#: shortcodes/counter.php:81
+msgid "Enter counter digit. Eg. 1234."
+msgstr ""
+
+#: shortcodes/counter.php:85
+msgid "Digit Color"
+msgstr ""
+
+#: shortcodes/counter.php:89
+msgid "Select digit custom color."
+msgstr ""
+
+#: shortcodes/counter.php:93 shortcodes/progress-bar.php:69
+msgid "Label"
+msgstr ""
+
+#: shortcodes/counter.php:98
+msgid "Enter counter label. Eg. Customers."
+msgstr ""
+
+#: shortcodes/counter.php:102
+msgid "Label Color"
+msgstr ""
+
+#: shortcodes/counter.php:106
+msgid "Select label custom color."
+msgstr ""
+
+#: shortcodes/counter.php:110
+msgid "Delay"
+msgstr ""
+
+#: shortcodes/counter.php:114
+msgid "Specify time delay in milliseconds after which counter digit will begin to increase."
+msgstr ""
+
+#: shortcodes/counter.php:118
+msgid "Time"
+msgstr ""
+
+#: shortcodes/counter.php:122
+msgid "Specify time interval in milliseconds by which the last counter digit will be displayed. Default is 1000ms"
+msgstr ""
+
+#: shortcodes/filterable-item.php:49
+msgid "Filterable Item"
+msgstr ""
+
+#: shortcodes/filterable-item.php:65 shortcodes/gallery-item.php:186
+msgid "Category"
+msgstr ""
+
+#: shortcodes/filterable-item.php:69
+msgid "Select filterable item category."
+msgstr ""
+
+#: shortcodes/filterable.php:62
+msgid "Filterable"
+msgstr ""
+
+#: shortcodes/filterable.php:63
+msgid "Add filterable"
+msgstr ""
+
+#: shortcodes/filterable.php:84 shortcodes/gallery.php:162
+msgid "5 Columns"
+msgstr ""
+
+#: shortcodes/filterable.php:85 shortcodes/gallery.php:163
+msgid "6 Columns"
+msgstr ""
+
+#: shortcodes/filterable.php:89
+msgid "Select filterable layout."
+msgstr ""
+
+#: shortcodes/filterable.php:96 shortcodes/gallery.php:174
+msgid "With Space"
+msgstr ""
+
+#: shortcodes/filterable.php:97 shortcodes/gallery.php:175
+msgid "Without Space"
+msgstr ""
+
+#: shortcodes/filterable.php:100
+msgid "Select filterable style."
+msgstr ""
+
+#: shortcodes/filterable.php:104 shortcodes/gallery.php:199
+msgid "Filter Style"
+msgstr ""
+
+#: shortcodes/filterable.php:107 shortcodes/gallery.php:203
+#: shortcodes/heading.php:111 shortcodes/icon-box-2.php:162
+#: shortcodes/pie-chart.php:108 shortcodes/testimonial.php:108
+msgid "#1"
+msgstr ""
+
+#: shortcodes/filterable.php:108 shortcodes/gallery.php:204
+#: shortcodes/heading.php:115 shortcodes/icon-box-2.php:163
+#: shortcodes/pie-chart.php:112 shortcodes/testimonial.php:112
+msgid "#2"
+msgstr ""
+
+#: shortcodes/filterable.php:111 shortcodes/gallery.php:207
+msgid "Select gallery filter style."
+msgstr ""
+
+#: shortcodes/filterable.php:115 shortcodes/gallery.php:211
+msgid "All category text"
+msgstr ""
+
+#: shortcodes/filterable.php:119 shortcodes/gallery.php:216
+msgid "Enter in all category text."
+msgstr ""
+
+#: shortcodes/filterable.php:123 shortcodes/gallery.php:220
+msgid "Categories"
+msgstr ""
+
+#: shortcodes/filterable.php:127 shortcodes/gallery.php:225
+msgid "Enter one category per line."
+msgstr ""
+
+#: shortcodes/gallery-item.php:125 shortcodes/gallery-item.php:129
+msgid "Gallery Item"
+msgstr ""
+
+#: shortcodes/gallery-item.php:126
+msgid "Add gallery item"
+msgstr ""
+
+#: shortcodes/gallery-item.php:165
+msgid "Select size of image."
+msgstr ""
+
+#: shortcodes/gallery-item.php:174
+msgid "Enter gallery item title."
+msgstr ""
+
+#: shortcodes/gallery-item.php:178
+msgid "Subtitle"
+msgstr ""
+
+#: shortcodes/gallery-item.php:182
+msgid "Enter gallery item subtitle."
+msgstr ""
+
+#: shortcodes/gallery-item.php:191
+msgid "Enter gallery item category."
+msgstr ""
+
+#: shortcodes/gallery-item.php:195
+msgid "Link Type"
+msgstr ""
+
+#: shortcodes/gallery-item.php:198
+msgid "No Link"
+msgstr ""
+
+#: shortcodes/gallery-item.php:199
+msgid "Lightbox"
+msgstr ""
+
+#: shortcodes/gallery-item.php:200
+msgid "Link to URL"
+msgstr ""
+
+#: shortcodes/gallery-item.php:213
+msgid "Add link to service."
+msgstr ""
+
+#: shortcodes/gallery.php:126
+msgid "Gallery"
+msgstr ""
+
+#: shortcodes/gallery.php:127
+msgid "Add gallery"
+msgstr ""
+
+#: shortcodes/gallery.php:146
+msgid "Masonry"
+msgstr ""
+
+#: shortcodes/gallery.php:150
+msgid "Select gallery type."
+msgstr ""
+
+#: shortcodes/gallery.php:167
+msgid "Select gallery layout."
+msgstr ""
+
+#: shortcodes/gallery.php:178
+msgid "Select gallery style."
+msgstr ""
+
+#: shortcodes/gallery.php:182
+msgid "Space"
+msgstr ""
+
+#: shortcodes/gallery.php:187
+msgid "Enter in space between elements in integer. Default is 30px."
+msgstr ""
+
+#: shortcodes/gallery.php:191
+msgid "Make gallery filterable?"
+msgstr ""
+
+#: shortcodes/gallery.php:214
+msgid "All"
+msgstr ""
+
+#: shortcodes/heading.php:97
+msgid "Heading"
+msgstr ""
+
+#: shortcodes/heading.php:98
+msgid "Add heading and subheading"
+msgstr ""
+
+#: shortcodes/heading.php:119 shortcodes/pie-chart.php:116
+msgid "#3"
+msgstr ""
+
+#: shortcodes/heading.php:123
+msgid "#4"
+msgstr ""
+
+#: shortcodes/heading.php:131
+msgid "Select heading display style."
+msgstr ""
+
+#: shortcodes/heading.php:135
+msgid "Heading text"
+msgstr ""
+
+#: shortcodes/heading.php:140
+msgid "Enter heading text."
+msgstr ""
+
+#: shortcodes/heading.php:144
+msgid "Subheading text"
+msgstr ""
+
+#: shortcodes/heading.php:148
+msgid "Enter subheading text. Leave blank if no subheading is needed."
+msgstr ""
+
+#: shortcodes/heading.php:152 shortcodes/testimonial.php:124
+msgid "Alignment"
+msgstr ""
+
+#: shortcodes/heading.php:155 shortcodes/icon-box.php:145
+#: shortcodes/testimonial.php:128 shortcodes/timeline.php:77
+msgid "Left"
+msgstr ""
+
+#: shortcodes/heading.php:156 shortcodes/testimonial.php:129
+msgid "Center"
+msgstr ""
+
+#: shortcodes/heading.php:157 shortcodes/icon-box.php:147
+#: shortcodes/testimonial.php:130 shortcodes/timeline.php:78
+msgid "Right"
+msgstr ""
+
+#: shortcodes/heading.php:161
+msgid "Select heading alignment."
+msgstr ""
+
+#: shortcodes/heading.php:165 shortcodes/pricing-list.php:174
+msgid "Custom Colors?"
+msgstr ""
+
+#: shortcodes/heading.php:170 shortcodes/pricing-list.php:179
+msgid "Check to use custom colors."
+msgstr ""
+
+#: shortcodes/heading.php:174
+msgid "Heading Color"
+msgstr ""
+
+#: shortcodes/heading.php:179
+msgid "Select heading text custom color."
+msgstr ""
+
+#: shortcodes/heading.php:183
+msgid "Subheading Color"
+msgstr ""
+
+#: shortcodes/heading.php:188
+msgid "Select subheading text custom color."
+msgstr ""
+
+#: shortcodes/heading.php:192 shortcodes/pricing-list.php:219
+msgid "Line Color"
+msgstr ""
+
+#: shortcodes/heading.php:197 shortcodes/pricing-list.php:224
+msgid "Select line custom color."
+msgstr ""
+
+#: shortcodes/hover-box.php:83
+msgid "Hover Box"
+msgstr ""
+
+#: shortcodes/hover-box.php:84
+msgid "Add hover box"
+msgstr ""
+
+#: shortcodes/hover-box.php:111
+msgid "Hover Effect"
+msgstr ""
+
+#: shortcodes/hover-box.php:115 shortcodes/image-slider.php:143
+#: shortcodes/image-slider.php:155
+msgid "None"
+msgstr ""
+
+#: shortcodes/hover-box.php:116 shortcodes/image-switch.php:123
+msgid "Fade"
+msgstr ""
+
+#: shortcodes/hover-box.php:117 shortcodes/image-switch.php:124
+msgid "Blur"
+msgstr ""
+
+#: shortcodes/hover-box.php:118 shortcodes/image-switch.php:125
+msgid "Zoom"
+msgstr ""
+
+#: shortcodes/hover-box.php:119 shortcodes/image-switch.php:126
+msgid "Rotate"
+msgstr ""
+
+#: shortcodes/hover-box.php:120 shortcodes/image-switch.php:127
+msgid "Flip Vertical"
+msgstr ""
+
+#: shortcodes/hover-box.php:121 shortcodes/image-switch.php:128
+msgid "Flip Horizontal"
+msgstr ""
+
+#: shortcodes/hover-box.php:122 shortcodes/image-switch.php:129
+msgid "SlideUp"
+msgstr ""
+
+#: shortcodes/hover-box.php:123 shortcodes/image-switch.php:130
+msgid "SlideDown"
+msgstr ""
+
+#: shortcodes/hover-box.php:124 shortcodes/image-switch.php:131
+msgid "SlideLeft"
+msgstr ""
+
+#: shortcodes/hover-box.php:125 shortcodes/image-switch.php:132
+msgid "SlideRight"
+msgstr ""
+
+#: shortcodes/hover-box.php:129
+msgid "Select effect of hover box."
+msgstr ""
+
+#: shortcodes/hover-box.php:137
+msgid "Add link to hover box."
+msgstr ""
+
+#: shortcodes/hover-box.php:154
+msgid "Select content background custom color."
+msgstr ""
+
+#: shortcodes/hover-box.php:163
+msgid "Write the content of hover box."
+msgstr ""
+
+#: shortcodes/icon-box-2.php:90
+msgid "Icon Box 2"
+msgstr ""
+
+#: shortcodes/icon-box-2.php:91 shortcodes/icon-box.php:84
+msgid "Add icon box"
+msgstr ""
+
+#: shortcodes/icon-box-2.php:166
+msgid "Select icon box style."
+msgstr ""
+
+#: shortcodes/icon-box-2.php:175 shortcodes/icon-box.php:185
+msgid "Enter the title."
+msgstr ""
+
+#: shortcodes/icon-box-2.php:179 shortcodes/icon-box.php:189
+#: shortcodes/image-box.php:115 shortcodes/pricing-list.php:148
+#: shortcodes/team-member.php:168
+msgid "Description"
+msgstr ""
+
+#: shortcodes/icon-box-2.php:183 shortcodes/icon-box.php:193
+msgid "Enter the description."
+msgstr ""
+
+#: shortcodes/icon-box-2.php:189
+msgid "View More"
+msgstr ""
+
+#: shortcodes/icon-box-2.php:199 shortcodes/icon-box.php:210
+msgid "Add link to icon box."
+msgstr ""
+
+#: shortcodes/icon-box.php:83
+msgid "Icon Box"
+msgstr ""
+
+#: shortcodes/icon-box.php:138
+msgid "Select icon size."
+msgstr ""
+
+#: shortcodes/icon-box.php:142 shortcodes/team-member.php:159
+#: shortcodes/testimonial.php:155 shortcodes/timeline.php:74
+msgid "Position"
+msgstr ""
+
+#: shortcodes/icon-box.php:146
+msgid "Top"
+msgstr ""
+
+#: shortcodes/icon-box.php:157
+msgid "Circle"
+msgstr ""
+
+#: shortcodes/icon-box.php:158
+msgid "Square"
+msgstr ""
+
+#: shortcodes/icon-box.php:159
+msgid "Square 45°"
+msgstr ""
+
+#: shortcodes/icon-box.php:162
+msgid "Select icon style."
+msgstr ""
+
+#: shortcodes/icon-box.php:176
+msgid "Select icon box color."
+msgstr ""
+
+#: shortcodes/image-box.php:79
+msgid "Image Box"
+msgstr ""
+
+#: shortcodes/image-box.php:80
+msgid "Add image box"
+msgstr ""
+
+#: shortcodes/image-box.php:111 shortcodes/video-section.php:134
+msgid "Enter title."
+msgstr ""
+
+#: shortcodes/image-box.php:119 shortcodes/pricing-list.php:152
+msgid "Enter description."
+msgstr ""
+
+#: shortcodes/image-box.php:136
+msgid "Add link to image box."
+msgstr ""
+
+#: shortcodes/image-slider.php:92
+msgid "Image Slider"
+msgstr ""
+
+#: shortcodes/image-slider.php:93
+msgid "Animated slider with images"
+msgstr ""
+
+#: shortcodes/image-slider.php:103
+msgid "Images"
+msgstr ""
+
+#: shortcodes/image-slider.php:108
+msgid "Select images from media library."
+msgstr ""
+
+#: shortcodes/image-slider.php:122
+msgid "Show Captions"
+msgstr ""
+
+#: shortcodes/image-slider.php:127
+msgid "Check to show captions for images."
+msgstr ""
+
+#: shortcodes/image-slider.php:131
+msgid "Enable lightbox"
+msgstr ""
+
+#: shortcodes/image-slider.php:136
+msgid "Check to enable lightbox for images."
+msgstr ""
+
+#: shortcodes/image-slider.php:144 shortcodes/image-slider.php:156
+msgid "Always"
+msgstr ""
+
+#: shortcodes/image-slider.php:145 shortcodes/image-slider.php:157
+msgid "Only on hover"
+msgstr ""
+
+#: shortcodes/image-switch.php:81
+msgid "Image Switch"
+msgstr ""
+
+#: shortcodes/image-switch.php:82
+msgid "Add image switch"
+msgstr ""
+
+#: shortcodes/image-switch.php:91
+msgid "Default Image"
+msgstr ""
+
+#: shortcodes/image-switch.php:96
+msgid "Select default image from media library."
+msgstr ""
+
+#: shortcodes/image-switch.php:100
+msgid "Hover Image"
+msgstr ""
+
+#: shortcodes/image-switch.php:105
+msgid "Select hover image from media library."
+msgstr ""
+
+#: shortcodes/image-switch.php:119
+msgid "Switch Effect"
+msgstr ""
+
+#: shortcodes/image-switch.php:136
+msgid "Select switch effect of images."
+msgstr ""
+
+#: shortcodes/image-switch.php:144
+msgid "Add link to image switch."
+msgstr ""
+
+#: shortcodes/map.php:94
+msgid "Map"
+msgstr ""
+
+#: shortcodes/map.php:95
+msgid "Add map"
+msgstr ""
+
+#: shortcodes/map.php:105
+msgid "Inherit from Theme Options"
+msgstr ""
+
+#: shortcodes/map.php:111
+msgid "Map options will be inherited form general theme options. Uncheck to ignore and set up new options."
+msgstr ""
+
+#: shortcodes/map.php:116
+msgid "Center Latitude"
+msgstr ""
+
+#: shortcodes/map.php:122
+msgid "Enter latitude for the map center point."
+msgstr ""
+
+#: shortcodes/map.php:127
+msgid "Center Longitude"
+msgstr ""
+
+#: shortcodes/map.php:133
+msgid "Enter longitude for the map center point."
+msgstr ""
+
+#: shortcodes/map.php:138
+msgid "Default Zoom Level"
+msgstr ""
+
+#: shortcodes/map.php:143
+msgid "Value should be between 1-18, 1 being the entire earth and 18 being right at street level."
+msgstr ""
+
+#: shortcodes/map.php:148 shortcodes/video-section.php:120
+msgid "Height"
+msgstr ""
+
+#: shortcodes/map.php:153
+msgid "Enter map height."
+msgstr ""
+
+#: shortcodes/map.php:162
+msgid "Roadmap"
+msgstr ""
+
+#: shortcodes/map.php:163
+msgid "Satellite"
+msgstr ""
+
+#: shortcodes/map.php:164
+msgid "Hybrid"
+msgstr ""
+
+#: shortcodes/map.php:165
+msgid "Terrain"
+msgstr ""
+
+#: shortcodes/map.php:168
+msgid "Select map type."
+msgstr ""
+
+#: shortcodes/map.php:173
+msgid "Tilt 45°"
+msgstr ""
+
+#: shortcodes/map.php:183
+msgid "Others Options"
+msgstr ""
+
+#: shortcodes/map.php:186
+msgid "Draggable"
+msgstr ""
+
+#: shortcodes/map.php:196
+msgid "Zoom Control"
+msgstr ""
+
+#: shortcodes/map.php:205
+msgid "Disable Double Click Zoom"
+msgstr ""
+
+#: shortcodes/map.php:214
+msgid "Scroll Wheel"
+msgstr ""
+
+#: shortcodes/map.php:223
+msgid "Pan Control"
+msgstr ""
+
+#: shortcodes/map.php:232
+msgid "Type Control"
+msgstr ""
+
+#: shortcodes/map.php:241
+msgid "Scale Control"
+msgstr ""
+
+#: shortcodes/map.php:250
+msgid "Street View Control"
+msgstr ""
+
+#: shortcodes/map.php:252
+msgid "Select other options you want to apply on map."
+msgstr ""
+
+#: shortcodes/map.php:276
+msgid "Theme Style"
+msgstr ""
+
+#: shortcodes/map.php:280
+msgid "Subtle Grayscale"
+msgstr ""
+
+#: shortcodes/map.php:284
+msgid "Blue Water"
+msgstr ""
+
+#: shortcodes/map.php:288
+msgid "Shades of Grey"
+msgstr ""
+
+#: shortcodes/map.php:292
+msgid "Pale Dawn"
+msgstr ""
+
+#: shortcodes/map.php:296
+msgid "Apple Maps-esque"
+msgstr ""
+
+#: shortcodes/map.php:300
+msgid "Light Monochrome"
+msgstr ""
+
+#: shortcodes/map.php:304
+msgid "Greyscale"
+msgstr ""
+
+#: shortcodes/map.php:308
+msgid "Neutral Blue"
+msgstr ""
+
+#: shortcodes/map.php:312
+msgid "Become a Dinosaur"
+msgstr ""
+
+#: shortcodes/map.php:316
+msgid "Blue Gray"
+msgstr ""
+
+#: shortcodes/map.php:320
+msgid "Icy Blue"
+msgstr ""
+
+#: shortcodes/map.php:324
+msgid "Clean Cut"
+msgstr ""
+
+#: shortcodes/map.php:328
+msgid "Muted Blue"
+msgstr ""
+
+#: shortcodes/map.php:332
+msgid "Old Timey"
+msgstr ""
+
+#: shortcodes/map.php:336
+msgid "Red Hues"
+msgstr ""
+
+#: shortcodes/map.php:340
+msgid "Nature"
+msgstr ""
+
+#: shortcodes/map.php:344
+msgid "Turquoise Water"
+msgstr ""
+
+#: shortcodes/map.php:348
+msgid "Just Places"
+msgstr ""
+
+#: shortcodes/map.php:352
+msgid "Ultra Light"
+msgstr ""
+
+#: shortcodes/map.php:356
+msgid "Subtle Green"
+msgstr ""
+
+#: shortcodes/map.php:360
+msgid "Simple & Light"
+msgstr ""
+
+#: shortcodes/map.php:364
+msgid "Dankontorstole"
+msgstr ""
+
+#: shortcodes/map.php:372
+msgid "Select map style."
+msgstr ""
+
+#: shortcodes/map.php:375 shortcodes/map.php:385 shortcodes/map.php:395
+#: shortcodes/map.php:409
+msgid "Marker"
+msgstr ""
+
+#: shortcodes/map.php:377
+msgid "Use Custom Marker"
+msgstr ""
+
+#: shortcodes/map.php:382
+msgid "Check to use a custom image as map marker."
+msgstr ""
+
+#: shortcodes/map.php:387
+msgid "Custom Marker"
+msgstr ""
+
+#: shortcodes/map.php:392
+msgid "Upload custom image/icon marker."
+msgstr ""
+
+#: shortcodes/map.php:397
+msgid "Enable Marker Animation"
+msgstr ""
+
+#: shortcodes/map.php:402
+msgid "If checked, marker(s) will do a quick bounce as they load in."
+msgstr ""
+
+#: shortcodes/map.php:405 shortcodes/map.php:407
+msgid "Locations"
+msgstr ""
+
+#: shortcodes/map.php:409
+msgid "Latitude"
+msgstr ""
+
+#: shortcodes/map.php:409
+msgid "Longitude"
+msgstr ""
+
+#: shortcodes/map.php:409
+msgid "Info Window"
+msgstr ""
+
+#: shortcodes/map.php:409
+msgid "No marker selected. Custom marker will be inhereted."
+msgstr ""
+
+#: shortcodes/map.php:409
+msgid "Add Image"
+msgstr ""
+
+#: shortcodes/map.php:409
+msgid "Upload"
+msgstr ""
+
+#: shortcodes/map.php:409
+msgid "Remove"
+msgstr ""
+
+#: shortcodes/map.php:412
+msgid "Enter map locations details."
+msgstr ""
+
+#: shortcodes/others.php:75
+msgid "Posted by"
+msgstr ""
+
+#: shortcodes/others.php:127
+msgid "Email address"
+msgstr ""
+
+#: shortcodes/others.php:171
+msgid "Validation errors occurred. Please confirm the fields and submit it again."
+msgstr ""
+
+#: shortcodes/others.php:175
+msgid "Missing MailChip API or MailChip List ID!"
+msgstr ""
+
+#: shortcodes/others.php:194
+msgid "You have been subscribed successfully."
+msgstr ""
+
+#: shortcodes/others.php:197
+msgid "Please enter a valid email address!"
+msgstr ""
+
+#: shortcodes/pie-chart.php:94
+msgid "Pie Chart"
+msgstr ""
+
+#: shortcodes/pie-chart.php:95
+msgid "Add animated pie chart"
+msgstr ""
+
+#: shortcodes/pie-chart.php:124
+msgid "Select pie chart display style."
+msgstr ""
+
+#: shortcodes/pie-chart.php:135
+msgid "Select pie chart type."
+msgstr ""
+
+#: shortcodes/pie-chart.php:144
+msgid "Enter text for pie chart."
+msgstr ""
+
+#: shortcodes/pie-chart.php:187 shortcodes/progress-bar.php:78
+msgid "Value"
+msgstr ""
+
+#: shortcodes/pie-chart.php:192
+msgid "Enter value for graph (Note: choose range from 0 to 100)."
+msgstr ""
+
+#: shortcodes/pie-chart.php:196
+msgid "Line Width"
+msgstr ""
+
+#: shortcodes/pie-chart.php:200
+msgid "Enter pie chart line width in px."
+msgstr ""
+
+#: shortcodes/pie-chart.php:208
+msgid "Enter chart size (note: it applies for both width and height)."
+msgstr ""
+
+#: shortcodes/pie-chart.php:212
+msgid "Font Size"
+msgstr ""
+
+#: shortcodes/pie-chart.php:216
+msgid "Enter font size for text/icon in integer."
+msgstr ""
+
+#: shortcodes/pie-chart.php:220 shortcodes/progress-bar.php:96
+msgid "Text Color"
+msgstr ""
+
+#: shortcodes/pie-chart.php:224
+msgid "Select text/icon color."
+msgstr ""
+
+#: shortcodes/pie-chart.php:228 shortcodes/progress-bar.php:105
+msgid "Bar Color"
+msgstr ""
+
+#: shortcodes/pie-chart.php:232
+msgid "Select bar color."
+msgstr ""
+
+#: shortcodes/pie-chart.php:236
+msgid "Track Color"
+msgstr ""
+
+#: shortcodes/pie-chart.php:240
+msgid "Select track color."
+msgstr ""
+
+#: shortcodes/pricing-list.php:121
+msgid "Pricing List"
+msgstr ""
+
+#: shortcodes/pricing-list.php:122
+msgid "Add pricing list item"
+msgstr ""
+
+#: shortcodes/pricing-list.php:136
+msgid "Enter pricing list title."
+msgstr ""
+
+#: shortcodes/pricing-list.php:144
+msgid "Add link to pricing list."
+msgstr ""
+
+#: shortcodes/pricing-list.php:156
+msgid "Older Price"
+msgstr ""
+
+#: shortcodes/pricing-list.php:161
+msgid "Enter older price."
+msgstr ""
+
+#: shortcodes/pricing-list.php:165
+msgid "Current Price"
+msgstr ""
+
+#: shortcodes/pricing-list.php:170
+msgid "Enter current price."
+msgstr ""
+
+#: shortcodes/pricing-list.php:183
+msgid "Title Color"
+msgstr ""
+
+#: shortcodes/pricing-list.php:188
+msgid "Select title text custom color."
+msgstr ""
+
+#: shortcodes/pricing-list.php:192
+msgid "Description Color"
+msgstr ""
+
+#: shortcodes/pricing-list.php:197
+msgid "Select description text custom color."
+msgstr ""
+
+#: shortcodes/pricing-list.php:201
+msgid "Older Price Color"
+msgstr ""
+
+#: shortcodes/pricing-list.php:206 shortcodes/pricing-list.php:215
+msgid "Select price custom color."
+msgstr ""
+
+#: shortcodes/pricing-list.php:210
+msgid "Current Price Color"
+msgstr ""
+
+#: shortcodes/pricing-table.php:88
+msgid "Pricing Table"
+msgstr ""
+
+#: shortcodes/pricing-table.php:89
+msgid "Add pricing table item"
+msgstr ""
+
+#: shortcodes/pricing-table.php:97 shortcodes/pricing-table.php:107
+#: shortcodes/pricing-table.php:116 shortcodes/pricing-table.php:125
+#: shortcodes/pricing-table.php:134 shortcodes/pricing-table.php:144
+msgid "Header"
+msgstr ""
+
+#: shortcodes/pricing-table.php:104
+msgid "Enter pricing table title [eg. Basic Pack]."
+msgstr ""
+
+#: shortcodes/pricing-table.php:109
+msgid "Amount"
+msgstr ""
+
+#: shortcodes/pricing-table.php:113
+msgid "Enter amount/price. [eg. 35]"
+msgstr ""
+
+#: shortcodes/pricing-table.php:118
+msgid "Currency"
+msgstr ""
+
+#: shortcodes/pricing-table.php:122
+msgid "Enter pricing table currency. [eg. $]"
+msgstr ""
+
+#: shortcodes/pricing-table.php:127
+msgid "Period"
+msgstr ""
+
+#: shortcodes/pricing-table.php:131
+msgid "Enter price period. [eg. per month, year]"
+msgstr ""
+
+#: shortcodes/pricing-table.php:136
+msgid "Active"
+msgstr ""
+
+#: shortcodes/pricing-table.php:141
+msgid "Check this to make pricing table active."
+msgstr ""
+
+#: shortcodes/pricing-table.php:159
+msgid "Write pricing table content."
+msgstr ""
+
+#: shortcodes/pricing-table.php:169
+msgid "Check this to show button."
+msgstr ""
+
+#: shortcodes/pricing-table.php:179
+msgid "Enter button text. [eg. get now, see more]."
+msgstr ""
+
+#: shortcodes/pricing-table.php:189
+msgid "Add button link, link target and link title."
+msgstr ""
+
+#: shortcodes/progress-bar.php:59
+msgid "Progress Bar"
+msgstr ""
+
+#: shortcodes/progress-bar.php:60
+msgid "Add progress bar"
+msgstr ""
+
+#: shortcodes/progress-bar.php:74
+msgid "Enter text used as title of bar."
+msgstr ""
+
+#: shortcodes/progress-bar.php:83
+msgid "Enter value of bar from 0 to 100."
+msgstr ""
+
+#: shortcodes/progress-bar.php:87
+msgid "Use Custom Color"
+msgstr ""
+
+#: shortcodes/progress-bar.php:92
+msgid "Check this to select custom colors."
+msgstr ""
+
+#: shortcodes/progress-bar.php:101
+msgid "Select custom bar text color."
+msgstr ""
+
+#: shortcodes/progress-bar.php:110
+msgid "Select custom bar color."
+msgstr ""
+
+#: shortcodes/progress-bar.php:114
+msgid "Bar Background Color"
+msgstr ""
+
+#: shortcodes/progress-bar.php:119
+msgid "Select custom bar background color."
+msgstr ""
+
+#: shortcodes/team-member.php:119
+msgid "Team Member"
+msgstr ""
+
+#: shortcodes/team-member.php:120
+msgid "Add team member"
+msgstr ""
+
+#: shortcodes/team-member.php:134
+msgid "Select team member image."
+msgstr ""
+
+#: shortcodes/team-member.php:154
+msgid "Enter team member name."
+msgstr ""
+
+#: shortcodes/team-member.php:163
+msgid "Enter team member position."
+msgstr ""
+
+#: shortcodes/team-member.php:172
+msgid "Enter team member description."
+msgstr ""
+
+#: shortcodes/team-member.php:181
+msgid "Add link to name."
+msgstr ""
+
+#: shortcodes/team-member.php:206
+msgid "Select style."
+msgstr ""
+
+#: shortcodes/team-member.php:209 shortcodes/team-member.php:219
+#: shortcodes/team-member.php:221
+msgid "Social Networks"
+msgstr ""
+
+#: shortcodes/team-member.php:211
+msgid "Show social networks?"
+msgstr ""
+
+#: shortcodes/team-member.php:216
+msgid "Check to show social networks."
+msgstr ""
+
+#: shortcodes/team-member.php:227
+msgid "Add social networks."
+msgstr ""
+
+#: shortcodes/testimonial.php:94
+msgid "Testimonial"
+msgstr ""
+
+#: shortcodes/testimonial.php:95
+msgid "Show what your client say"
+msgstr ""
+
+#: shortcodes/testimonial.php:120
+msgid "Select testimonial style."
+msgstr ""
+
+#: shortcodes/testimonial.php:134
+msgid "Select testimonial alignment."
+msgstr ""
+
+#: shortcodes/testimonial.php:151
+msgid "Enter in author name."
+msgstr ""
+
+#: shortcodes/testimonial.php:159
+msgid "Enter in author position."
+msgstr ""
+
+#: shortcodes/testimonial.php:167
+msgid "Enter in content."
+msgstr ""
+
+#: shortcodes/timeline.php:64
+msgid "Timeline"
+msgstr ""
+
+#: shortcodes/timeline.php:65
+msgid "Add timeline"
+msgstr ""
+
+#: shortcodes/timeline.php:81
+msgid "Select position display style."
+msgstr ""
+
+#: shortcodes/timeline.php:90
+msgid "Enter history date."
+msgstr ""
+
+#: shortcodes/timeline.php:99
+msgid "Enter history title."
+msgstr ""
+
+#: shortcodes/timeline.php:107
+msgid "Enter history content."
+msgstr ""
+
+#: shortcodes/video-section.php:83
+msgid "Video section"
+msgstr ""
+
+#: shortcodes/video-section.php:84
+msgid "Add video section"
+msgstr ""
+
+#: shortcodes/video-section.php:97
+msgid "Select background image."
+msgstr ""
+
+#: shortcodes/video-section.php:101
+msgid "Custom Height?"
+msgstr ""
+
+#: shortcodes/video-section.php:106
+msgid "Check to use custom height."
+msgstr ""
+
+#: shortcodes/video-section.php:110
+msgid "Aspect Ratio"
+msgstr ""
+
+#: shortcodes/video-section.php:116
+msgid "Select ratio of video."
+msgstr ""
+
+#: shortcodes/video-section.php:125
+msgid "Enter custom height. (Note: CSS measurement units allowed)."
+msgstr ""
+
+#: shortcodes/video-section.php:138
+msgid "Video URL"
+msgstr ""
+
+#: shortcodes/video-section.php:143
+msgid "Enter video URL. Eg. https://www.youtube.com/watch?v=1234567."
+msgstr ""
+
+#: shortcodes/video-section.php:147
+msgid "Open video as popup?"
+msgstr ""
+
+#: shortcodes/video-section.php:152
+msgid "Check to open the video as popup."
+msgstr ""
+
+#: shortcodes/video-section.php:156
+msgid "Video mute?"
+msgstr ""
+
+#: shortcodes/video-section.php:162
+msgid "Check to video mute."
+msgstr ""
+
+#: shortcodes/video-section.php:166
+msgid "Play type"
+msgstr ""
+
+#: shortcodes/video-section.php:172
+msgid "On scroll"
+msgstr ""
+
+#: shortcodes/video-section.php:176
+msgid "Select video play type. <b>*</b> Works only for youtube videos."
+msgstr ""
+
+#: shortcodes/video-section.php:180
+msgid "Pattern overlay?"
+msgstr ""
+
+#: shortcodes/video-section.php:185
+msgid "Check to show pattern overlay."
+msgstr ""

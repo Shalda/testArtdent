@@ -1,0 +1,1141 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: DentalPress Options\n"
+"POT-Creation-Date: 2017-10-11 08:56+0200\n"
+"PO-Revision-Date: 2015-04-06 03:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: FlexiPress <support@flexipress.xyz>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: framework\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: options.php:52
+msgid "Theme URL"
+msgstr ""
+
+#: options.php:57
+msgid "Author"
+msgstr ""
+
+#: options.php:62
+msgid "Version"
+msgstr ""
+
+#: options.php:66
+msgid "Tags"
+msgstr ""
+
+#: options.php:71
+msgid "Documentation"
+msgstr ""
+
+#: options.php:79
+msgid "Support"
+msgstr ""
+
+#: options.php:87
+msgid "Thank you!"
+msgstr ""
+
+#: options.php:102
+msgid "General"
+msgstr ""
+
+#: options.php:108
+msgid "Logo"
+msgstr ""
+
+#: options.php:109
+msgid "Upload a custom logo for your site."
+msgstr ""
+
+#: options.php:119
+msgid "Logo Container Width"
+msgstr ""
+
+#: options.php:120
+msgid "Enter logo container width in px."
+msgstr ""
+
+#: options.php:129
+msgid "Smooth Scrolling"
+msgstr ""
+
+#: options.php:130
+msgid "Turn on to emulate smoth scroll effect on your site. *This won't work on old IEs."
+msgstr ""
+
+#: options.php:131 options.php:140 options.php:517 options.php:555
+msgid "On"
+msgstr ""
+
+#: options.php:132 options.php:141 options.php:518 options.php:556
+msgid "Off"
+msgstr ""
+
+#: options.php:138
+msgid "Preloader"
+msgstr ""
+
+#: options.php:139
+msgid "Turn on to show preloader while site is loading."
+msgstr ""
+
+#: options.php:149
+msgid "Preloader image"
+msgstr ""
+
+#: options.php:157
+msgid "Site Mode"
+msgstr ""
+
+#: options.php:158
+msgid "Select site mode. Note: When site is 'Under Construction', only logged in users will be able to see the site's content."
+msgstr ""
+
+#: options.php:160
+msgid "Normal"
+msgstr ""
+
+#: options.php:161
+msgid "Under Construction"
+msgstr ""
+
+#: options.php:170
+msgid "Maintenance or Coming Soon Page"
+msgstr ""
+
+#: options.php:171
+msgid "Select maintenance or coming soon page."
+msgstr ""
+
+#: options.php:179
+msgid "Styling"
+msgstr ""
+
+#: options.php:185
+msgid "Primary Color"
+msgstr ""
+
+#: options.php:186
+msgid "Select primary color of your site."
+msgstr ""
+
+#: options.php:194
+msgid "Secondary Color"
+msgstr ""
+
+#: options.php:195
+msgid "Select secondary color of your site."
+msgstr ""
+
+#: options.php:203
+msgid "Background"
+msgstr ""
+
+#: options.php:204
+msgid "Upload a large and beautiful background image for your site. This will override the background color and background pattern."
+msgstr ""
+
+#: options.php:216
+msgid "Typography"
+msgstr ""
+
+#: options.php:222
+msgid "Body"
+msgstr ""
+
+#: options.php:242
+msgid "Navigation"
+msgstr ""
+
+#: options.php:261
+msgid "Navigation Submenu"
+msgstr ""
+
+#: options.php:280
+msgid "H1"
+msgstr ""
+
+#: options.php:299
+msgid "H2"
+msgstr ""
+
+#: options.php:318
+msgid "H3"
+msgstr ""
+
+#: options.php:337
+msgid "H4"
+msgstr ""
+
+#: options.php:356
+msgid "H5"
+msgstr ""
+
+#: options.php:375
+msgid "H6"
+msgstr ""
+
+#: options.php:394
+msgid "Others"
+msgstr ""
+
+#: options.php:415
+msgid "Top Bar"
+msgstr ""
+
+#: options.php:421
+msgid "Show Top Bar"
+msgstr ""
+
+#: options.php:422 options.php:537 options.php:584 options.php:592
+#: options.php:600 options.php:608 options.php:635 options.php:828
+#: options.php:837 options.php:853 options.php:883 options.php:918
+#: options.php:953 options.php:988 options.php:1023 options.php:1058
+#: options.php:1093 options.php:1128 options.php:1163 options.php:1198
+#: options.php:1233 options.php:1268 options.php:1303 options.php:1338
+#: options.php:1373 options.php:1408 options.php:1443 options.php:1478
+#: options.php:1513 options.php:1548 options.php:1598 options.php:1655
+#: options.php:1692
+msgid "Yes"
+msgstr ""
+
+#: options.php:423 options.php:538 options.php:585 options.php:593
+#: options.php:601 options.php:609 options.php:636 options.php:829
+#: options.php:838 options.php:854 options.php:884 options.php:919
+#: options.php:954 options.php:989 options.php:1024 options.php:1059
+#: options.php:1094 options.php:1129 options.php:1164 options.php:1199
+#: options.php:1234 options.php:1269 options.php:1304 options.php:1339
+#: options.php:1374 options.php:1409 options.php:1444 options.php:1479
+#: options.php:1514 options.php:1549 options.php:1599 options.php:1656
+#: options.php:1693
+msgid "No"
+msgstr ""
+
+#: options.php:430
+msgid "Text Color"
+msgstr ""
+
+#: options.php:431
+msgid "Select top bar text color."
+msgstr ""
+
+#: options.php:440
+msgid "Left Content"
+msgstr ""
+
+#: options.php:441
+msgid "Enter top bar left side content. You can write HTML code as well."
+msgstr ""
+
+#: options.php:448
+msgid "Right Content"
+msgstr ""
+
+#: options.php:449
+msgid "Enter top bar right side content. You can write HTML code as well."
+msgstr ""
+
+#: options.php:457 options.php:491
+msgid "Header"
+msgstr ""
+
+#: options.php:463
+msgid "Padding"
+msgstr ""
+
+#: options.php:464
+msgid "Enter header top and bottom padding."
+msgstr ""
+
+#: options.php:480
+msgid "Widgets"
+msgstr ""
+
+#: options.php:481
+msgid "Insert widgets content each separeted in a div."
+msgstr ""
+
+#: options.php:487
+msgid "Navigation Position"
+msgstr ""
+
+#: options.php:488
+msgid "Select navigation position."
+msgstr ""
+
+#: options.php:492
+msgid "Sidebar"
+msgstr ""
+
+#: options.php:499
+msgid "Navigation Submenu width"
+msgstr ""
+
+#: options.php:500
+msgid "Enter navigation submenu width in px."
+msgstr ""
+
+#: options.php:509
+msgid "Page Header"
+msgstr ""
+
+#: options.php:515
+msgid "Show Page Header?"
+msgstr ""
+
+#: options.php:516
+msgid "Turn on to show page header area on all pages."
+msgstr ""
+
+#: options.php:525
+msgid "Background Image"
+msgstr ""
+
+#: options.php:526
+msgid "Upload a custom page header background image."
+msgstr ""
+
+#: options.php:535
+msgid "Parallax Effect?"
+msgstr ""
+
+#: options.php:536
+msgid "Enable parallax effect on page header background image."
+msgstr ""
+
+#: options.php:546
+msgid "Blog"
+msgstr ""
+
+#: options.php:547
+msgid "All blog related options are listed here."
+msgstr ""
+
+#: options.php:553 options.php:634
+msgid "Social Media Sharing Buttons"
+msgstr ""
+
+#: options.php:554
+msgid "Turn on to enable social sharing buttons on blog posts."
+msgstr ""
+
+#: options.php:563 options.php:643
+msgid "Social Networks"
+msgstr ""
+
+#: options.php:564
+msgid "Select social networks to be shown in single posts."
+msgstr ""
+
+#: options.php:583
+msgid "Show Date"
+msgstr ""
+
+#: options.php:591
+msgid "Show Author"
+msgstr ""
+
+#: options.php:599
+msgid "Show Tags"
+msgstr ""
+
+#: options.php:607
+msgid "Show Tags in Single Post"
+msgstr ""
+
+#: options.php:618
+msgid "Shop"
+msgstr ""
+
+#: options.php:624
+msgid "Products number"
+msgstr ""
+
+#: options.php:625
+msgid "Select number of products per page."
+msgstr ""
+
+#: options.php:644
+msgid "Select social networks to be shown in single products."
+msgstr ""
+
+#: options.php:666
+msgid "Map"
+msgstr ""
+
+#: options.php:667
+msgid "Please find here all the map options. To convert an address into latitude & longitude please use <a href=\"http://www.latlong.net/convert-address-to-lat-long.html\" target=\"_blank\">this converter.</a>"
+msgstr ""
+
+#: options.php:673
+msgid "Google Map API Key"
+msgstr ""
+
+#: options.php:674
+msgid "As of <a href=\"https://googlegeodevelopers.blogspot.com/2016/06/building-for-scale-updates-to-google.html\" target=\"_blank\">June 22, 2016</a> Google Maps no longer allows request for new sites that doesn’t include an API key. <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\" target=\"_blank\">Click here</a> to generate your Google Map API key"
+msgstr ""
+
+#: options.php:680
+msgid "Map Center Latitude"
+msgstr ""
+
+#: options.php:681
+msgid "Enter latitude for the map center point."
+msgstr ""
+
+#: options.php:687
+msgid "Map Center Longitude"
+msgstr ""
+
+#: options.php:688
+msgid "Enter longitude for the map center point."
+msgstr ""
+
+#: options.php:694
+msgid "Default Map Zoom Level"
+msgstr ""
+
+#: options.php:695
+msgid "Enter default map zoom level. Note: Value should be between 1-18, 1 being the entire earth and 18 being right at street level."
+msgstr ""
+
+#: options.php:701
+msgid "Map Height"
+msgstr ""
+
+#: options.php:702
+msgid "Enter map container height in px."
+msgstr ""
+
+#: options.php:709
+msgid "Map Type"
+msgstr ""
+
+#: options.php:710
+msgid "Select map type."
+msgstr ""
+
+#: options.php:713
+msgid "Roadmap"
+msgstr ""
+
+#: options.php:714
+msgid "Satellite"
+msgstr ""
+
+#: options.php:715
+msgid "Hybrid"
+msgstr ""
+
+#: options.php:716
+msgid "Terrain"
+msgstr ""
+
+#: options.php:724
+msgid "Map Style"
+msgstr ""
+
+#: options.php:725
+msgid "Select map style."
+msgstr ""
+
+#: options.php:827
+msgid "Tilt 45°"
+msgstr ""
+
+#: options.php:835
+msgid "Use Image for Markers"
+msgstr ""
+
+#: options.php:836
+msgid "Use a custom map marker?"
+msgstr ""
+
+#: options.php:845
+msgid "Marker Icon Upload"
+msgstr ""
+
+#: options.php:846
+msgid "Upload image that will be used as map marker."
+msgstr ""
+
+#: options.php:851
+msgid "Enable Marker Animation"
+msgstr ""
+
+#: options.php:852
+msgid "This will cause marker(s) to do a quick bounce as they load in."
+msgstr ""
+
+#: options.php:860
+msgid "Others Options"
+msgstr ""
+
+#: options.php:861
+msgid "Select other options you want to apply on the map."
+msgstr ""
+
+#: options.php:863
+msgid "Draggable"
+msgstr ""
+
+#: options.php:864
+msgid "Zoom Control"
+msgstr ""
+
+#: options.php:865
+msgid "Disable Double Click Zoom"
+msgstr ""
+
+#: options.php:866
+msgid "Scroll Wheel"
+msgstr ""
+
+#: options.php:867
+msgid "Pan Control"
+msgstr ""
+
+#: options.php:868
+msgid "Map Type Control"
+msgstr ""
+
+#: options.php:869
+msgid "Scale Control"
+msgstr ""
+
+#: options.php:870
+msgid "Street View Control"
+msgstr ""
+
+#: options.php:881
+msgid "Location #1"
+msgstr ""
+
+#: options.php:882
+msgid "Show location #1?"
+msgstr ""
+
+#: options.php:891 options.php:926 options.php:961 options.php:996
+#: options.php:1031 options.php:1066 options.php:1101 options.php:1136
+#: options.php:1171 options.php:1206 options.php:1241 options.php:1276
+#: options.php:1311 options.php:1346 options.php:1381 options.php:1416
+#: options.php:1451 options.php:1486 options.php:1521 options.php:1556
+msgid "Latitude"
+msgstr ""
+
+#: options.php:892
+msgid "Enter longitude for location #1."
+msgstr ""
+
+#: options.php:899 options.php:934 options.php:969 options.php:1004
+#: options.php:1039 options.php:1074 options.php:1109 options.php:1144
+#: options.php:1179 options.php:1214 options.php:1249 options.php:1284
+#: options.php:1319 options.php:1354 options.php:1389 options.php:1424
+#: options.php:1459 options.php:1494 options.php:1529 options.php:1564
+msgid "Longitude"
+msgstr ""
+
+#: options.php:900
+msgid "Enter latitude for location #1."
+msgstr ""
+
+#: options.php:907 options.php:942 options.php:977 options.php:1012
+#: options.php:1047 options.php:1082 options.php:1117 options.php:1152
+#: options.php:1187 options.php:1222 options.php:1257 options.php:1292
+#: options.php:1327 options.php:1362 options.php:1397 options.php:1432
+#: options.php:1467 options.php:1502 options.php:1537 options.php:1572
+msgid "Map Info Window Text"
+msgstr ""
+
+#: options.php:908
+msgid "If you would like to display any text in an info window for your #1 location, please enter it here."
+msgstr ""
+
+#: options.php:916
+msgid "Location #2"
+msgstr ""
+
+#: options.php:917
+msgid "Show location #2?"
+msgstr ""
+
+#: options.php:927
+msgid "Enter longitude for location #2."
+msgstr ""
+
+#: options.php:935
+msgid "Enter latitude for location #2."
+msgstr ""
+
+#: options.php:943
+msgid "If you would like to display any text in an info window for your #2 location, please enter it here."
+msgstr ""
+
+#: options.php:951
+msgid "Location #3"
+msgstr ""
+
+#: options.php:952
+msgid "Show location #3?"
+msgstr ""
+
+#: options.php:962
+msgid "Enter longitude for location #3."
+msgstr ""
+
+#: options.php:970
+msgid "Enter latitude for location #3."
+msgstr ""
+
+#: options.php:978
+msgid "If you would like to display any text in an info window for your #3 location, please enter it here."
+msgstr ""
+
+#: options.php:986
+msgid "Location #4"
+msgstr ""
+
+#: options.php:987
+msgid "Show location #4?"
+msgstr ""
+
+#: options.php:997
+msgid "Enter longitude for location #4."
+msgstr ""
+
+#: options.php:1005
+msgid "Enter latitude for location #4."
+msgstr ""
+
+#: options.php:1013
+msgid "If you would like to display any text in an info window for your #4 location, please enter it here."
+msgstr ""
+
+#: options.php:1021
+msgid "Location #5"
+msgstr ""
+
+#: options.php:1022
+msgid "Show location #5?"
+msgstr ""
+
+#: options.php:1032
+msgid "Enter longitude for location #5."
+msgstr ""
+
+#: options.php:1040
+msgid "Enter latitude for location #5."
+msgstr ""
+
+#: options.php:1048
+msgid "If you would like to display any text in an info window for your #5 location, please enter it here."
+msgstr ""
+
+#: options.php:1056
+msgid "Location #6"
+msgstr ""
+
+#: options.php:1057
+msgid "Show location #6?"
+msgstr ""
+
+#: options.php:1067
+msgid "Enter latitude for location #6."
+msgstr ""
+
+#: options.php:1075
+msgid "Enter longitude for location #6."
+msgstr ""
+
+#: options.php:1083
+msgid "If you would like to display any text in an info window for your #6 location, please enter it here."
+msgstr ""
+
+#: options.php:1091
+msgid "Location #7"
+msgstr ""
+
+#: options.php:1092
+msgid "Show location #7?"
+msgstr ""
+
+#: options.php:1102
+msgid "Enter latitude for location #7."
+msgstr ""
+
+#: options.php:1110
+msgid "Enter longitude for location #7."
+msgstr ""
+
+#: options.php:1118
+msgid "If you would like to display any text in an info window for your #7 location, please enter it here."
+msgstr ""
+
+#: options.php:1126
+msgid "Location #8"
+msgstr ""
+
+#: options.php:1127
+msgid "Show location #8?"
+msgstr ""
+
+#: options.php:1137
+msgid "Enter latitude for location #8."
+msgstr ""
+
+#: options.php:1145
+msgid "Enter longitude for location #8."
+msgstr ""
+
+#: options.php:1153
+msgid "If you would like to display any text in an info window for your #8 location, please enter it here."
+msgstr ""
+
+#: options.php:1161
+msgid "Location #9"
+msgstr ""
+
+#: options.php:1162
+msgid "Show location #9?"
+msgstr ""
+
+#: options.php:1172
+msgid "Enter latitude for location #9."
+msgstr ""
+
+#: options.php:1180
+msgid "Enter longitude for location #9."
+msgstr ""
+
+#: options.php:1188
+msgid "If you would like to display any text in an info window for your #9 location, please enter it here."
+msgstr ""
+
+#: options.php:1196
+msgid "Location #10"
+msgstr ""
+
+#: options.php:1197
+msgid "Show location #10?"
+msgstr ""
+
+#: options.php:1207
+msgid "Enter latitude for location #10."
+msgstr ""
+
+#: options.php:1215
+msgid "Enter longitude for location #10."
+msgstr ""
+
+#: options.php:1223
+msgid "If you would like to display any text in an info window for your #10 location, please enter it here."
+msgstr ""
+
+#: options.php:1231
+msgid "Location #11"
+msgstr ""
+
+#: options.php:1232
+msgid "Show location #11?"
+msgstr ""
+
+#: options.php:1242
+msgid "Enter latitude for location #11."
+msgstr ""
+
+#: options.php:1250
+msgid "Enter longitude for location #11."
+msgstr ""
+
+#: options.php:1258
+msgid "If you would like to display any text in an info window for your 11th location, please enter it here."
+msgstr ""
+
+#: options.php:1266
+msgid "Location #12"
+msgstr ""
+
+#: options.php:1267
+msgid "Show location #12?"
+msgstr ""
+
+#: options.php:1277
+msgid "Enter latitude for location #12."
+msgstr ""
+
+#: options.php:1285
+msgid "Enter longitude for location #12."
+msgstr ""
+
+#: options.php:1293
+msgid "If you would like to display any text in an info window for your 12th location, please enter it here."
+msgstr ""
+
+#: options.php:1301
+msgid "Location #13"
+msgstr ""
+
+#: options.php:1302
+msgid "Show location #13?"
+msgstr ""
+
+#: options.php:1312
+msgid "Enter latitude for location #13."
+msgstr ""
+
+#: options.php:1320
+msgid "Enter longitude for location #13."
+msgstr ""
+
+#: options.php:1328
+msgid "If you would like to display any text in an info window for your 13th location, please enter it here."
+msgstr ""
+
+#: options.php:1336
+msgid "Location #14"
+msgstr ""
+
+#: options.php:1337
+msgid "Show location #14?"
+msgstr ""
+
+#: options.php:1347
+msgid "Enter latitude for location #14."
+msgstr ""
+
+#: options.php:1355
+msgid "Enter longitude for location #14."
+msgstr ""
+
+#: options.php:1363
+msgid "If you would like to display any text in an info window for your 14th location, please enter it here."
+msgstr ""
+
+#: options.php:1371
+msgid "Location #15"
+msgstr ""
+
+#: options.php:1372
+msgid "Show location #15?"
+msgstr ""
+
+#: options.php:1382
+msgid "Enter latitude for location #15."
+msgstr ""
+
+#: options.php:1390
+msgid "Enter longitude for location #15."
+msgstr ""
+
+#: options.php:1398
+msgid "If you would like to display any text in an info window for your 15th location, please enter it here."
+msgstr ""
+
+#: options.php:1406
+msgid "Location #16"
+msgstr ""
+
+#: options.php:1407
+msgid "Show location #16?"
+msgstr ""
+
+#: options.php:1417
+msgid "Enter latitude for location #16."
+msgstr ""
+
+#: options.php:1425
+msgid "Enter longitude for location #16."
+msgstr ""
+
+#: options.php:1433
+msgid "If you would like to display any text in an info window for your 16th location, please enter it here."
+msgstr ""
+
+#: options.php:1441
+msgid "Location #17"
+msgstr ""
+
+#: options.php:1442
+msgid "Show location #17?"
+msgstr ""
+
+#: options.php:1452
+msgid "Enter latitude for location #17."
+msgstr ""
+
+#: options.php:1460
+msgid "Enter longitude for location #17."
+msgstr ""
+
+#: options.php:1468
+msgid "If you would like to display any text in an info window for your 17th location, please enter it here."
+msgstr ""
+
+#: options.php:1476
+msgid "Location #18"
+msgstr ""
+
+#: options.php:1477
+msgid "Show location #18?"
+msgstr ""
+
+#: options.php:1487
+msgid "Enter latitude for location #18."
+msgstr ""
+
+#: options.php:1495
+msgid "Enter longitude for location #18."
+msgstr ""
+
+#: options.php:1503
+msgid "If you would like to display any text in an info window for your 18th location, please enter it here."
+msgstr ""
+
+#: options.php:1511
+msgid "Location #19"
+msgstr ""
+
+#: options.php:1512
+msgid "Show location #19?"
+msgstr ""
+
+#: options.php:1522
+msgid "Enter latitude for location #19."
+msgstr ""
+
+#: options.php:1530
+msgid "Enter longitude for location #19."
+msgstr ""
+
+#: options.php:1538
+msgid "If you would like to display any text in an info window for your 19th location, please enter it here."
+msgstr ""
+
+#: options.php:1546
+msgid "Location #20"
+msgstr ""
+
+#: options.php:1547
+msgid "Show location #20?"
+msgstr ""
+
+#: options.php:1557
+msgid "Enter latitude for location #20."
+msgstr ""
+
+#: options.php:1565
+msgid "Enter longitude for location #20."
+msgstr ""
+
+#: options.php:1573
+msgid "If you would like to display any text in an info window for your 20th location, please enter it here."
+msgstr ""
+
+#: options.php:1578
+msgid "Number of locations"
+msgstr ""
+
+#: options.php:1579
+msgid "Select number of locations to be shown in the map."
+msgstr ""
+
+#: options.php:1590
+msgid "Footer"
+msgstr ""
+
+#: options.php:1591
+msgid "Please find here all the options related with both footer."
+msgstr ""
+
+#: options.php:1597
+msgid "Show Footer?"
+msgstr ""
+
+#: options.php:1606
+msgid "Footer Layout"
+msgstr ""
+
+#: options.php:1627
+msgid "Footer Background Color"
+msgstr ""
+
+#: options.php:1628
+msgid "Select footer background color."
+msgstr ""
+
+#: options.php:1645
+msgid "Footer Text Color"
+msgstr ""
+
+#: options.php:1646
+msgid "Select footer text color."
+msgstr ""
+
+#: options.php:1654
+msgid "Show Subfooter?"
+msgstr ""
+
+#: options.php:1663
+msgid "Subfooter Text Color"
+msgstr ""
+
+#: options.php:1664
+msgid "Select subfooter text color."
+msgstr ""
+
+#: options.php:1673
+msgid "Subfooter Left Content"
+msgstr ""
+
+#: options.php:1674
+msgid "Insert subfooter left side content."
+msgstr ""
+
+#: options.php:1682
+msgid "Subooter Right Content"
+msgstr ""
+
+#: options.php:1683
+msgid "Insert subfooter right side content."
+msgstr ""
+
+#: options.php:1690
+msgid "Show Back to Top"
+msgstr ""
+
+#: options.php:1691
+msgid "Show back to top button on all pages?"
+msgstr ""
+
+#: options.php:1701
+msgid "Sidebars"
+msgstr ""
+
+#: options.php:1707
+msgid "Default Sidebar"
+msgstr ""
+
+#: options.php:1708
+msgid "Select default sidebar for all pages."
+msgstr ""
+
+#: options.php:1715
+msgid "Custom Sidebars"
+msgstr ""
+
+#: options.php:1716
+msgid "Create a custom sidebar. Sidebar name should be <b>unique</b>. Do not use the names of existing sidebars."
+msgstr ""
+
+#: options.php:1718
+msgid "Add Sidebar"
+msgstr ""
+
+#: options.php:1725
+msgid "3rd Party"
+msgstr ""
+
+#: options.php:1731
+msgid "Google Analytics Tracking Code"
+msgstr ""
+
+#: options.php:1737
+msgid "Twitter Consumer Key"
+msgstr ""
+
+#: options.php:1738
+msgid "1. Go to \"https://dev.twitter.com/apps\", login with our twitter account and click \"Create a new application\".<br>2. Fill out the required fields, accept the rules of the road, and then click on the \"Create your Twitter application\"<br>3. Once the app has been created, click the \"Create my access token\" button.<br>4. You are done! You will need the following data later on"
+msgstr ""
+
+#: options.php:1744
+msgid "Twitter Consumer Secret"
+msgstr ""
+
+#: options.php:1750
+msgid "Twitter Access Token"
+msgstr ""
+
+#: options.php:1756
+msgid "Twitter Access Token Secret"
+msgstr ""
+
+#: options.php:1762
+msgid "MailChimp API"
+msgstr ""
+
+#: options.php:1768
+msgid "MailChimp List ID"
+msgstr ""
+
+#: options.php:1776
+msgid "Custom Code"
+msgstr ""
+
+#: options.php:1782
+msgid "CSS Code"
+msgstr ""
+
+#: options.php:1783
+msgid "Paste your CSS code here"
+msgstr ""
+
+#: options.php:1786 options.php:1796
+msgid "Possible modes can be found at <a href=\"http://ace.c9.io\" target=\"_blank\">http://ace.c9.io/</a>."
+msgstr ""
+
+#: options.php:1792
+msgid "JS Code"
+msgstr ""
+
+#: options.php:1793
+msgid "Paste your JS code here"
+msgstr ""
+
+#: options.php:1808
+msgid "Import / Export"
+msgstr ""
+
+#: options.php:1809
+msgid "Import and Export your theme settings from file, text or URL."
+msgstr ""
+
+#: options.php:1815
+msgid "Import Export"
+msgstr ""
+
+#: options.php:1816
+msgid "Save and restore your theme options"
+msgstr ""
+
+#: options.php:1829
+msgid "Theme Information"
+msgstr ""
+
+#: options.php:1846
+msgid "Install Demo Content"
+msgstr ""
+
+#: options.php:1888
+msgid "DentalPress"
+msgstr ""
+
+#: options.php:1889
+msgid "DentalPress Options"
+msgstr ""
+
+#: options.php:1897
+msgid "Copyright &copy; 2017 <a href=\"http://themeforest.net/user/flexipress/portfolio\" target=\"_blank\">FlexiPress</a>. All Rights Reserved."
+msgstr ""

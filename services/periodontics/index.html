@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+	<link rel="pingback" href="https://shalda.github.io/testArtdent/xmlrpc.php">
+
+	<title>Periodontics | artdent</title>
+<style type="text/css" media="screen">#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active:hover,body #booked-profile-page input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar thead,body table.booked-calendar thead th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .booked-tabs li.active a,body #booked-profile-page .booked-tabs li.active a:hover,body #booked-profile-page .appt-block .google-cal-button > a:hover,#ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header{ background:#50b0e3 !important; }body #booked-profile-page input[type=submit].button-primary:hover,body table.booked-calendar input[type=submit].button-primary:hover,body .booked-list-view button.button:hover, body .booked-list-view input[type=submit].button-primary:hover,body .booked-modal input[type=submit].button-primary:hover,body table.booked-calendar th,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,body #booked-profile-page .booked-profile-header,body #booked-profile-page .appt-block .google-cal-button > a:hover{ border-color:#50b0e3 !important; }body table.booked-calendar tr.days,body table.booked-calendar tr.days th,body .booked-calendarSwitcher.calendar,body #booked-profile-page .booked-tabs,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead th{ background:#414141 !important; }body table.booked-calendar tr.days th,body #booked-profile-page .booked-tabs{ border-color:#414141 !important; }#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a,#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a:hover,body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,body #booked-profile-page .appt-block .google-cal-button > a,body .booked-modal p.booked-title-bar,body table.booked-calendar td:hover .date span,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover,.booked-ms-modal .booked-book-appt /* Multi-Slot Booking */{ background:#50b0e3; }body #booked-profile-page input[type=submit].button-primary,body table.booked-calendar input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-list-view button.button, body .booked-list-view input[type=submit].button-primary,body .booked-modal input[type=submit].button-primary,body #booked-profile-page .appt-block .google-cal-button > a,body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover{ border-color:#50b0e3; }body .booked-modal .bm-window p i.fa,body .booked-modal .bm-window a,body .booked-appt-list .booked-public-appointment-title,body .booked-modal .bm-window p.appointment-title,.booked-ms-modal.visible:hover .booked-book-appt{ color:#50b0e3; }.booked-appt-list .timeslot.has-title .booked-public-appointment-title { color:inherit; }</style><meta name='robots' content='noindex,follow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="artdent &raquo; Лента" href="https://shalda.github.io/testArtdent/feed/" />
+<link rel="alternate" type="application/rss+xml" title="artdent &raquo; Лента комментариев" href="https://shalda.github.io/testArtdent/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/shalda.github.io\/testArtdent\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='booked-icons-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/css/icons.css?ver=2.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-tooltipster-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/js/tooltipster/css/tooltipster.css?ver=3.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-tooltipster-theme-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/js/tooltipster/css/themes/tooltipster-light.css?ver=3.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-animations-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/css/animations.css?ver=2.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-styles-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/css/styles.css?ver=2.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='booked-responsive-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/css/responsive.css?ver=2.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.6.1' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='dentalpress-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C700%2C700i%7CPoppins%3A300%2C400%2C500%2C600%2C700&#038;subset=latin%2Clatin-ext&#038;ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='https://shalda.github.io/testArtdent/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='https://shalda.github.io/testArtdent/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-dentalpress-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/font-dentalpress/css/font-dentalpress.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/bootstrap/css/bootstrap.min.css?ver=3.3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-datepicker-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/bootstrap-datepicker/bootstrap-datepicker.css?ver=1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-timepicker-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/bootstrap-timepicker/bootstrap-timepicker.min.css?ver=0.2.6' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/magnific-popup/magnific-popup.min.css?ver=1.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/owl-carousel/owl.carousel.min.css?ver=1.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dentalpress-common-css-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/css/common.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dentalpress-main-css'  href='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/style.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://shalda.github.io/testArtdent/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-dentalpress_theme_options-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%2C800%2C300italic%2C400italic%2C600italic%2C700italic%2C800italic%7CRoboto%3A400%2C500&#038;subset=latin&#038;ver=1543837023' type='text/css' media='all' />
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.6.1'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.6.1'></script>
+<link rel='https://api.w.org/' href='https://shalda.github.io/testArtdent/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://shalda.github.io/testArtdent/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://shalda.github.io/testArtdent/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel="canonical" href="https://shalda.github.io/testArtdent/services/periodontics/" />
+<link rel='shortlink' href='https://shalda.github.io/testArtdent/?p=367' />
+<link rel="alternate" type="application/json+oembed" href="https://shalda.github.io/testArtdent/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps://shalda.github.io/testArtdent%2Fservices%2Fperiodontics%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://shalda.github.io/testArtdent/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhttps://shalda.github.io/testArtdent%2Fservices%2Fperiodontics%2F&#038;format=xml" />
+
+			<meta name="generator" content="Powered by FlexiPress" />
+			<style type="text/css" id="dentalpress_custom-css">body:before{background:-moz-linear-gradient(left,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-webkit-linear-gradient(left,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-webkit-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-o-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-ms-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-moz-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:linear-gradient(to right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%)}::-moz-selection{background-color:#50b0e3}::selection{background-color:#50b0e3}a{color:#50b0e3}a:hover{color:#a4d735}a.vu_link-inverse{color:#a4d735}a.vu_link-inverse:hover{color:#50b0e3}blockquote{border-left:2px solid #a4d735}.vu_info-item .vu_ii-icon{color:#50b0e3}.vu_top-bar a:hover{color:#50b0e3}.vu_tb-list .sub-menu li a:hover{color:#50b0e3}.vu_top-bar .vu_social-icon a:hover{color:#50b0e3}.vu_main-navigation>ul>li:before,.vu_main-navigation>ul>li.current-menu-parent:before,.vu_main-navigation>ul>li.current-menu-ancestor:before,.vu_main-navigation>ul>li.current-menu-item:before{background-color:#a4d735}.vu_main-navigation ul li a:hover,.vu_main-navigation ul li:hover>a,.vu_main-navigation ul li.current-menu-parent>a,.vu_main-navigation ul li.current-menu-ancestor>a,.vu_main-navigation ul li.current-menu-item>a{color:#50b0e3}.vu_main-navigation>ul>li.vu_appointment-menu-item a{background-color:#a4d735}.vu_mobile-menu ul li.current-menu-item>a{color:#50b0e3}.vu_mobile-menu ul li a:hover,.vu_mobile-menu ul li.current-menu-item>a:hover,.vu_mobile-menu .vu_mm-remove:hover{border-color:#50b0e3;background-color:#50b0e3}.vu_mm-open:hover,.vu_mm-open:focus,.vu_wc-menu-item.vu_wc-responsive:hover,.vu_wc-menu-item.vu_wc-responsive:focus{color:#50b0e3}.vu_page-header .vu_ph-title{color:#50b0e3!important}.vu_page-header .vu_ph-breadcrumbs .divider i{color:#a4d735!important}.vu_page-header.vu_ph-with-bg .vu_ph-title{color:#50b0e3}.widget_nav_menu ul li a:hover,.widget_nav_menu ul li.current-menu-parent>a,.widget_nav_menu ul li.current-menu-ancestor>a,.widget_nav_menu ul li.current-menu-item>a{border-color:#50b0e3;background-color:#50b0e3}.vu_sidebar .widget_nav_menu ul li a:hover,.vu_sidebar .widget_nav_menu ul li.current-menu-parent>a,.vu_sidebar .widget_nav_menu ul li.current-menu-ancestor>a,.vu_sidebar .widget_nav_menu ul li.current-menu-item>a{color:#50b0e3}.datepicker.dropdown-menu th.datepicker-switch{color:#a4d735}.datepicker.dropdown-menu th.dow{color:#50b0e3}.bootstrap-timepicker-widget table td input{border-color:#a4d735}.vu_accordion .vu_a-wrapper .vu_a-header a{color:#50b0e3}.vu_accordion .vu_a-wrapper .ui-state-default .ui-icon,.vu_accordion .vu_a-wrapper .ui-state-active .ui-icon{color:#a4d735}.vu_accordion .vu_a-wrapper .ui-state-active .ui-icon{border-color:#a4d735;background-color:#a4d735}.vu_toggle .vu_t-title .vu_t-icon{color:#a4d735}.vu_toggle .vu_t-title h4{color:#50b0e3}.vu_toggle .vu_t-title:hover .vu_t-icon,.vu_toggle.vc_toggle_active .vu_t-icon{border-color:#a4d735;background-color:#a4d735}.vu_tabs:not(.vu_t-nav-bottom) .vu_t-nav{border-bottom:1px solid #a4d735!important}.vu_tabs.vu_t-nav-bottom .vu_t-nav{border-top:1px solid #a4d735!important}.vu_tabs .vu_t-nav li.ui-tabs-active a,.vu_tabs .vu_t-nav li:hover a{color:#50b0e3!important}.vu_tabs.vu_t-style-3 .vu_t-nav .ui-state-default a:after{color:#a4d735}.vu_tour .vu_t-nav li.ui-tabs-active a{color:#50b0e3!important}.vu_progress-bar .vu_pb-bar{background-color:#a4d735}.vu_countdown .countdown-section:before{background-color:#50b0e3}.vu_countdown .countdown-amount{color:#a4d735}.vu_widget-nav li.active>a,.vu_widget-nav a:hover{color:#50b0e3}.vu_image-box .vu_ib-title{color:#50b0e3}.vu_image-box .vu_ib-read-more .vu_ib-btn i{color:#a4d735}.vu_team-member .vu_tm-name{color:#50b0e3}.vu_team-member .vu_tm-social-networks a:hover{color:#a4d735}.vu_team-member.vu_tm-style-2 .vu_tm-info{border-left:2px solid #a4d735}.vu_team-member.vu_tm-style-2 .vu_tm-social-networks a:hover{color:#50b0e3}.vu_testimonial.vu_t-style-1 .vu_t-author .vu_t-icon{color:#50b0e3}.vu_testimonial.vu_t-style-1 .vu_t-author-image{background-color:#50b0e3}.vu_testimonial.vu_t-style-1 .vu_t-author .vu_t-author-name{color:#a4d735}.vu_testimonial.vu_t-style-2 .vu_t-icon{background-color:#a4d735}.vu_testimonial.vu_t-style-2 .vu_t-author-image{background-color:#a4d735}.vu_testimonial.vu_t-style-2 .vu_t-author .vu_t-author-name{color:#50b0e3}.vu_before-after .twentytwenty-handle{background-color:#50b0e3}.form-control:focus{border-color:#a4d735}.vu_contact-form-7.vu_cf7-style-inverse .vu_cf7-frm .form-control:focus{border-color:#a4d735}.vu_contact-form-7 .vu_cf7-frm .vu_lbl-as-input-file:after{background-color:#50b0e3}.wpcf7-form:not(.vu_cf7-frm) .wpcf7-form-control:not(.wpcf7-submit):focus{border-color:#a4d735}.vu_icon-box .vu_ib-icon{background-color:#a4d735;border:2px solid #a4d735}.vu_icon-box .vu_ib-content .vu_ib-title{color:#50b0e3}.vu_icon-box.vu_ib-color-primary .vu_ib-content .vu_ib-title{color:#a4d735}.vu_icon-box.vu_ib-color-primary .vu_ib-icon{background-color:#50b0e3;border-color:#50b0e3}.vu_icon-box.vu_ib-color-secondary .vu_ib-content .vu_ib-title{color:#50b0e3}.vu_icon-box.vu_ib-color-secondary .vu_ib-icon{background-color:#a4d735;border-color:#a4d735}.vu_icon-box.vu_ib-color-black .vu_ib-content .vu_ib-title{color:#50b0e3}.vu_icon-box.vu_ib-color-white .vu_ib-content .vu_ib-title{color:#50b0e3}.vu_icon-box .vu_ib-read-more .vu_ib-btn i{color:#a4d735}.vu_icon-box-2 .vu_ib-icon{color:#a4d735}.vu_icon-box-2.vu_ib-type-image .vu_ib-icon *{color:#a4d735}.vu_icon-box-2 .vu_ib-content .vu_ib-title{color:#50b0e3}.vu_icon-box-2.vu_ib-style-2:after{background-color:#a4d735}.vu_icon-box-2.vu_ib-style-2:hover .vu_ib-icon,.vu_icon-box-2.vu_ib-style-2:hover .vu_ib-title{color:#50b0e3}.vu_timeline .vu_t-date{color:#a4d735}.vu_timeline .vu_t-title{color:#50b0e3}.vu_video-section .vu_vs-play{background-color:#a4d735}.custom.tparrows:hover{color:#50b0e3!important}.custom.tparrows:hover:before{color:#50b0e3!important}.custom .tp-bullet:hover,.custom .tp-bullet.selected{background-color:#50b0e3}.vu_carousel .owl-pagination .owl-page.active span,.vu_carousel .owl-pagination .owl-page span:hover{background-color:#50b0e3}.vu_client:hover{border-color:#a4d735}.vu_heading.vu_h-alignment-left.vu_h-style-1{border-left:2px solid #a4d735}.vu_heading.vu_h-alignment-right.vu_h-style-1{border-right:2px solid #a4d735}.vu_heading.vu_h-style-2 .vu_h-heading:after{background-color:#a4d735}.vu_heading.vu_h-style-3 .vu_h-heading:after{background-color:#a4d735}.vu_heading.vu_h-style-4 .vu_h-heading:before,.vu_heading.vu_h-style-4 .vu_h-heading:after{background-color:#a4d735}.vu_pricing-table .vu_pt-title{background-color:#50b0e3}.vu_pricing-table.vu_pt-active .vu_pt-title{background-color:#a4d735}.vu_pricing-table .vu_pt-button a{background-color:#50b0e3}.vu_pricing-table.vu_pt-active .vu_pt-button a{background-color:#a4d735}.btn.btn-primary,.btn.btn-primary.btn-default{color:#50b0e3;border-color:#50b0e3}.btn.btn-primary:hover,.btn.btn-primary.btn-default:hover,.btn.btn-primary.btn-inverse{border-color:#50b0e3;background-color:#50b0e3}.btn.btn-primary.btn-inverse:hover{color:#50b0e3;border-color:#50b0e3}.btn.btn-primary-hover:hover,.btn.btn-primary-hover.btn-default:hover{border-color:#50b0e3!important;background-color:#50b0e3!important}.btn.btn-primary-hover.btn-inverse:hover{color:#50b0e3!important;border-color:#50b0e3!important}.btn.btn-secondary,.btn.btn-secondary.btn-default{color:#a4d735;border-color:#a4d735}.btn.btn-secondary:hover,.btn.btn-secondary.btn-default:hover,.btn.btn-secondary.btn-inverse{border-color:#a4d735;background-color:#a4d735}.btn.btn-secondary.btn-inverse:hover{color:#a4d735;border-color:#a4d735}.btn.btn-secondary-hover:hover,.btn.btn-secondary-hover.btn-default:hover{border-color:#a4d735!important;background-color:#a4d735!important}.btn.btn-secondary-hover.btn-inverse:hover{color:#a4d735!important;border-color:#a4d735!important}.btn.btn-disable:hover{color:#50b0e3}.vu_filterable .vu_f-filters.vu_f-filters-style-1 .vu_f-filter.active{background-color:#50b0e3}.vu_filterable .vu_f-filters.vu_f-filters-style-2 .vu_f-filter.active{color:#50b0e3;border-color:#50b0e3}.vu_gallery .vu_g-filters.vu_g-filters-style-1 .vu_g-filter.active{background-color:#50b0e3}.vu_gallery .vu_g-filters.vu_g-filters-style-2 .vu_g-filter.active{color:#50b0e3;border-color:#50b0e3}.vu_gallery-item .vu_gi-details-container{background-color:rgba(164,215,53,0.5)}.vu_gallery-widget .vu_gw-item .vu_gw-image{background-color:#a4d735}.vu_counter .vu_c-label{color:#50b0e3}.vu_image-slider .vu_is-item .vu_is-i-caption{background-color:rgba(80,176,227,0.9)}.vu_posts-page .vu_blog-post .vu_bp-meta .vu_bp-m-item-icon{color:#a4d735}.vu_posts-page .vu_blog-post .vu_bp-meta .vu_bp-m-item a:hover{color:#50b0e3}.vu_posts-page .vu_blog-post .vu_bp-title{color:#50b0e3}.vu_posts-page .vu_blog-post .vu_bp-read-more .vu_bp-btn i{color:#a4d735}.vu_posts-page .vu_blog-post.vu_bp-type-audio .vu_bp-image .mejs-controls .mejs-time-rail .mejs-time-current{background-color:#a4d735}.vu_posts-page .vu_blog-post.vu_bp-type-link:before{background-color:#a4d735}.vu_posts-page .vu_blog-post.vu_bp-type-quote .vu_bp-quote:before{color:#a4d735}.vu_posts-page .vu_blog-post.vu_bp-type-quote .vu_bp-quote>blockquote cite,.vu_posts-page .vu_blog-post.vu_bp-type-quote .vu_bp-quote .vu_bp-q-author{border-left:2px solid #50b0e3}.vu_blog .vu_b-item.vu_blog-post .vu_bp-meta .vu_bp-m-item:before{color:#a4d735}.vu_blog .vu_b-item.vu_blog-post .vu_bp-title{color:#50b0e3}.vu_blog .vu_b-item.vu_blog-post .vu_bp-read-more .vu_bp-btn i{color:#a4d735}.vu_comments .vu_c-count,.vu_comments .vu_c-text{border-left:2px solid #50b0e3}.vu_comments .vu_c-a-author{color:#a4d735}.vu_comments .vu_c-a-m-item a:hover{color:#50b0e3}.vu_comments .vu_c-a-edit a,.vu_comments .vu_c-a-reply a{background-color:#50b0e3}.vu_comments .vu_c-a-edit a{background-color:#a4d735}.vu_comments .vu_c-a-content .vu_c-a-moderation{color:#50b0e3}.comment-reply-title{border-left:2px solid #50b0e3}.comment-reply-title small a{color:#50b0e3}.comment-reply-title small a:hover{color:#a4d735}.comment-form .form-control:focus{border-color:#a4d735}.vu_pagination .vu_p-list a:hover{color:#50b0e3}.vu_pagination .vu_p-list .current{background-color:#50b0e3}.vu_recent-posts .vu_rp-item .vu_rp-title a:hover{color:#a4d735}.vu_working-hours .vu_wh-item.active .vu_wh-day,.vu_working-hours .vu_wh-item.active .vu_wh-hours{color:#a4d735}.vu_error-page .vu_ep-404{color:#50b0e3}.vu_error-page .vu_ep-title{color:#a4d735}.widget_title{border-left:2px solid #a4d735}.widget .vu_social-icon a{background-color:#a4d735}.widget .vu_social-icon a:hover{background-color:#50b0e3}.vu_search-form .vu_sf-wrapper:before{background-color:#50b0e3}.widget .form-control:focus,.widget input[type="text"]:focus,.widget input[type="search"]:focus{border-color:#50b0e3}.vu_latest-tweets ul li:before{color:#50b0e3}.vu_sidebar .widget.widget_recent_comments li a{color:#a4d735}.vu_sidebar .widget.widget_recent_comments li a.url{color:#50b0e3}.widget.widget_archive li a:hover,.widget.widget_pages li a:hover,.widget.widget_recent_comments li a:hover,.widget.widget_recent_entries li a:hover,.widget.widget_meta li a:hover,.widget.widget_categories li a:hover{color:#50b0e3}.widget.widget_tag_cloud a{background-color:#a4d735}.widget.widget_tag_cloud a.active,.widget.widget_tag_cloud a:hover{background-color:#50b0e3}.widget.widget_rss .rss-date{color:#a4d735}.vu_highlight{background-color:#50b0e3}.vu_list-with-icon li a:hover{color:#50b0e3}.vu_list-with-icon li:before{color:#50b0e3}.vu_list-with-icon[data-color="primary"] li a:hover,.vu_list-with-icon[data-color="primary"] li:before{color:#50b0e3}.vu_list-with-icon[data-color="secondary"] li a:hover,.vu_list-with-icon[data-color="secondary"] li:before{color:#a4d735}.vu_newsletter .vu_n-form .form-control:focus{border-color:#a4d735}.vu_newsletter .vu_n-form .vu_n-button{background-color:#50b0e3}.vu_newsletter .vu_n-form .form-control:focus+.vu_n-button,.vu_newsletter .vu_n-form .vu_n-button:hover{background-color:#a4d735}.vu_main-footer .vu_mf-widgets:before{background:-moz-linear-gradient(left,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-webkit-linear-gradient(left,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-webkit-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-o-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-ms-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:-moz-linear-gradient(right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%);background:linear-gradient(to right,#50b0e3 0,#50b0e3 25%,#a4d735 25%,#a4d735 50%,#50b0e3 50%,#50b0e3 75%,#a4d735 75%,#a4d735 100%)}.vu_main-footer [class*="vu_mf-footer"]:nth-child(even) .widget_title{border-left-color:#50b0e3}.vu_main-footer .vu_mf-bottom a:hover{color:#50b0e3}.vu_contact-info-item i{color:#50b0e3}.vu_contact-info-list li .fa{color:#50b0e3}.vu_useful-links li:before{color:#50b0e3}.vu_useful-links li a:hover{color:#a4d735}.vu_primary-text-color{color:#50b0e3}.vu_primary-border-color{border-color:#50b0e3}.vu_primary-bg-color{background-color:#50b0e3}.vu_secondary-text-color{color:#a4d735}.vu_secondary-border-color{border-color:#a4d735}.vu_secondary-bg-color{background-color:#a4d735}.vu_with-icon>i.fa{color:#50b0e3}.vu_arrow-down:after{border-top-color:#50b0e3}.vu_arrow-down.vu_secondary-bg-color:after{border-top-color:#a4d735}.vu_main-menu-container .vu_logo-container{width:177px}.vu_main-menu-container .vu_logo-container img{max-width:177px}.vu_main-menu ul li ul.sub-menu{width:200px}#vu_preloader{background-image:url(http://themes.flexipress.xyz/dentalpress/wp-content/themes/dentalpress/assets/img/preloader.svg);</style>		<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://shalda.github.io/testArtdent/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.4.6.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">function setREVStartSize(e){
+				try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;					
+					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+				}catch(d){console.log("Failure at Presize of Slider:"+d)}
+			};</script>
+<style type="text/css" title="dynamic-css" class="options-output">body{background-color:#f9f9f9;background-image:url('http://themes.flexipress.xyz/dentalpress/wp-content/themes/dentalpress/assets/img/pattern.png');}body{font-family:"Open Sans";text-transform:none;line-height:24px;font-weight:400;font-style:normal;color:#777777;font-size:14px;}.vu_main-navigation > ul > li > a,.widget_nav_menu .menu > li > a{font-family:Roboto;text-transform:uppercase;line-height:24px;font-weight:400;font-style:normal;color:#777777;font-size:14px;}.vu_main-navigation .sub-menu a{font-family:"Open Sans";text-transform:none;line-height:20px;font-weight:400;font-style:normal;color:#777777;font-size:14px;}h1,.h1{font-family:Roboto;text-transform:none;line-height:34px;font-weight:500;font-style:normal;color:#414141;font-size:24px;}h2,.h2{font-family:Roboto;text-transform:none;line-height:30px;font-weight:500;font-style:normal;color:#414141;font-size:20px;}h3,.h3{font-family:Roboto;text-transform:none;line-height:28px;font-weight:500;font-style:normal;color:#414141;font-size:18px;}h4,.h4{font-family:Roboto;text-transform:none;line-height:26px;font-weight:500;font-style:normal;color:#414141;font-size:16px;}h5{font-family:Roboto;text-transform:none;line-height:24px;font-weight:500;font-style:normal;color:#414141;font-size:14px;}h6{font-family:Roboto;text-transform:none;line-height:22px;font-weight:400;font-style:normal;color:#414141;font-size:12px;}.vu_info-item .vu_ii-title,.datepicker.dropdown-menu th.datepicker-switch,.datepicker.dropdown-menu th.dow,.vu_accordion .vu_a-wrapper .vu_a-header a,.vu_tabs .vu_t-nav li a,.vu_tour .vu_t-wrapper .vu_t-nav a,.vu_countdown .countdown-amount,.vu_heading.vu_h-style-1 .vu_h-subheading p,.btn,.vu_filterable .vu_f-filters.vu_f-filters-style-1 .vu_f-filter,.vu_filterable .vu_f-filters.vu_f-filters-style-2 .vu_f-filter,.vu_gallery .vu_g-filters.vu_g-filters-style-1 .vu_g-filter,.vu_gallery .vu_g-filters.vu_g-filters-style-2 .vu_g-filter,.vu_gallery-item .vu_gi-details .vu_gi-content .vu_gi-title,.vu_posts-page .vu_blog-post.vu_bp-type-quote .vu_bp-quote > blockquote cite,.vu_posts-page .vu_blog-post.vu_bp-type-quote .vu_bp-quote .vu_bp-q-author{font-family:Roboto;}.vu_top-bar{color:#777777;}.vu_main-header .vu_h-content{padding-top:10px;padding-bottom:10px;}.vu_main-footer .vu_mf-widgets{background-color:#ffffff;}.vu_main-footer{color:#777777;}</style><style type="text/css" data-type="vc_custom-css">.vu_service-image .wpb_single_image .vc_figure,
+.wpb_single_image .vc_single_image-wrapper {
+    display: block;
+}
+.vu_service-image .wpb_single_image img {
+    width: 100%;
+}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1503035746092{background-image: url(http://dl.flexipress.xyz/dentalpress/demo/comfortable/parallax-1-min.jpg?id=61) !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="page-template-default page page-id-367 page-child parent-pageid-79 vu_nav-position-sidebar wpb-js-composer js-comp-ver-5.3 vc_responsive" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+			<div id="vu_preloader"></div>
+		
+	<!-- Main Container -->
+	<div class="vu_main-container">
+					<!-- Header -->
+						<header id="vu_main-header" class="vu_main-header" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+									<div class="vu_top-bar">
+						<div class="container">
+							<div class="row">
+								<div class="vu_tp-left col-md-7">
+									<span>Давайте позаботимся о вас и вашей улыбке!</span>								</div>
+								<div class="vu_tp-right col-md-5">
+									<div class="vu_social-icon"><a href="#" target="_self"><i class="fa fa-facebook"></i></a></div><div class="vu_social-icon m-r-0"><a href="#" target="_self"><i class="fa fa-instagram"></i></a></div>								</div>
+							</div>
+						</div>
+					</div>
+				
+				<div class="vu_h-container">
+					<div class="container">
+						<div id="vu_menu-affix" class="vu_menu-affix">
+							<div class="vu_main-menu-container" data-type="logo-center">
+								<div class="vu_h-content">
+									<div class="vu_d-tr">
+										<div class="vu_h-left vu_logo-container vu_d-td"> 
+											<div class="vu_site-logo">
+												<a href="https://shalda.github.io/testArtdent/">
+													<img class="vu_sl-img" alt="site-logo" width="379" height="189" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/11/artdent1.png">
+												</a>
+											</div>
+
+											<a href="#" class="vu_mm-toggle vu_mm-open"><i class="fa fa-bars"></i></a>
+
+																					</div>
+
+										<div class="vu_h-right vu_h-widgets">
+													
+		<div class="vu_info-item">
+			<div class="vu_ii-icon">
+				<i class="vu_fi vu_fi-envelope"></i>
+			</div>
+			<div class="vu_ii-details">
+				<span class="vu_ii-title">Наш адрес</span>
+				<p class="vu_ii-desc">г. Киев, ул. Дегтярёвская, 6</p>
+			</div>
+		</div>
+
+				
+		<div class="vu_info-item">
+			<div class="vu_ii-icon">
+				<i class="vu_fi vu_fi-phone"></i>
+			</div>
+			<div class="vu_ii-details">
+				<span class="vu_ii-title">Телефон</span>
+				<p class="vu_ii-desc"> 044 235 89 75</p>
+			</div>
+		</div>
+
+				
+		<div class="vu_info-item">
+			<div class="vu_ii-icon">
+				<i class="vu_fi vu_fi-clock"></i>
+			</div>
+			<div class="vu_ii-details">
+				<span class="vu_ii-title">Часы работы</span>
+				<p class="vu_ii-desc">Пн - Пт: 9:00 - 21:00 
+ Сб: 10:00 - 16:00</p>
+			</div>
+		</div>
+
+												</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="vu_menu-affix-height"></div>
+					</div>
+				</div>
+
+							</header><!-- /Header -->
+
+							<!-- Page Header -->
+				<section class="vu_page-header vu_ph-with-bg" data-parallax="scroll" data-image-src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/verh.jpg">
+					<div class="vu_ph-container">
+						<div class="vu_ph-content">
+							<h1 class="vu_ph-title">Periodontics</h1>
+														<div class="vu_ph-breadcrumbs">
+								<div class="breadcrumbs"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://shalda.github.io/testArtdent/" itemprop="url"><span itemprop="title">Home</span></a></span> <span class="divider"><i class="fa fa-angle-right"></i></span> <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://shalda.github.io/testArtdent/services/" itemprop="url"><span itemprop="title">Услуги</span></a></span> <span class="divider"><i class="fa fa-angle-right"></i></span> <span class="current">Periodontics</span></div>							</div>
+												</div>
+					</div>
+				</section>
+				<!-- /Page Header -->
+			
+			<!-- Container -->
+			<div class="vu_container">
+				<div class="row">
+
+									<!-- Main Navigation -->
+				<div class="vu_main-navigation-container col-xs-12 col-md-3">
+					<nav class="vu_main-navigation vu_main-menu" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+						<ul id="vu_mm-navigation" class="vu_mm-list vu_mm-navigation list-unstyled"><li id="menu-item-859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-859"><a href="https://shalda.github.io/testArtdent/" itemprop="url">Главная</a></li>
+<li id="menu-item-857" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-857"><a href="https://shalda.github.io/testArtdent/about/" itemprop="url">О нас</a></li>
+<li id="menu-item-856" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-has-children menu-item-856"><a href="https://shalda.github.io/testArtdent/services/" itemprop="url">Услуги</a>
+<ul class="sub-menu">
+	<li id="menu-item-885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-885"><a href="https://shalda.github.io/testArtdent/services/otbelivanie/" itemprop="url">Отбеливание</a></li>
+	<li id="menu-item-884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-884"><a href="https://shalda.github.io/testArtdent/services/implantologiya/" itemprop="url">Имплантология</a></li>
+	<li id="menu-item-887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-887"><a href="https://shalda.github.io/testArtdent/services/protezirovanie/" itemprop="url">Протезирование</a></li>
+	<li id="menu-item-886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-886"><a href="https://shalda.github.io/testArtdent/services/terapevtstomatology/" itemprop="url">Терапевтическая стоматология</a></li>
+	<li id="menu-item-916" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-916"><a href="https://shalda.github.io/testArtdent/services/hirurgiya/" itemprop="url">Хирургия</a></li>
+	<li id="menu-item-888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-888"><a href="https://shalda.github.io/testArtdent/services/profilaktika/" itemprop="url">Профилактика заболеваний полости рта</a></li>
+</ul>
+</li>
+<li id="menu-item-864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-864"><a href="https://shalda.github.io/testArtdent/gallery/" itemprop="url">Галерея</a></li>
+<li id="menu-item-903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-903"><a href="https://shalda.github.io/testArtdent/prices/" itemprop="url">Стоимость услуг</a></li>
+<li id="menu-item-919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-919"><a href="https://shalda.github.io/testArtdent/blog/articles/" itemprop="url">Новости</a></li>
+<li id="menu-item-900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-900"><a href="https://shalda.github.io/testArtdent/contact-2/" itemprop="url">Контакты</a></li>
+</ul>					</nav>
+					<div class="clear"></div>
+				</div>
+				<!-- /Main Navigation -->
+							
+		<!-- Content -->
+		<div class="vu_content col-xs-12 col-md-9" role="main">
+							<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper vu_s-custom-718283">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_service-image vu_r-custom-908483">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-870059">
+		<div class="vu_c-wrapper">
+			
+	<div  class="wpb_single_image wpb_content_element vc_align_left">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="800" height="400" src="https://shalda.github.io/testArtdent/wp-content/uploads/2017/08/28-min-800x400.jpg" class="vc_single_image-img attachment-dentalpress_ratio-2:1" alt="" /></div>
+		</figure>
+	</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-717706">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-128427">
+		<div class="vu_c-wrapper">
+					<header class="vu_heading vu_h-style-1 vu_h-alignment-left vu_custom_5704345">
+							<style scoped>
+					
+					
+											.vu_heading.vu_custom_5704345.vu_h-alignment-left.vu_h-style-1 {border-left-color: #50b0e3 }
+						.vu_heading.vu_custom_5704345.vu_h-alignment-right.vu_h-style-1 {border-right-color: #50b0e3 }
+						.vu_heading.vu_custom_5704345.vu_h-style-2 .vu_h-heading:after,.vu_heading.vu_custom_5704345.vu_h-style-3 .vu_h-heading:after,.vu_heading.vu_custom_5704345.vu_h-style-4 .vu_h-heading:before,.vu_heading.vu_custom_5704345.vu_h-style-4 .vu_h-heading:after { background-color: #50b0e3 }
+									</style>
+			
+			
+							<div class="vu_h-subheading">
+					<p>Periodontics</p>
+				</div>
+					</header>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-753933">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-266278">
+		<div class="vu_c-wrapper">
+			
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p>Porcelain Veneers, also known as dental veneers are wafer-thin shells of porcelain that are cemented onto the front of your teeth to change the color and shape to achieve a Hollywood Smile. Our team of highly trained and skilled cosmetic dentists deliver superior results every time.</p>
+<p>If you are not happy with your smile because of discolorations and unevenness of your teeth, or you have fillings that have darkened, then Porcelain Veneers are the best option. At Dentist Clinic in Dubai, we make the veneers in our own dental lab in Dubai, which ensures the veneers meet the highest quality standards and for this reason we offer a 5 year warranty.</p>
+
+		</div>
+	</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-704000">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-364221">
+		<div class="vu_c-wrapper">
+			
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<blockquote><p>
+Harder than tooth enamel – resisting wear and stains for many years. When firmly bonded to a sturdy substructure, such as a tooth, it becomes very strong and durable. Veneers can be used to correct stains, discoloured, worn, chipped or cracked, and misaligned teeth.
+</p></blockquote>
+
+		</div>
+	</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-607925">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-157623">
+		<div class="vu_c-wrapper">
+			
+	<div class="wpb_text_column wpb_content_element m-b-0" >
+		<div class="wpb_wrapper">
+			<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+
+		</div>
+	</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper p-b-0 vu_s-custom-841879">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-149218">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-403909 col-md-6">
+		<div class="vu_c-wrapper">
+					<header class="vu_heading vu_h-style-1 vu_h-alignment-left">
+			
+							<h2 class="vu_h-heading">Most Popular</h2>
+			
+							<div class="vu_h-subheading">
+					<p>Top dentistry treatment services </p>
+				</div>
+					</header>
+	
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p>On the basis of analysing on-line searching terms, patient&#8217;s data from top DentalPress dental clinic and survey on several forum and health portals collected a reliable data ratio of visiting cause for oral treatment.</p>
+<p>There are 25 % of patients visited in DentalPress dental center for dental Implants.</p>
+<p>Reasons for trying dental tourism in other nation can be taken on various needs and patients also have different reasons.</p>
+
+		</div>
+	</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-926116 col-md-6">
+		<div class="vu_c-wrapper">
+			
+	<div  class="wpb_single_image wpb_content_element vc_align_right">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"></div>
+		</figure>
+	</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper p-b-0 vu_s-custom-288937">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-234802">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-563760 col-md-6">
+		<div class="vu_c-wrapper">
+					<div class="vu_accordion wpb_accordion wpb_content_element not-column-inherit" data-collapsible="no" data-vc-disable-keydown="false" data-active-tab="1">
+			<div class="vu_a-wrapper wpb_wrapper wpb_accordion_wrapper ui-accordion">
+											<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1503307331922-8c85b715-0bc6">Technological advancment</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p>Technological advancements in natural-looking, tooth-colored dental materials make today&#8217;s cosmetic dental treatments more durable and predictable than in years past.</p>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1503307359686-9907b2da-2019">Laser Technology</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p>Technological advancements in natural-looking, tooth-colored dental materials make today&#8217;s cosmetic dental treatments more durable and predictable than in years past.</p>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1503307359243-e2e309f0-b3cb">Composite Bonding</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p>Technological advancements in natural-looking, tooth-colored dental materials make today&#8217;s cosmetic dental treatments more durable and predictable than in years past.</p>
+
+		</div>
+	</div>
+								</div>
+							</div>
+													<div class="vu_a-section wpb_accordion_section group">
+								<h3 class="vu_a-header wpb_accordion_header ui-accordion-header"><a href="#1503307358786-e92b4e21-e355">Teeth Whitening</a></h3>
+								<div class="vu_a-content wpb_accordion_content ui-accordion-content vc_clearfix">
+									
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p>Technological advancements in natural-looking, tooth-colored dental materials make today&#8217;s cosmetic dental treatments more durable and predictable than in years past.</p>
+
+		</div>
+	</div>
+								</div>
+							</div>
+									</div>
+		</div>
+			</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-856134 col-md-6">
+		<div class="vu_c-wrapper">
+					<header class="vu_heading vu_h-style-1 vu_h-alignment-left vu_custom_1420501">
+							<style scoped>
+					
+					
+											.vu_heading.vu_custom_1420501.vu_h-alignment-left.vu_h-style-1 {border-left-color: #50b0e3 }
+						.vu_heading.vu_custom_1420501.vu_h-alignment-right.vu_h-style-1 {border-right-color: #50b0e3 }
+						.vu_heading.vu_custom_1420501.vu_h-style-2 .vu_h-heading:after,.vu_heading.vu_custom_1420501.vu_h-style-3 .vu_h-heading:after,.vu_heading.vu_custom_1420501.vu_h-style-4 .vu_h-heading:before,.vu_heading.vu_custom_1420501.vu_h-style-4 .vu_h-heading:after { background-color: #50b0e3 }
+									</style>
+			
+							<h2 class="vu_h-heading">Some Adices</h2>
+			
+							<div class="vu_h-subheading">
+					<p>Things you should know!</p>
+				</div>
+					</header>
+	
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p>This is the most worrying part for most clients going through or needing a turnaround. They are usually scared to start a cosmetic dentistry service.</p>
+<p>We help ease these issues through fantastic financial projections and a realistic view of what can be accomplished.</p>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<ul class="vu_list-with-icon" data-font="FontAwesome" data-icon="" data-color="primary">
+<li class="m-b-5">Using the latest technology</li>
+<li class="m-b-5">Highly experienced doctors</li>
+<li>100% insurance support</li>
+</ul>
+
+		</div>
+	</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+				<div class="vu_s-wrapper p-b-0 vu_s-custom-480346">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-159353">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-482049 col-md-6">
+		<div class="vu_c-wrapper">
+					<header class="vu_heading vu_h-style-1 vu_h-alignment-left">
+			
+							<h2 class="vu_h-heading">Some Adices</h2>
+			
+							<div class="vu_h-subheading">
+					<p>Why you should do this?</p>
+				</div>
+					</header>
+	
+	<div class="wpb_text_column wpb_content_element" >
+		<div class="wpb_wrapper">
+			<p>Cosmetic dentistry is dentistry aimed at creating a positive change to your teeth and to your smile.</p>
+<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+<p>We believe that esthetic dentistry must complement the overall general and oral health of the patient.</p>
+
+		</div>
+	</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-148092 col-md-6">
+		<div class="vu_c-wrapper">
+			
+	<div  class="wpb_single_image wpb_content_element vc_align_right">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="800" height="600" src="https://shalda.github.io/testArtdent/wp-content/uploads/2017/08/14-min.jpg" class="vc_single_image-img attachment-dentalpress_ratio-4:3" alt="" srcset="https://shalda.github.io/testArtdent/wp-content/uploads/2017/08/14-min.jpg 800w, https://shalda.github.io/testArtdent/wp-content/uploads/2017/08/14-min-300x225.jpg 300w, https://shalda.github.io/testArtdent/wp-content/uploads/2017/08/14-min-768x576.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></div>
+		</figure>
+	</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+	
+	<div class="vu_section vu_s-layout-full">
+		<style scoped>.vu_section .vu_s-custom-295227.vu_s-wrapper.vu_s-color-overlay:before{background-color:rgba(0,0,0,0.35)}</style>		<div class="vu_s-wrapper p-t-0 p-b-0 vu_s-bg-image vu_s-color-overlay vu_s-custom-295227 vc_custom_1503035746092" data-parallax="scroll" data-image-src="https://shalda.github.io/testArtdent/wp-content/uploads/2017/08/parallax-1-min.jpg?id=61">
+			<div class="vu_s-content clearfix">
+				
+	<div class="vu_row row vu_r-layout-boxed">
+				<div class="vu_r-wrapper vu_r-custom-512564">
+			<div class="vu_r-content container">
+				
+	<div class="vu_column vu_c-layout-normal vu_c-valign-top vu_c-custom-788238">
+		<div class="vu_c-wrapper">
+					<div class="vu_call-to-action">
+			<div class="container">
+				<div class="row">
+					<div class="vu_cta-wrapper">
+						<div class="vu_cta-content col-md-9">
+							<h3 class="m-t-0 m-b-0" style="font-size: 20px; line-height: 28px;"><span style="color: #ffffff;">Do you want to have the smile of your dreams?</span></h3>
+						</div>
+													<div class="vu_cta-button col-md-3">
+								<a href="#" title="" target="_self" class="btn btn-inverse btn-primary btn-icon btn-white-hover"><span>Book Now</span><i class="vu_fi vu_fi-arrow-right"></i></a>
+							</div>
+											</div>
+				</div>
+			</div>
+		</div>
+			</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+
+				</div>
+		</div>
+	</div>
+			
+					</div>
+		<!-- /Content -->
+
+		
+					</div>
+		</div>
+		<!-- /Container -->
+
+		<!-- Footer -->
+		<footer id="vu_main-footer" class="vu_main-footer" role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
+							<!-- Footer Widgets -->
+				<div class="vu_mf-widgets m-b-20">
+					<div class="container">
+						<div class="row">
+							<div class="vu_mf-footer-1 col-md-3 col-xs-12"><div class="widget widget_text text-9 clearfix">			<div class="textwidget"><img style="display: block; width: 125px; margin: 0 0 15px 0;" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/11/artdent1.png" alt="ArtDent Theme" />
+<em>Эстетическая стоматология &#171;Арт&#187;. Свитедельство о государственной регистрации ЧП &#171;Лыбидь 45&#187; № 213770. Лицензия министерства здравоохранения №511903 от 21.01.2010г.</em>
+<div class="vu_contact-info-item m-t-25">
+<div class="vu_ii-details">
+<p class="vu_ii-desc">г. Киев, ул. Дегтярёвская, 6</p>
+<p class="vu_ii-desc">044 235 89 75</p>
+<p class="vu_ii-desc">044 272 26 18</p>
+<p class="vu_ii-desc">063 597 38 36</p>
+
+</div>
+</div></div>
+		</div></div><div class="vu_mf-footer-2 col-md-3 col-xs-12"><div class="widget widget_text text-10 clearfix"><h3 class="widget_title">Наша Галерея</h3>			<div class="textwidget"><a href="https://shalda.github.io/testArtdent/gallery/">подробнее</a></div>
+		</div><div class="widget widget_media_gallery media_gallery-2 clearfix">
+		<style type='text/css'>
+			#gallery-1 {
+				margin: auto;
+			}
+			#gallery-1 .gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 33%;
+			}
+			#gallery-1 img {
+				border: 2px solid #cfcfcf;
+			}
+			#gallery-1 .gallery-caption {
+				margin-left: 0;
+			}
+			/* see gallery_shortcode() in wp-includes/media.php */
+		</style>
+		<div id='gallery-1' class='gallery galleryid-367 gallery-columns-3 gallery-size-thumbnail'><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio3.jpg'><img width="150" height="150" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio3-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon portrait'>
+				<a href='https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/stomatolog.jpg'><img width="150" height="150" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/stomatolog-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio9.jpg'><img width="150" height="150" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio9-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</dt></dl><br style="clear: both" /><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/rokstories-blank1.png'><img width="150" height="150" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/rokstories-blank1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio1.jpg'><img width="150" height="150" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio1-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon landscape'>
+				<a href='https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio5.jpg'><img width="150" height="150" src="https://shalda.github.io/testArtdent/wp-content/uploads/2018/12/portfolio5-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</dt></dl><br style="clear: both" />
+		</div>
+</div><div class="widget widget_text text-13 clearfix">			<div class="textwidget"><div class="vu_social-icon"><a href="#" target="_self"><i class="fa fa-facebook"></i></a></div><div class="vu_social-icon"><a href="#" target="_self"><i class="fa fa-instagram"></i></a></div></div>
+		</div></div><div class="vu_mf-footer-3 col-md-3 col-xs-12"><div class="widget widget_text text-11 clearfix"><h3 class="widget_title">Наши услуги</h3>			<div class="textwidget"><ul class="vu_list-with-icon" data-font="FontAwesome" data-icon="" data-color="primary">
+ 	<li><a href="#">Отбеливание</a></li>
+ 	<li><a href="#">Имплантология</a></li>
+ 	<li><a href="#">Протезирование</a></li>
+ 	<li><a href="#">Терапевтическая стоматология</a></li>
+ 	<li><a href="#">Хирургия</a></li>
+ 	<li><a href="#">Профилактика полости рта</a></li>
+</ul></div>
+		</div></div><div class="vu_mf-footer-4 col-md-3 col-xs-12"><div class="widget widget_text text-12 clearfix"><h3 class="widget_title">Часы Работы</h3>			<div class="textwidget"><div class="vu_working-hours">
+<div class="vu_wh-item" data-day="1">
+<div class="vu_wh-day">Понедельник</div>
+<div class="vu_wh-hours">9:00 &#8212; 21:00</div>
+</div>
+<div class="vu_wh-item" data-day="2">
+<div class="vu_wh-day">Вторник</div>
+<div class="vu_wh-hours">9:00 &#8212; 21:00</div>
+</div>
+<div class="vu_wh-item" data-day="3">
+<div class="vu_wh-day">Среда</div>
+<div class="vu_wh-hours">9:00 &#8212; 21:00</div>
+</div>
+<div class="vu_wh-item" data-day="4">
+<div class="vu_wh-day">Четверг</div>
+<div class="vu_wh-hours">9:00 &#8212; 21:00</div>
+</div>
+<div class="vu_wh-item" data-day="5">
+<div class="vu_wh-day">Пятница</div>
+<div class="vu_wh-hours">9:00 &#8212; 21:00</div>
+</div>
+<div class="vu_wh-item" data-day="6">
+<div class="vu_wh-day">Суббота</div>
+<div class="vu_wh-hours">10:00 &#8212; 16:00</div>
+</div>
+<div class="vu_wh-item" data-day="7">
+<div class="vu_wh-day">Воскресенье</div>
+<div class="vu_wh-hours">выходной</div>
+</div>
+</div></div>
+		</div></div>						</div>
+					</div>
+				</div>
+				<!-- /Footer Widgets -->
+						
+			
+							<a href="#" class="vu_back-to-top">
+					<i class="vu_fi vu_fi-arrow-up"></i>
+				</a>
+					</footer>
+		<!-- /Footer -->
+	
+	</div><!-- /Main Container -->
+
+	<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","currentText":"\u0421\u0435\u0433\u043e\u0434\u043d\u044f","monthNames":["\u042f\u043d\u0432\u0430\u0440\u044c","\u0424\u0435\u0432\u0440\u0430\u043b\u044c","\u041c\u0430\u0440\u0442","\u0410\u043f\u0440\u0435\u043b\u044c","\u041c\u0430\u0439","\u0418\u044e\u043d\u044c","\u0418\u044e\u043b\u044c","\u0410\u0432\u0433\u0443\u0441\u0442","\u0421\u0435\u043d\u0442\u044f\u0431\u0440\u044c","\u041e\u043a\u0442\u044f\u0431\u0440\u044c","\u041d\u043e\u044f\u0431\u0440\u044c","\u0414\u0435\u043a\u0430\u0431\u0440\u044c"],"monthNamesShort":["\u042f\u043d\u0432","\u0424\u0435\u0432","\u041c\u0430\u0440","\u0410\u043f\u0440","\u041c\u0430\u0439","\u0418\u044e\u043d","\u0418\u044e\u043b","\u0410\u0432\u0433","\u0421\u0435\u043d","\u041e\u043a\u0442","\u041d\u043e\u044f","\u0414\u0435\u043a"],"nextText":"\u0414\u0430\u043b\u0435\u0435","prevText":"\u041d\u0430\u0437\u0430\u0434","dayNames":["\u0412\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435","\u041f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a","\u0412\u0442\u043e\u0440\u043d\u0438\u043a","\u0421\u0440\u0435\u0434\u0430","\u0427\u0435\u0442\u0432\u0435\u0440\u0433","\u041f\u044f\u0442\u043d\u0438\u0446\u0430","\u0421\u0443\u0431\u0431\u043e\u0442\u0430"],"dayNamesShort":["\u0412\u0441","\u041f\u043d","\u0412\u0442","\u0421\u0440","\u0427\u0442","\u041f\u0442","\u0421\u0431"],"dayNamesMin":["\u0412\u0441","\u041f\u043d","\u0412\u0442","\u0421\u0440","\u0427\u0442","\u041f\u0442","\u0421\u0431"],"dateFormat":"dd.mm.yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/js/spin.min.js?ver=2.0.1'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/js/spin.jquery.js?ver=2.0.1'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js?ver=3.3.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var booked_js_vars = {"ajax_url":"https:\/\/shalda.github.io\/testArtdent\/wp-admin\/admin-ajax.php","profilePage":"","publicAppointments":"","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_please_wait":"Please wait ...","i18n_wrong_username_pass":"Wrong username\/password combination.","i18n_fill_out_required_fields":"Please fill out all required fields.","i18n_guest_appt_required_fields":"Please enter your name to book an appointment.","i18n_appt_required_fields":"Please enter your name, your email address and choose a password to book an appointment.","i18n_appt_required_fields_guest":"Please fill in all \"Information\" fields.","i18n_password_reset":"Please check your email for instructions on resetting your password.","i18n_password_reset_error":"That username or email is not recognized."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/booked/assets/js/functions.js?ver=2.0.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/shalda.github.io\/testArtdent\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0435, \u0447\u0442\u043e \u0432\u044b \u043d\u0435 \u0440\u043e\u0431\u043e\u0442."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.5'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.3'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"ru","strings":{"mejs.install-flash":"Flash player \u043f\u043b\u0430\u0433\u0438\u043d \u0431\u044b\u043b \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d \u0438\u043b\u0438 \u043d\u0435 \u0431\u044b\u043b \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d \u0432 \u0432\u0430\u0448\u0435\u043c \u0431\u0440\u0430\u0443\u0437\u0435\u0440\u0435. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043f\u043b\u0430\u0433\u0438\u043d Flash player \u0438\u043b\u0438 \u0441\u043a\u0430\u0447\u0430\u0439\u0442\u0435 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044e\u044e \u0432\u0435\u0440\u0441\u0438\u044e \u0441 https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"\u0412\u044b\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u043f\u043e\u043b\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d","mejs.fullscreen-on":"\u041f\u043e\u043b\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d","mejs.download-video":"\u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0432\u0438\u0434\u0435\u043e","mejs.fullscreen":"\u041d\u0430 \u0432\u0435\u0441\u044c \u044d\u043a\u0440\u0430\u043d","mejs.time-jump-forward":["\u0412\u043f\u0435\u0440\u0451\u0434 \u043d\u0430 1 \u0441\u0435\u043a\u0443\u043d\u0434\u0443","\u0412\u043f\u0435\u0440\u0435\u0434 \u043d\u0430 %1 \u0441\u0435\u043a\u0443\u043d\u0434"],"mejs.loop":"\u0412\u043a\u043b\u044e\u0447\u0438\u0442\u044c\/\u0432\u044b\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0437\u0430\u0446\u0438\u043a\u043b\u0438\u0432\u0430\u043d\u0438\u0435","mejs.play":"\u0412\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0441\u0442\u0438","mejs.pause":"\u041f\u0430\u0443\u0437\u0430","mejs.close":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","mejs.time-slider":"\u0428\u043a\u0430\u043b\u0430 \u0432\u0440\u0435\u043c\u0435\u043d\u0438","mejs.time-help-text":"\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u043a\u043b\u0430\u0432\u0438\u0448\u0438 \u0432\u043b\u0435\u0432\u043e\/\u0432\u043f\u0440\u0430\u0432\u043e, \u0447\u0442\u043e\u0431\u044b \u043f\u0435\u0440\u0435\u043c\u0435\u0441\u0442\u0438\u0442\u044c\u0441\u044f \u043d\u0430 \u043e\u0434\u043d\u0443 \u0441\u0435\u043a\u0443\u043d\u0434\u0443; \u0432\u0432\u0435\u0440\u0445\/\u0432\u043d\u0438\u0437, \u0447\u0442\u043e\u0431\u044b \u043f\u0435\u0440\u0435\u043c\u0435\u0441\u0442\u0438\u0442\u044c\u0441\u044f \u043d\u0430 \u0434\u0435\u0441\u044f\u0442\u044c \u0441\u0435\u043a\u0443\u043d\u0434.","mejs.time-skip-back":["\u041f\u0435\u0440\u0435\u0439\u0442\u0438 \u043d\u0430\u0437\u0430\u0434 \u043d\u0430 1 \u0441\u0435\u043a\u0443\u043d\u0434\u0443","\u041d\u0430\u0437\u0430\u0434 \u043d\u0430 %1 \u0441\u0435\u043a\u0443\u043d\u0434"],"mejs.captions-subtitles":"\u0421\u0443\u0431\u0442\u0438\u0442\u0440\u044b","mejs.captions-chapters":"\u0413\u043b\u0430\u0432\u044b","mejs.none":"\u041d\u0435\u0442","mejs.mute-toggle":"\u0412\u043a\u043b\u044e\u0447\u0438\u0442\u044c\/\u0432\u044b\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0437\u0432\u0443\u043a","mejs.volume-help-text":"\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u043a\u043b\u0430\u0432\u0438\u0448\u0438 \u0432\u0432\u0435\u0440\u0445\/\u0432\u043d\u0438\u0437, \u0447\u0442\u043e\u0431\u044b \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0442\u044c \u0438\u043b\u0438 \u0443\u043c\u0435\u043d\u044c\u0448\u0438\u0442\u044c \u0433\u0440\u043e\u043c\u043a\u043e\u0441\u0442\u044c.","mejs.unmute":"\u0412\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0437\u0432\u0443\u043a","mejs.mute":"\u0411\u0435\u0437 \u0437\u0432\u0443\u043a\u0430","mejs.volume-slider":"\u0420\u0435\u0433\u0443\u043b\u044f\u0442\u043e\u0440 \u0433\u0440\u043e\u043c\u043a\u043e\u0441\u0442\u0438","mejs.video-player":"\u0412\u0438\u0434\u0435\u043e\u043f\u043b\u0435\u0435\u0440","mejs.audio-player":"\u0410\u0443\u0434\u0438\u043e\u043f\u043b\u0435\u0435\u0440","mejs.ad-skip":"\u041f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u0440\u0435\u043a\u043b\u0430\u043c\u0443","mejs.ad-skip-info":["\u041f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u0447\u0435\u0440\u0435\u0437 1 \u0441\u0435\u043a\u0443\u043d\u0434\u0443","\u041f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u0447\u0435\u0440\u0435\u0437 %1 \u0441\u0435\u043a\u0443\u043d\u0434"],"mejs.source-chooser":"\u0412\u044b\u0431\u043e\u0440 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430","mejs.stop":"\u041e\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c","mejs.speed-rate":"\u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c","mejs.live-broadcast":"\u041f\u0440\u044f\u043c\u0430\u044f \u0442\u0440\u0430\u043d\u0441\u043b\u044f\u0446\u0438\u044f","mejs.afrikaans":"\u0410\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0439","mejs.albanian":"\u0410\u043b\u0431\u0430\u043d\u0441\u043a\u0438\u0439","mejs.arabic":"\u0410\u0440\u0430\u0431\u0441\u043a\u0438\u0439","mejs.belarusian":"\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u0441\u043a\u0438\u0439","mejs.bulgarian":"\u0411\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u0438\u0439","mejs.catalan":"\u041a\u0430\u0442\u0430\u043b\u043e\u043d\u0441\u043a\u0438\u0439","mejs.chinese":"\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439","mejs.chinese-simplified":"\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439 (\u0443\u043f\u0440\u043e\u0449\u0435\u043d\u043d\u044b\u0439)","mejs.chinese-traditional":"\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439 (\u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0439)","mejs.croatian":"\u0425\u043e\u0440\u0432\u0430\u0442\u0441\u043a\u0438\u0439","mejs.czech":"\u0427\u0435\u0448\u0441\u043a\u0438\u0439","mejs.danish":"\u0414\u0430\u0442\u0441\u043a\u0438\u0439","mejs.dutch":"\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439 (\u0433\u043e\u043b\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439)","mejs.english":"\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439","mejs.estonian":"\u042d\u0441\u0442\u043e\u043d\u0441\u043a\u0438\u0439","mejs.filipino":"\u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u0441\u043a\u0438\u0439","mejs.finnish":"\u0424\u0438\u043d\u0441\u043a\u0438\u0439","mejs.french":"\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0439","mejs.galician":"\u0413\u0430\u043b\u0438\u0441\u0438\u0439\u0441\u043a\u0438\u0439","mejs.german":"\u041d\u0435\u043c\u0435\u0446\u043a\u0438\u0439","mejs.greek":"\u0413\u0440\u0435\u0447\u0435\u0441\u043a\u0438\u0439","mejs.haitian-creole":"\u0413\u0430\u0438\u0442\u044f\u043d\u0441\u043a\u0438\u0439 \u043a\u0440\u0435\u043e\u043b\u044c\u0441\u043a\u0438\u0439","mejs.hebrew":"\u0418\u0432\u0440\u0438\u0442","mejs.hindi":"\u0425\u0438\u043d\u0434\u0438","mejs.hungarian":"\u0412\u0435\u043d\u0433\u0435\u0440\u0441\u043a\u0438\u0439","mejs.icelandic":"\u0418\u0441\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439","mejs.indonesian":"\u0418\u043d\u0434\u043e\u043d\u0435\u0437\u0438\u0439\u0441\u043a\u0438\u0439","mejs.irish":"\u0418\u0440\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439","mejs.italian":"\u0418\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0438\u0439","mejs.japanese":"\u042f\u043f\u043e\u043d\u0441\u043a\u0438\u0439","mejs.korean":"\u041a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439","mejs.latvian":"\u041b\u0430\u0442\u0432\u0438\u0439\u0441\u043a\u0438\u0439","mejs.lithuanian":"\u041b\u0438\u0442\u043e\u0432\u0441\u043a\u0438\u0439","mejs.macedonian":"\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438\u0439","mejs.malay":"\u041c\u0430\u043b\u0430\u0439\u0441\u043a\u0438\u0439","mejs.maltese":"\u041c\u0430\u043b\u044c\u0442\u0438\u0439\u0441\u043a\u0438\u0439","mejs.norwegian":"\u041d\u043e\u0440\u0432\u0435\u0436\u0441\u043a\u0438\u0439","mejs.persian":"\u041f\u0435\u0440\u0441\u0438\u0434\u0441\u043a\u0438\u0439","mejs.polish":"\u041f\u043e\u043b\u044c\u0441\u043a\u0438\u0439","mejs.portuguese":"\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u044c\u0441\u043a\u0438\u0439","mejs.romanian":"\u0420\u0443\u043c\u044b\u043d\u0441\u043a\u0438\u0439","mejs.russian":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439","mejs.serbian":"\u0421\u0435\u0440\u0431\u0441\u043a\u0438\u0439","mejs.slovak":"\u0421\u043b\u043e\u0432\u0430\u0446\u043a\u0438\u0439","mejs.slovenian":"\u0421\u043b\u043e\u0432\u0435\u043d\u0441\u043a\u0438\u0439","mejs.spanish":"\u0418\u0441\u043f\u0430\u043d\u0441\u043a\u0438\u0439","mejs.swahili":"\u0421\u0443\u0430\u0445\u0438\u043b\u0438","mejs.swedish":"\u0428\u0432\u0435\u0434\u0441\u043a\u0438\u0439","mejs.tagalog":"\u0422\u0430\u0433\u0430\u043b\u043e\u0433","mejs.thai":"\u0422\u0430\u0439\u0441\u043a\u0438\u0439","mejs.turkish":"\u0422\u0443\u0440\u0435\u0446\u043a\u0438\u0439","mejs.ukrainian":"\u0423\u043a\u0440\u0430\u0438\u043d\u0441\u043a\u0438\u0439","mejs.vietnamese":"\u0412\u044c\u0435\u0442\u043d\u0430\u043c\u0441\u043a\u0438\u0439","mejs.welsh":"\u0412\u0430\u043b\u043b\u0438\u0439\u0441\u043a\u0438\u0439","mejs.yiddish":"\u0418\u0434\u0438\u0448"}};
+</script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/bootstrap/js/bootstrap.min.js?ver=3.3.6'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/bootstrap-datepicker/bootstrap-datepicker.js?ver=1.5'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/bootstrap-timepicker/bootstrap-timepicker.min.js?ver=0.2.6'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/magnific-popup/magnific-popup.min.js?ver=1.1.0'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/lib/owl-carousel/owl.carousel.min.js?ver=1.3.3'></script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/js/common.js?ver=1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dentalpress_config = {"ajaxurl":"https:\/\/shalda.github.io\/testArtdent\/wp-admin\/admin-ajax.php","home_url":"https:\/\/shalda.github.io\/testArtdent\/","google_maps_api_key":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://shalda.github.io/testArtdent/wp-content/themes/dentalpress/assets/js/main.js?ver=1.2'></script>
+</body>
+</html>
